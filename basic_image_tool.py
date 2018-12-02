@@ -351,26 +351,25 @@ def remove_angry_mouth(img, inspect_grad=False):
     sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
     sample = np.copy(img)
     sample[~sample_mask] = [0,0,0,0]
-    return sample
-    #grad = radial_gradient(centre, sample)
-    #if inspect_grad:
-    #    ranges = []
-    #    for k in grad.keys():
-    #        ranges.append(np.ptp(grad[k]))
-    #        print(
-    #        f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
-    #        + f'{np.around(np.ptp(grad[k]), 2)}\t'
-    #        + f'{np.around(np.min(grad[k]), 2)}\t'
-    #        + f'{np.around(np.max(grad[k]), 2)}')
-    #    print(f'Mean range: {np.mean(ranges).astype(int)}')
-    #    print(f'Range range: {np.ptp(ranges).astype(int)}')
-    #    print('----------------------------------------------------------')
-    #    print('----------------------------------------------------------')
-    #    print('----------------------------------------------------------')
-    ##return grad
-    #mouthless = np.copy(img)
-    #for y, r in enumerate(mouth_bitmask.astype(bool)): 
-    #    for x, c in enumerate(r):
-    #        if c:
-    #            mouthless[y,x] = grad_fill(centre, grad, (y,x))
-    #return mouthless
+    grad = radial_gradient(centre, sample)
+    if inspect_grad:
+        ranges = []
+        for k in grad.keys():
+            ranges.append(np.ptp(grad[k]))
+            print(
+            f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
+            + f'{np.around(np.ptp(grad[k]), 2)}\t'
+            + f'{np.around(np.min(grad[k]), 2)}\t'
+            + f'{np.around(np.max(grad[k]), 2)}')
+        print(f'Mean range: {np.mean(ranges).astype(int)}')
+        print(f'Range range: {np.ptp(ranges).astype(int)}')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+    #return grad
+    mouthless = np.copy(img)
+    for y, r in enumerate(mouth_bitmask.astype(bool)): 
+        for x, c in enumerate(r):
+            if c:
+                mouthless[y,x] = grad_fill(centre, grad, (y,x))
+    return mouthless
