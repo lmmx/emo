@@ -194,7 +194,7 @@ def poly2pxmask(poly_coords, shape, xy=True):
 ###                       SCREAMING IN FEAR                         ###
 #######################################################################
 
-def init_mouth(round=False):
+def init_scream_mouth(round=False):
     """
     Circle the general mouth region (reused for both contouring and
     gradient fill sampling). `round` parameter enforces integer
@@ -211,16 +211,18 @@ def init_mouth(round=False):
         init = np.round(init).astype(np.uint)
     return init
 
-def contour_mouth(img, visualise=False):
+def contour_scream_mouth(img, xy_shift=(0,0), visualise=False):
     """
     Run active contour model (snake) segmentation for screaming_in_fear
     emoji's mouth (then pad because the snake is too bendy).
     """
-    init = init_mouth()
+    init = init_scream_mouth()
     # round coords as they will be used to mask image pixels
     snake = np.round(pad_border(active_contour(gaussian(img, 8),
                 init, alpha=0.015, beta=1, gamma=0.001),
                 pad = 0.08)).astype(int)
+    if np.any(xy_shift):
+        snake += xy_shift
     if visualise:
         fig, ax = plt.subplots(figsize=(7, 7))
         ax.imshow(img, cmap=plt.cm.gray)
@@ -231,34 +233,28 @@ def contour_mouth(img, visualise=False):
         plt.show()
     return snake
 
-def gimme_sample(img, inspect_grad=False):
+def gimme_scream_sample(img, inspect_grad=False):
     # Get outline of mouth:
-    mouth_poly = contour_mouth(img)
+    mouth_poly = contour_scream_mouth(img)
     # Turn outline of mouth into mask of pixel coordinates
     mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
     centre = np.divide(img.shape[0:2], 2).astype(int)
-    # Alternative: use top of mouth rather than emoji centroid...
-    ymin = mouth_poly[mouth_poly[:,0] == np.min(mouth_poly[:,0])]
-    mouth_top_centre = ymin[ymin[:,1] == np.min(ymin[:,1])][0]
     # Get area directly around the mouth for gradient sampling
-    mouth_init_bitmask = poly2pxmask(init_mouth(), img.shape[0:2])
+    mouth_init_bitmask = poly2pxmask(init_scream_mouth(), img.shape[0:2])
     # N.B. the following line produces a bool mask cf. a bit mask
     sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
     sample = np.copy(img)
     sample[~sample_mask] = [0,0,0,0]
     return sample
 
-def remove_mouth(img, inspect_grad=False):
+def remove_scream_mouth(img, inspect_grad=False):
     # Get outline of mouth:
-    mouth_poly = contour_mouth(img)
+    mouth_poly = contour_scream_mouth(img)
     # Turn outline of mouth into mask of pixel coordinates
     mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
     centre = np.divide(img.shape[0:2], 2).astype(int)
-    # Alternative: use top of mouth rather than emoji centroid...
-    ymin = mouth_poly[mouth_poly[:,0] == np.min(mouth_poly[:,0])]
-    mouth_top_centre = ymin[ymin[:,1] == np.min(ymin[:,1])][0]
     # Get area directly around the mouth for gradient sampling
-    mouth_init_bitmask = poly2pxmask(init_mouth(), img.shape[0:2])
+    mouth_init_bitmask = poly2pxmask(init_scream_mouth(), img.shape[0:2])
     # N.B. the following line produces a bool mask cf. a bit mask
     sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
     sample = np.copy(img)
@@ -285,3 +281,96 @@ def remove_mouth(img, inspect_grad=False):
             if c:
                 mouthless[y,x] = grad_fill(centre, grad, (y,x))
     return mouthless
+
+#######################################################################
+###                              ANGRY                              ###
+#######################################################################
+
+def init_angry_mouth(round=False):
+    """
+    Circle the general mouth region (reused for both contouring and
+    gradient fill sampling). `round` parameter enforces integer
+    coercion of the values to be used as pixel coordinates, not in
+    reference to the shape (which is a circle).
+    """
+    # The circular init area from which the snake shrinks is
+    # useful for gradient fill sampling, so function is reusable
+    s = np.linspace(0, 2*np.pi, 400)
+    x = 242 + 100*np.cos(s)
+    y = 376 + 50*np.sin(s)
+    init = np.array([x, y]).T
+    if round:
+        init = np.round(init).astype(np.uint)
+    return init
+
+def contour_angry_mouth(img, xy_shift=(0,5), visualise=False):
+    """
+    Run active contour model (snake) segmentation for angry
+    emoji's mouth (then pad because the snake is too bendy).
+    """
+    init = init_angry_mouth()
+    # round coords as they will be used to mask image pixels
+    snake = np.round(pad_border(active_contour(gaussian(img, 3),
+                init, alpha=0.02, beta=1, gamma=0.004),
+                pad = 0.25)).astype(int)
+    if np.any(xy_shift):
+        snake += xy_shift
+    if visualise:
+        fig, ax = plt.subplots(figsize=(7, 7))
+        ax.imshow(img, cmap=plt.cm.gray)
+        ax.plot(init[:, 0], init[:, 1], '--r', lw=3)
+        ax.plot(snake[:, 0], snake[:, 1], '-b', lw=3)
+        ax.set_xticks([]), ax.set_yticks([])
+        ax.axis([0, img.shape[1], img.shape[0], 0])
+        plt.show()
+    return snake
+
+def gimme_angry_sample(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_angry_mouth(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_angry_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    return sample
+
+def remove_angry_mouth(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_angry_mouth(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_angry_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    return sample
+    #grad = radial_gradient(centre, sample)
+    #if inspect_grad:
+    #    ranges = []
+    #    for k in grad.keys():
+    #        ranges.append(np.ptp(grad[k]))
+    #        print(
+    #        f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
+    #        + f'{np.around(np.ptp(grad[k]), 2)}\t'
+    #        + f'{np.around(np.min(grad[k]), 2)}\t'
+    #        + f'{np.around(np.max(grad[k]), 2)}')
+    #    print(f'Mean range: {np.mean(ranges).astype(int)}')
+    #    print(f'Range range: {np.ptp(ranges).astype(int)}')
+    #    print('----------------------------------------------------------')
+    #    print('----------------------------------------------------------')
+    #    print('----------------------------------------------------------')
+    ##return grad
+    #mouthless = np.copy(img)
+    #for y, r in enumerate(mouth_bitmask.astype(bool)): 
+    #    for x, c in enumerate(r):
+    #        if c:
+    #            mouthless[y,x] = grad_fill(centre, grad, (y,x))
+    #return mouthless
