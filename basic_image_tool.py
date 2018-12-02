@@ -219,7 +219,8 @@ def contour_mouth(img, visualise=False):
     init = init_mouth()
     # round coords as they will be used to mask image pixels
     snake = np.round(pad_border(active_contour(gaussian(img, 8),
-                init, alpha=0.015, beta=1, gamma=0.001))).astype(int)
+                init, alpha=0.015, beta=1, gamma=0.001),
+                pad = 0.08)).astype(int)
     if visualise:
         fig, ax = plt.subplots(figsize=(7, 7))
         ax.imshow(img, cmap=plt.cm.gray)
@@ -229,6 +230,23 @@ def contour_mouth(img, visualise=False):
         ax.axis([0, img.shape[1], img.shape[0], 0])
         plt.show()
     return snake
+
+def gimme_sample(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_mouth(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Alternative: use top of mouth rather than emoji centroid...
+    ymin = mouth_poly[mouth_poly[:,0] == np.min(mouth_poly[:,0])]
+    mouth_top_centre = ymin[ymin[:,1] == np.min(ymin[:,1])][0]
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    return sample
 
 def remove_mouth(img, inspect_grad=False):
     # Get outline of mouth:
