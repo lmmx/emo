@@ -94,25 +94,34 @@ def v_ordered_grad(centre, sample):
     """
     seen_px = []
     # for r, row in enumerate(sample):
-    for row in sample:
+    for y, row in enumerate(sample):
         if not np.any(row):
             # Ignore rows not in sample (i.e. all RGBA=[0,0,0,0])
             continue
         for offset in range(0, len(row) // 2):
             # Pick the pixel nearest to centre in the row
-            centred_px = row[centre[1] - offset]
+            x = centre[1] - offset
+            centred_px = row[x]
             if np.any(centred_px):
                 break
             if offset == 0:
                 next
             # Otherwise take the offset to the right
-            centred_px = row[centre[1] + offset]
+            x = centre[1] + offset
+            centred_px = row[x]
             if np.any(centred_px):
                 break
         # centred_px must be a non-empty pixel at this point
         assert np.any(centred_px)
-        if tuple(centred_px) not in seen_px:
-            seen_px.append(tuple(centred_px))
+        if len(seen_px) == 0:
+            seen_px.append((tuple(centred_px), (y,x)))
+            next
+        # Else slice out the seen RGBA values and compare current px
+        seen_rgba = np.array(seen_px)[:,0]
+        if not np.any([x == tuple(centred_px) for x in seen_rgba]):
+            # Append a 2-tuple of (RGBA 4-tuple, YX 2-tuple)
+            # i.e. the RGBA value and the location it was recorded at
+            seen_px.append((tuple(centred_px), (y,x)))
     return seen_px
 
 def radial_gradient(centre, sample):
@@ -123,19 +132,26 @@ def radial_gradient(centre, sample):
     N.B. will ignore blank pixels (RGBA values of [0,0,0,0]).
     """
     # Get an ordered, non-degenerate list of gradient RGBA values
-    ordered = v_ordered_grad(centre, sample) # (vertically)
+    grad = v_ordered_grad(centre, sample) # (vertically)
     # Calculate all distances from centre point in the sample
     dists = {}
-    # [np.linalg.norm(px - centre, ord=2) for px in sample]
-    for y, row in enumerate(sample):
-        for x, px in enumerate(row):
-            if not np.array_equal(px, [0,0,0,0]):
-                # pixel is in sample, so check distance
-                dist = np.linalg.norm([y,x] - centre, ord=2)
-                if tuple(px) not in dists.keys():
-                    dists[tuple(px)] = []
-                dists[tuple(px)].append(((y, x), dist))
-    return ordered, dists
+    ## [np.linalg.norm(px - centre, ord=2) for px in sample]
+    ################################################################
+    ### UNCLEAR HOW TO ORDER THE FOLLOWING SO CHANGE TO ordered_grad
+    ################################################################
+    for px in grad:
+        y, x = px[1]
+        dists[tuple(px[0])] = np.linalg.norm([y,x] - centre, ord = 2)
+    #for y, row in enumerate(sample):
+    #    for x, px in enumerate(row):
+    #        if not np.array_equal(px, [0,0,0,0]):
+    #            # pixel is in sample, so check distance
+    #            dist = np.linalg.norm([y,x] - centre, ord=2)
+    #            if tuple(px) not in dists.keys():
+    #                dists[tuple(px)] = []
+    #            dists[tuple(px)].append(((y, x), dist))
+    #return ordered, dists
+    return dists
 
 def grad_fill(centre, gradient, coord):
     """
@@ -143,9 +159,17 @@ def grad_fill(centre, gradient, coord):
     using a dictionary of gradients with known distances from
     running the `radial_gradient` function on an image sample.
     """
-    dist = np.linalg.norm(coord - centre, ord=2)
-    # use distance to determine a pixel colour...
-    return px
+    y, x = coord
+    dist = np.linalg.norm([y,x] - centre, ord=2)
+    # use distance to determine a pixel colour
+    for rgba in gradient.keys():
+        if dist > gradient[rgba]:
+            last_rgba = rgba
+            next
+        else:
+            return last_rgba
+    # This should not be reached
+    raise ValueError(f'RGBA values in gradient exhausted!')
 
 def poly2pxmask(poly_coords, shape, xy=True):
     """
@@ -236,10 +260,10 @@ def remove_mouth(img, inspect_grad=False):
         print('----------------------------------------------------------')
         print('----------------------------------------------------------')
         print('----------------------------------------------------------')
-    return grad
-    #mouthless = np.copy(img)
-    #for y, r in enumerate(mouth_bitmask.astype(bool)): 
-    #    for x, c in enumerate(r):
-    #        if c:
-    #            mouthless[y,x] = grad_fill(centre, grad, (y,x))
-    #return mouthless
+    #return grad
+    mouthless = np.copy(img)
+    for y, r in enumerate(mouth_bitmask.astype(bool)): 
+        for x, c in enumerate(r):
+            if c:
+                mouthless[y,x] = grad_fill(centre, grad, (y,x))
+    return mouthless
