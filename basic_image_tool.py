@@ -6,6 +6,7 @@ from skimage.color import rgb2grey
 from skimage.segmentation import active_contour
 from skimage.filters import gaussian
 from skimage.draw import polygon as DrawPolygon
+from shapely.geometry import Polygon
 
 def read_image(img_name):
     """
@@ -75,6 +76,17 @@ def plot_img_and_hist(img, axes, bins=256):
 
     return ax_img, ax_hist, ax_cdf
 
+def buffer_poly(poly, pad=5, external=True):
+    """
+    Buffer a polygon `poly` (e.g. an active contour snake spline)
+    by a given number of pixels (default = 1px, set by `pad`).
+    """
+    p = Polygon(poly)
+    assert p.is_valid
+    padded = p.buffer(pad)
+    padded_poly = list(padded.exterior.coords)
+    return padded_poly
+
 def pad_border(poly, pad=0.05, external=True):
     """
     Pad a border polygon `poly` (e.g. an active contour snake spline)
@@ -85,6 +97,36 @@ def pad_border(poly, pad=0.05, external=True):
     if not external: pad *= -1
     padded = ((poly - c) * (1 + pad)) + c
     return padded
+
+def l_ordered_grad(centre, sample):
+    """
+    Take a linear gradient by sampling values along the leftmost perimeter
+    of the sample area. This can create an ordered set for a gradient to
+    subsequently be discerned from (e.g. for a radial gradient).
+    """
+    seen_px = []
+    # for r, row in enumerate(sample):
+    for y, row in enumerate(sample):
+        if not np.any(row):
+            # Ignore rows not in sample (i.e. all RGBA=[0,0,0,0])
+            continue
+        for x, px in enumerate(row):
+            # Pick the non-blank pixel leftmost in the row
+            if np.any(px):
+                break
+        # px must be a non-empty pixel at this point
+        assert np.any(px)
+        if len(seen_px) == 0:
+            seen_px.append((tuple(px), (y,x)))
+            next
+        # Else slice out the seen RGBA values and compare current px
+        seen_rgba = np.array(seen_px)[:,0]
+        if not np.any([x == tuple(px) for x in seen_rgba]):
+            # Append a 2-tuple of (RGBA 4-tuple, YX 2-tuple)
+            # i.e. the RGBA value and the location it was recorded at
+            seen_px.append((tuple(px), (y,x)))
+    return seen_px
+
 
 def v_ordered_grad(centre, sample):
     """
@@ -124,15 +166,22 @@ def v_ordered_grad(centre, sample):
             seen_px.append((tuple(centred_px), (y,x)))
     return seen_px
 
-def radial_gradient(centre, sample):
+def radial_gradient(centre, sample, sample_leftmost=False):
     """
     Estimate linear RGB gradient using distance from the
     image centre for the points in a given sample region,
     which can then be used to fill a region with `grad_fill`.
     N.B. will ignore blank pixels (RGBA values of [0,0,0,0]).
+    
+    If sample_leftmost is True, the offset will not be used
+    and instead the leftmost pixel of each row in the sample
+    is tested.
     """
-    # Get an ordered, non-degenerate list of gradient RGBA values
-    grad = v_ordered_grad(centre, sample) # (vertically)
+    if sample_leftmost:
+        grad = l_ordered_grad(centre, sample)
+    else:
+        # Get an ordered, non-degenerate list of gradient RGBA values
+        grad = v_ordered_grad(centre, sample) # (vertically)
     # Calculate all distances from centre point in the sample
     dists = {}
     ## [np.linalg.norm(px - centre, ord=2) for px in sample]
@@ -352,6 +401,156 @@ def remove_angry_mouth(img, inspect_grad=False):
     sample = np.copy(img)
     sample[~sample_mask] = [0,0,0,0]
     grad = radial_gradient(centre, sample)
+    if inspect_grad:
+        ranges = []
+        for k in grad.keys():
+            ranges.append(np.ptp(grad[k]))
+            print(
+            f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
+            + f'{np.around(np.ptp(grad[k]), 2)}\t'
+            + f'{np.around(np.min(grad[k]), 2)}\t'
+            + f'{np.around(np.max(grad[k]), 2)}')
+        print(f'Mean range: {np.mean(ranges).astype(int)}')
+        print(f'Range range: {np.ptp(ranges).astype(int)}')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+    #return grad
+    mouthless = np.copy(img)
+    for y, r in enumerate(mouth_bitmask.astype(bool)): 
+        for x, c in enumerate(r):
+            if c:
+                mouthless[y,x] = grad_fill(centre, grad, (y,x))
+    return mouthless
+
+#######################################################################
+###                           CONFOUNDED                            ###
+#######################################################################
+
+def init_confound_mouth(round=False):
+    """
+    Circle the general mouth region (reused for both contouring and
+    gradient fill sampling). `round` parameter enforces integer
+    coercion of the values to be used as pixel coordinates, not in
+    reference to the shape (which is a circle).
+    """
+    # The circular init area from which the snake shrinks is
+    # useful for gradient fill sampling, so function is reusable
+    s = np.linspace(0, 2*np.pi, 400)
+    x = 242 + 150*np.cos(s)
+    y = 380 + 60*np.sin(s)
+    init = np.array([x, y]).T
+    if round:
+        init = np.round(init).astype(np.uint)
+    return init
+
+def contour_confound_mouth(img, xy_shift=(0,0), visualise=False):
+    """
+    Run active contour model (snake) segmentation for confounded 
+    emoji's mouth (then pad because the snake is too bendy).
+    """
+    init = init_confound_mouth()
+    # round coords as they will be used to mask image pixels
+    snake = np.round(pad_border(active_contour(gaussian(img, 3),
+                init, alpha=0.02, beta=1, gamma=0.004),
+                pad = 0.05)).astype(int)
+    if np.any(xy_shift):
+        snake += xy_shift
+    if visualise:
+        fig, ax = plt.subplots(figsize=(7, 7))
+        ax.imshow(img, cmap=plt.cm.gray)
+        ax.plot(init[:, 0], init[:, 1], '--r', lw=3)
+        ax.plot(snake[:, 0], snake[:, 1], '-b', lw=3)
+        ax.set_xticks([]), ax.set_yticks([])
+        ax.axis([0, img.shape[1], img.shape[0], 0])
+        plt.show()
+    return snake
+
+def contour_confound_mouth2(img, xy_shift=(0,0), visualise=False):
+    """
+    Run active contour model (snake) segmentation for confounded 
+    emoji's mouth (then pad because the snake is too bendy).
+    """
+    init = init_confound_mouth()
+    # round coords as they will be used to mask image pixels
+    snake = np.round(buffer_poly(active_contour(gaussian(img, 3),
+                init, alpha=0.02, beta=1, gamma=0.004),
+                pad = 10)).astype(int)
+    if np.any(xy_shift):
+        snake += xy_shift
+    if visualise:
+        fig, ax = plt.subplots(figsize=(7, 7))
+        ax.imshow(img, cmap=plt.cm.gray)
+        ax.plot(init[:, 0], init[:, 1], '--r', lw=3)
+        ax.plot(snake[:, 0], snake[:, 1], '-b', lw=3)
+        ax.set_xticks([]), ax.set_yticks([])
+        ax.axis([0, img.shape[1], img.shape[0], 0])
+        plt.show()
+    return snake
+
+def gimme_confound_sample(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_confound_mouth(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_confound_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    return sample
+
+def remove_confound_mouth(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_confound_mouth(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_confound_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    grad = radial_gradient(centre, sample, sample_leftmost=True)
+    #grad = radial_gradient(centre, sample, sample_leftmost=False)
+    if inspect_grad:
+        ranges = []
+        for k in grad.keys():
+            ranges.append(np.ptp(grad[k]))
+            print(
+            f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
+            + f'{np.around(np.ptp(grad[k]), 2)}\t'
+            + f'{np.around(np.min(grad[k]), 2)}\t'
+            + f'{np.around(np.max(grad[k]), 2)}')
+        print(f'Mean range: {np.mean(ranges).astype(int)}')
+        print(f'Range range: {np.ptp(ranges).astype(int)}')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+    #return grad
+    mouthless = np.copy(img)
+    for y, r in enumerate(mouth_bitmask.astype(bool)): 
+        for x, c in enumerate(r):
+            if c:
+                mouthless[y,x] = grad_fill(centre, grad, (y,x))
+    return mouthless
+
+def remove_confound_mouth2(img, inspect_grad=False):
+    # Get outline of mouth:
+    mouth_poly = contour_confound_mouth2(img)
+    # Turn outline of mouth into mask of pixel coordinates
+    mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
+    centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Get area directly around the mouth for gradient sampling
+    mouth_init_bitmask = poly2pxmask(init_confound_mouth(), img.shape[0:2])
+    # N.B. the following line produces a bool mask cf. a bit mask
+    sample_mask = np.logical_xor(mouth_init_bitmask, mouth_bitmask)
+    sample = np.copy(img)
+    sample[~sample_mask] = [0,0,0,0]
+    grad = radial_gradient(centre, sample, sample_leftmost=True)
     if inspect_grad:
         ranges = []
         for k in grad.keys():
