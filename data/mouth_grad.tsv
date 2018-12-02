@@ -1,1142 +1,571 @@
-(247, 224, 69, 255)	n: 25	mean distance: 9.21	range: 9.23	max: 15.23	min: 6.0
-(247, 225, 68, 255)	n: 37	mean distance: 12.24	range: 14.19	max: 21.19	min: 7.0
-(247, 225, 67, 255)	n: 45	mean distance: 14.52	range: 17.3	max: 25.3	min: 8.0
-(247, 223, 67, 255)	n: 171	mean distance: 18.4	range: 25.79	max: 34.79	min: 9.0
-(247, 223, 66, 255)	n: 67	mean distance: 21.61	range: 25.0	max: 37.0	min: 12.0
-(247, 223, 65, 255)	n: 148	mean distance: 24.05	range: 29.38	max: 42.38	min: 13.0
-(247, 223, 64, 255)	n: 211	mean distance: 29.27	range: 33.1	max: 48.1	min: 15.0
-(247, 223, 63, 255)	n: 59	mean distance: 35.97	range: 26.25	max: 50.33	min: 24.08
-(247, 223, 62, 255)	n: 106	mean distance: 39.67	range: 26.27	max: 53.85	min: 27.59
-(247, 222, 62, 255)	n: 98	mean distance: 43.66	range: 23.81	max: 56.46	min: 32.65
-(247, 221, 61, 255)	n: 48	mean distance: 46.76	range: 22.46	max: 58.69	min: 36.24
-(247, 221, 60, 255)	n: 93	mean distance: 49.13	range: 22.91	max: 61.33	min: 38.42
-(247, 221, 59, 255)	n: 91	mean distance: 52.52	range: 22.87	max: 64.88	min: 42.01
-(246, 220, 58, 255)	n: 84	mean distance: 64.29	range: 11.46	max: 67.54	min: 56.08
-(246, 221, 58, 255)	n: 296	mean distance: 57.1	range: 19.68	max: 64.5	min: 44.82
-(246, 219, 58, 255)	n: 50	mean distance: 68.2	range: 3.55	max: 69.84	min: 66.29
-(246, 218, 58, 255)	n: 36	mean distance: 70.93	range: 3.38	max: 72.72	min: 69.34
-(246, 217, 58, 255)	n: 17	mean distance: 73.33	range: 1.96	max: 74.43	min: 72.47
-(246, 217, 57, 255)	n: 52	mean distance: 71.93	range: 6.69	max: 74.71	min: 68.01
-(246, 216, 56, 255)	n: 93	mean distance: 74.78	range: 7.17	max: 77.9	min: 70.72
-(246, 217, 56, 255)	n: 25	mean distance: 72.03	range: 6.7	max: 75.29	min: 68.59
-(246, 215, 56, 255)	n: 46	mean distance: 78.69	range: 3.35	max: 80.45	min: 77.1
-(246, 218, 57, 255)	n: 87	mean distance: 68.71	range: 6.05	max: 71.85	min: 65.8
-(246, 219, 57, 255)	n: 43	mean distance: 65.25	range: 5.94	max: 69.07	min: 63.13
-(246, 220, 57, 255)	n: 21	mean distance: 61.89	range: 3.86	max: 63.41	min: 59.55
-(246, 214, 56, 255)	n: 29	mean distance: 81.33	range: 3.12	max: 83.01	min: 79.88
-(247, 213, 56, 255)	n: 15	mean distance: 83.74	range: 2.86	max: 85.23	min: 82.38
-(247, 212, 56, 255)	n: 5	mean distance: 86.24	range: 1.69	max: 87.13	min: 85.44
-(246, 216, 57, 255)	n: 12	mean distance: 72.16	range: 2.47	max: 73.41	min: 70.94
-(247, 211, 55, 255)	n: 73	mean distance: 87.01	range: 6.27	max: 90.44	min: 84.17
-(247, 212, 55, 255)	n: 86	mean distance: 84.38	range: 6.69	max: 88.01	min: 81.32
-(247, 213, 55, 255)	n: 38	mean distance: 83.74	range: 4.01	max: 85.7	min: 81.69
-(246, 214, 55, 255)	n: 103	mean distance: 78.49	range: 7.0	max: 82.66	min: 75.66
-(246, 215, 55, 255)	n: 60	mean distance: 75.05	range: 3.47	max: 77.01	min: 73.54
-(246, 218, 56, 255)	n: 2	mean distance: 68.26	range: 0.73	max: 68.62	min: 67.9
-(246, 216, 55, 255)	n: 9	mean distance: 73.34	range: 1.04	max: 73.88	min: 72.84
-(247, 210, 55, 255)	n: 54	mean distance: 89.5	range: 5.8	max: 92.91	min: 87.11
-(246, 213, 55, 255)	n: 67	mean distance: 80.28	range: 3.49	max: 82.01	min: 78.52
-(247, 209, 55, 255)	n: 43	mean distance: 92.2	range: 5.71	max: 95.21	min: 89.5
-(247, 208, 55, 255)	n: 21	mean distance: 94.55	range: 3.94	max: 96.4	min: 92.46
-(247, 208, 54, 255)	n: 20	mean distance: 94.72	range: 5.81	max: 98.01	min: 92.2
-(247, 207, 54, 255)	n: 5	mean distance: 96.27	range: 2.96	max: 98.23	min: 95.27
-(247, 206, 54, 255)	n: 3	mean distance: 97.29	range: 2.77	max: 98.81	min: 96.05
-(247, 206, 53, 255)	n: 8	mean distance: 98.78	range: 3.38	max: 100.21	min: 96.83
-(247, 207, 53, 255)	n: 5	mean distance: 97.06	range: 1.75	max: 97.8	min: 96.05
-(247, 209, 54, 255)	n: 15	mean distance: 90.99	range: 3.12	max: 92.31	min: 89.2
-(247, 210, 54, 255)	n: 15	mean distance: 88.25	range: 3.03	max: 90.03	min: 87.0
-(247, 211, 54, 255)	n: 15	mean distance: 85.48	range: 2.9	max: 87.05	min: 84.15
-(247, 212, 54, 255)	n: 18	mean distance: 82.56	range: 3.43	max: 84.15	min: 80.72
-(246, 213, 54, 255)	n: 9	mean distance: 80.23	range: 2.04	max: 81.34	min: 79.31
-(246, 214, 54, 255)	n: 1	mean distance: 78.64	range: 0.0	max: 78.64	min: 78.64
-(247, 205, 53, 255)	n: 1	mean distance: 100.8	range: 0.0	max: 100.8	min: 100.8
-(246, 205, 53, 255)	n: 69	mean distance: 98.93	range: 7.99	max: 102.8	min: 94.81
-(246, 207, 53, 255)	n: 49	mean distance: 93.7	range: 6.24	max: 97.45	min: 91.21
-(246, 207, 54, 255)	n: 27	mean distance: 94.92	range: 2.3	max: 95.9	min: 93.61
-(246, 208, 54, 255)	n: 110	mean distance: 92.41	range: 6.89	max: 95.13	min: 88.24
-(246, 209, 54, 255)	n: 85	mean distance: 89.87	range: 5.41	max: 92.1	min: 86.68
-(246, 210, 54, 255)	n: 50	mean distance: 87.7	range: 4.4	max: 89.83	min: 85.43
-(246, 211, 54, 255)	n: 46	mean distance: 85.18	range: 3.49	max: 86.98	min: 83.49
-(246, 212, 54, 255)	n: 22	mean distance: 82.5	range: 3.71	max: 83.87	min: 80.16
-(246, 206, 53, 255)	n: 52	mean distance: 95.94	range: 4.63	max: 98.23	min: 93.6
-(246, 206, 54, 255)	n: 11	mean distance: 95.63	range: 1.69	max: 96.54	min: 94.85
-(246, 204, 53, 255)	n: 45	mean distance: 101.57	range: 3.68	max: 103.41	min: 99.72
-(246, 203, 53, 255)	n: 20	mean distance: 103.89	range: 2.77	max: 105.42	min: 102.65
-(246, 202, 52, 255)	n: 30	mean distance: 103.3	range: 4.21	max: 106.04	min: 101.83
-(246, 201, 52, 255)	n: 6	mean distance: 106.7	range: 2.31	max: 108.07	min: 105.76
-(246, 202, 53, 255)	n: 1	mean distance: 105.12	range: 0.0	max: 105.12	min: 105.12
-(246, 203, 52, 255)	n: 72	mean distance: 101.35	range: 5.92	max: 104.74	min: 98.81
-(245, 200, 51, 255)	n: 114	mean distance: 105.78	range: 6.31	max: 108.71	min: 102.4
-(245, 201, 51, 255)	n: 67	mean distance: 103.66	range: 6.42	max: 107.94	min: 101.51
-(245, 202, 52, 255)	n: 22	mean distance: 104.58	range: 2.41	max: 105.65	min: 103.24
-(245, 202, 51, 255)	n: 9	mean distance: 102.77	range: 4.96	max: 105.65	min: 100.69
-(245, 200, 52, 255)	n: 29	mean distance: 109.38	range: 2.99	max: 111.2	min: 108.21
-(245, 201, 52, 255)	n: 45	mean distance: 106.58	range: 4.41	max: 108.37	min: 103.97
-(246, 204, 52, 255)	n: 109	mean distance: 99.13	range: 6.33	max: 102.59	min: 96.26
-(246, 205, 52, 255)	n: 51	mean distance: 97.28	range: 5.54	max: 100.41	min: 94.87
-(246, 206, 52, 255)	n: 23	mean distance: 95.97	range: 2.78	max: 97.59	min: 94.81
-(246, 207, 52, 255)	n: 2	mean distance: 95.56	range: 0.06	max: 95.59	min: 95.52
-(245, 199, 52, 255)	n: 8	mean distance: 111.87	range: 1.57	max: 112.7	min: 111.13
-(246, 208, 53, 255)	n: 8	mean distance: 90.48	range: 1.81	max: 91.21	min: 89.4
-(244, 198, 52, 255)	n: 1	mean distance: 113.36	range: 0.0	max: 113.36	min: 113.36
-(244, 197, 51, 255)	n: 70	mean distance: 112.16	range: 6.1	max: 116.1	min: 110.0
-(244, 198, 51, 255)	n: 14	mean distance: 110.78	range: 4.26	max: 113.28	min: 109.02
-(245, 199, 51, 255)	n: 127	mean distance: 108.48	range: 8.91	max: 113.22	min: 104.31
-(245, 198, 51, 255)	n: 36	mean distance: 110.98	range: 3.67	max: 112.49	min: 108.81
-(244, 196, 51, 255)	n: 36	mean distance: 113.96	range: 4.62	max: 116.78	min: 112.16
-(244, 195, 50, 255)	n: 80	mean distance: 113.74	range: 5.81	max: 117.46	min: 111.65
-(244, 195, 51, 255)	n: 4	mean distance: 115.8	range: 0.74	max: 116.0	min: 115.26
-(244, 194, 50, 255)	n: 36	mean distance: 116.37	range: 4.49	max: 118.14	min: 113.65
-(246, 202, 51, 255)	n: 15	mean distance: 102.23	range: 2.15	max: 103.41	min: 101.26
-(246, 203, 51, 255)	n: 33	mean distance: 100.24	range: 3.27	max: 102.0	min: 98.74
-(246, 204, 51, 255)	n: 7	mean distance: 98.15	range: 1.39	max: 98.74	min: 97.35
-(244, 193, 50, 255)	n: 1	mean distance: 118.83	range: 0.0	max: 118.83	min: 118.83
-(243, 192, 49, 255)	n: 27	mean distance: 118.19	range: 4.67	max: 120.92	min: 116.25
-(243, 193, 49, 255)	n: 16	mean distance: 117.5	range: 1.87	max: 118.26	min: 116.39
-(243, 193, 50, 255)	n: 13	mean distance: 117.47	range: 1.52	max: 118.19	min: 116.67
-(244, 196, 50, 255)	n: 82	mean distance: 111.56	range: 4.72	max: 114.34	min: 109.62
-(244, 191, 49, 255)	n: 2	mean distance: 121.27	range: 0.71	max: 121.62	min: 120.92
-(244, 191, 48, 255)	n: 31	mean distance: 121.53	range: 6.4	max: 123.17	min: 116.76
-(243, 192, 48, 255)	n: 61	mean distance: 119.04	range: 4.32	max: 121.17	min: 116.85
-(243, 193, 48, 255)	n: 6	mean distance: 117.95	range: 1.0	max: 118.44	min: 117.44
-(244, 193, 49, 255)	n: 57	mean distance: 115.78	range: 3.05	max: 117.59	min: 114.55
-(243, 190, 48, 255)	n: 6	mean distance: 123.18	range: 1.3	max: 123.79	min: 122.49
-(244, 194, 49, 255)	n: 54	mean distance: 115.0	range: 4.08	max: 117.29	min: 113.21
-(244, 195, 49, 255)	n: 22	mean distance: 114.21	range: 2.53	max: 115.42	min: 112.89
-(245, 197, 50, 255)	n: 17	mean distance: 109.63	range: 1.45	max: 110.45	min: 109.0
-(245, 198, 50, 255)	n: 46	mean distance: 108.06	range: 2.76	max: 109.29	min: 106.53
-(245, 199, 50, 255)	n: 20	mean distance: 105.7	range: 2.75	max: 106.85	min: 104.1
-(243, 189, 48, 255)	n: 31	mean distance: 123.61	range: 3.2	max: 125.4	min: 122.2
-(244, 197, 50, 255)	n: 4	mean distance: 109.72	range: 0.86	max: 110.14	min: 109.27
-(243, 188, 47, 255)	n: 38	mean distance: 123.99	range: 3.94	max: 126.06	min: 122.12
-(243, 187, 47, 255)	n: 66	mean distance: 124.24	range: 4.82	max: 127.4	min: 122.59
-(244, 190, 48, 255)	n: 47	mean distance: 121.6	range: 3.58	max: 123.43	min: 119.85
-(243, 191, 48, 255)	n: 64	mean distance: 119.1	range: 3.64	max: 120.88	min: 117.24
-(244, 192, 49, 255)	n: 1	mean distance: 117.2	range: 0.0	max: 117.2	min: 117.2
-(242, 186, 47, 255)	n: 15	mean distance: 127.97	range: 1.87	max: 128.89	min: 127.02
-(243, 186, 47, 255)	n: 17	mean distance: 126.5	range: 3.24	max: 127.66	min: 124.42
-(243, 188, 48, 255)	n: 21	mean distance: 124.15	range: 2.88	max: 125.42	min: 122.54
-(244, 189, 48, 255)	n: 6	mean distance: 122.43	range: 2.48	max: 123.23	min: 120.75
-(242, 185, 47, 255)	n: 5	mean distance: 129.32	range: 0.75	max: 129.73	min: 128.97
-(243, 187, 48, 255)	n: 2	mean distance: 124.59	range: 2.3	max: 125.73	min: 123.44
-(242, 184, 47, 255)	n: 4	mean distance: 130.46	range: 1.3	max: 131.14	min: 129.83
-(242, 183, 46, 255)	n: 51	mean distance: 130.23	range: 3.58	max: 132.28	min: 128.7
-(242, 184, 46, 255)	n: 52	mean distance: 129.37	range: 3.61	max: 131.24	min: 127.63
-(242, 185, 46, 255)	n: 60	mean distance: 127.75	range: 5.18	max: 130.42	min: 125.24
-(243, 186, 46, 255)	n: 53	mean distance: 125.61	range: 4.04	max: 128.06	min: 124.02
-(243, 187, 46, 255)	n: 17	mean distance: 125.15	range: 2.17	max: 126.21	min: 124.04
-(244, 190, 47, 255)	n: 34	mean distance: 121.3	range: 2.75	max: 122.64	min: 119.89
-(243, 191, 47, 255)	n: 30	mean distance: 118.78	range: 3.19	max: 120.37	min: 117.18
-(244, 192, 48, 255)	n: 7	mean distance: 117.0	range: 1.36	max: 117.66	min: 116.3
-(244, 193, 48, 255)	n: 15	mean distance: 115.79	range: 2.09	max: 116.62	min: 114.53
-(243, 192, 47, 255)	n: 1	mean distance: 117.66	range: 0.0	max: 117.66	min: 117.66
-(243, 189, 47, 255)	n: 10	mean distance: 122.65	range: 1.11	max: 123.22	min: 122.11
-(242, 186, 46, 255)	n: 19	mean distance: 127.67	range: 4.07	max: 128.84	min: 124.78
-(241, 182, 45, 255)	n: 33	mean distance: 131.47	range: 3.71	max: 133.42	min: 129.71
-(241, 181, 45, 255)	n: 47	mean distance: 131.82	range: 2.96	max: 133.54	min: 130.59
-(244, 189, 47, 255)	n: 46	mean distance: 121.01	range: 3.4	max: 122.87	min: 119.47
-(243, 190, 47, 255)	n: 30	mean distance: 118.8	range: 2.57	max: 120.22	min: 117.65
-(241, 180, 45, 255)	n: 28	mean distance: 133.3	range: 3.23	max: 135.25	min: 132.02
-(243, 185, 46, 255)	n: 39	mean distance: 126.05	range: 1.95	max: 127.14	min: 125.2
-(241, 183, 45, 255)	n: 20	mean distance: 129.75	range: 3.02	max: 131.4	min: 128.38
-(240, 180, 45, 255)	n: 2	mean distance: 134.19	range: 3.37	max: 135.87	min: 132.5
-(244, 188, 47, 255)	n: 8	mean distance: 122.4	range: 0.71	max: 122.8	min: 122.09
-(240, 179, 45, 255)	n: 12	mean distance: 135.58	range: 1.8	max: 136.65	min: 134.85
-(241, 179, 45, 255)	n: 27	mean distance: 134.27	range: 2.29	max: 135.43	min: 133.14
-(240, 178, 45, 255)	n: 10	mean distance: 135.74	range: 4.02	max: 137.44	min: 133.42
-(242, 182, 46, 255)	n: 7	mean distance: 131.13	range: 1.11	max: 131.75	min: 130.63
-(240, 177, 45, 255)	n: 10	mean distance: 137.17	range: 1.6	max: 138.0	min: 136.4
-(240, 176, 44, 255)	n: 4	mean distance: 138.41	range: 0.38	max: 138.6	min: 138.22
-(239, 175, 44, 255)	n: 12	mean distance: 138.45	range: 1.14	max: 139.2	min: 138.06
-(243, 189, 52, 255)	n: 1	mean distance: 123.0	range: 0.0	max: 123.0	min: 123.0
-(239, 175, 43, 255)	n: 30	mean distance: 138.5	range: 3.01	max: 140.09	min: 137.08
-(240, 175, 43, 255)	n: 6	mean distance: 139.15	range: 0.82	max: 139.52	min: 138.7
-(240, 176, 43, 255)	n: 5	mean distance: 138.38	range: 0.93	max: 138.81	min: 137.88
-(240, 177, 44, 255)	n: 34	mean distance: 136.84	range: 2.93	max: 138.45	min: 135.52
-(240, 178, 44, 255)	n: 78	mean distance: 134.69	range: 3.48	max: 136.75	min: 133.27
-(241, 179, 44, 255)	n: 22	mean distance: 134.31	range: 2.66	max: 135.92	min: 133.26
-(241, 180, 44, 255)	n: 10	mean distance: 132.86	range: 1.46	max: 133.69	min: 132.23
-(241, 181, 44, 255)	n: 12	mean distance: 131.9	range: 1.38	max: 132.61	min: 131.23
-(242, 182, 45, 255)	n: 10	mean distance: 130.91	range: 1.3	max: 131.55	min: 130.25
-(242, 183, 45, 255)	n: 14	mean distance: 129.83	range: 1.51	max: 130.51	min: 129.0
-(242, 184, 45, 255)	n: 21	mean distance: 128.49	range: 2.31	max: 129.77	min: 127.46
-(242, 185, 45, 255)	n: 26	mean distance: 126.7	range: 2.35	max: 128.02	min: 125.67
-(242, 189, 51, 255)	n: 1	mean distance: 123.91	range: 0.0	max: 123.91	min: 123.91
-(242, 187, 47, 255)	n: 1	mean distance: 124.34	range: 0.0	max: 124.34	min: 124.34
-(242, 186, 45, 255)	n: 2	mean distance: 125.0	range: 0.44	max: 125.22	min: 124.78
-(240, 179, 44, 255)	n: 32	mean distance: 133.81	range: 3.09	max: 135.92	min: 132.82
-(239, 175, 42, 255)	n: 5	mean distance: 140.71	range: 1.03	max: 141.24	min: 140.21
-(242, 187, 50, 255)	n: 3	mean distance: 125.72	range: 1.81	max: 126.63	min: 124.81
-(241, 182, 44, 255)	n: 1	mean distance: 130.86	range: 0.0	max: 130.86	min: 130.86
-(239, 174, 42, 255)	n: 21	mean distance: 140.01	range: 3.17	max: 141.82	min: 138.65
-(240, 180, 44, 255)	n: 17	mean distance: 132.4	range: 1.15	max: 133.09	min: 131.95
-(240, 181, 44, 255)	n: 5	mean distance: 131.87	range: 0.57	max: 132.1	min: 131.53
-(241, 184, 45, 255)	n: 7	mean distance: 128.67	range: 1.34	max: 129.25	min: 127.91
-(241, 185, 45, 255)	n: 2	mean distance: 127.69	range: 0.43	max: 127.91	min: 127.48
-(239, 176, 43, 255)	n: 5	mean distance: 137.7	range: 1.99	max: 138.96	min: 136.97
-(239, 173, 42, 255)	n: 8	mean distance: 140.43	range: 3.95	max: 142.87	min: 138.92
-(239, 174, 43, 255)	n: 31	mean distance: 139.04	range: 1.77	max: 140.06	min: 138.29
-(239, 176, 44, 255)	n: 51	mean distance: 137.33	range: 1.85	max: 138.2	min: 136.34
-(239, 177, 44, 255)	n: 28	mean distance: 136.33	range: 1.63	max: 137.32	min: 135.69
-(239, 178, 44, 255)	n: 9	mean distance: 135.41	range: 1.03	max: 136.0	min: 134.97
-(242, 186, 50, 255)	n: 1	mean distance: 127.53	range: 0.0	max: 127.53	min: 127.53
-(241, 184, 46, 255)	n: 1	mean distance: 127.95	range: 0.0	max: 127.95	min: 127.95
-(242, 185, 50, 255)	n: 2	mean distance: 128.9	range: 0.91	max: 129.36	min: 128.44
-(241, 183, 46, 255)	n: 2	mean distance: 129.31	range: 0.91	max: 129.77	min: 128.86
-(237, 172, 42, 255)	n: 10	mean distance: 143.41	range: 0.66	max: 143.69	min: 143.03
-(238, 173, 42, 255)	n: 28	mean distance: 141.78	range: 2.36	max: 143.13	min: 140.77
-(238, 174, 42, 255)	n: 39	mean distance: 140.51	range: 1.91	max: 141.45	min: 139.54
-(238, 174, 43, 255)	n: 13	mean distance: 139.63	range: 1.27	max: 140.36	min: 139.09
-(237, 171, 42, 255)	n: 10	mean distance: 144.01	range: 0.67	max: 144.4	min: 143.74
-(238, 172, 42, 255)	n: 21	mean distance: 142.66	range: 1.76	max: 143.42	min: 141.66
-(242, 183, 51, 255)	n: 2	mean distance: 130.73	range: 0.91	max: 131.18	min: 130.27
-(241, 181, 46, 255)	n: 2	mean distance: 131.13	range: 0.91	max: 131.59	min: 130.68
-(237, 170, 41, 255)	n: 47	mean distance: 144.45	range: 3.23	max: 146.49	min: 143.27
-(237, 170, 42, 255)	n: 5	mean distance: 144.65	range: 0.99	max: 145.06	min: 144.06
-(241, 183, 51, 255)	n: 1	mean distance: 132.1	range: 0.0	max: 132.1	min: 132.1
-(240, 180, 47, 255)	n: 3	mean distance: 134.33	range: 1.83	max: 135.25	min: 133.42
-(241, 181, 50, 255)	n: 1	mean distance: 133.02	range: 0.0	max: 133.02	min: 133.02
-(237, 169, 41, 255)	n: 28	mean distance: 144.93	range: 3.02	max: 147.03	min: 144.0
-(241, 180, 50, 255)	n: 1	mean distance: 133.93	range: 0.0	max: 133.93	min: 133.93
-(241, 180, 49, 255)	n: 1	mean distance: 134.85	range: 0.0	max: 134.85	min: 134.85
-(236, 168, 40, 255)	n: 4	mean distance: 147.19	range: 1.18	max: 147.87	min: 146.69
-(237, 169, 40, 255)	n: 57	mean distance: 145.55	range: 2.8	max: 146.81	min: 144.01
-(237, 170, 40, 255)	n: 6	mean distance: 145.18	range: 1.52	max: 145.77	min: 144.25
-(237, 171, 41, 255)	n: 5	mean distance: 143.45	range: 0.65	max: 143.76	min: 143.11
-(238, 172, 41, 255)	n: 48	mean distance: 141.74	range: 2.74	max: 143.27	min: 140.53
-(238, 173, 41, 255)	n: 22	mean distance: 140.69	range: 2.58	max: 142.3	min: 139.71
-(238, 174, 41, 255)	n: 5	mean distance: 140.34	range: 0.91	max: 140.89	min: 139.98
-(239, 177, 43, 255)	n: 4	mean distance: 136.57	range: 0.81	max: 136.97	min: 136.17
-(240, 179, 46, 255)	n: 1	mean distance: 136.17	range: 0.0	max: 136.17	min: 136.17
-(240, 179, 48, 255)	n: 1	mean distance: 135.77	range: 0.0	max: 135.77	min: 135.77
-(239, 174, 41, 255)	n: 1	mean distance: 139.53	range: 0.0	max: 139.53	min: 139.53
-(237, 172, 41, 255)	n: 3	mean distance: 143.27	range: 0.98	max: 143.76	min: 142.78
-(236, 167, 40, 255)	n: 58	mean distance: 147.94	range: 1.99	max: 148.76	min: 146.77
-(237, 168, 40, 255)	n: 66	mean distance: 146.88	range: 2.57	max: 148.19	min: 145.62
-(238, 171, 41, 255)	n: 27	mean distance: 142.86	range: 1.36	max: 143.59	min: 142.23
-(239, 173, 41, 255)	n: 7	mean distance: 139.74	range: 0.72	max: 140.04	min: 139.32
-(239, 177, 46, 255)	n: 1	mean distance: 137.08	range: 0.0	max: 137.08	min: 137.08
-(240, 181, 55, 255)	n: 2	mean distance: 136.77	range: 0.92	max: 137.23	min: 136.31
-(240, 177, 47, 255)	n: 1	mean distance: 136.69	range: 0.0	max: 136.69	min: 136.69
-(236, 166, 40, 255)	n: 46	mean distance: 149.09	range: 2.06	max: 150.28	min: 148.22
-(239, 175, 45, 255)	n: 1	mean distance: 138.0	range: 0.0	max: 138.0	min: 138.0
-(240, 176, 47, 255)	n: 1	mean distance: 137.62	range: 0.0	max: 137.62	min: 137.62
-(236, 165, 40, 255)	n: 76	mean distance: 150.23	range: 2.35	max: 151.57	min: 149.22
-(239, 174, 44, 255)	n: 2	mean distance: 139.19	range: 0.54	max: 139.46	min: 138.92
-(240, 179, 54, 255)	n: 1	mean distance: 138.16	range: 0.0	max: 138.16	min: 138.16
-(240, 175, 47, 255)	n: 1	mean distance: 138.54	range: 0.0	max: 138.54	min: 138.54
-(240, 177, 51, 255)	n: 1	mean distance: 139.46	range: 0.0	max: 139.46	min: 139.46
-(240, 178, 53, 255)	n: 1	mean distance: 139.09	range: 0.0	max: 139.09	min: 139.09
-(235, 165, 39, 255)	n: 26	mean distance: 151.06	range: 1.45	max: 151.72	min: 150.27
-(238, 170, 41, 255)	n: 6	mean distance: 143.54	range: 0.66	max: 143.92	min: 143.27
-(239, 177, 50, 255)	n: 1	mean distance: 140.39	range: 0.0	max: 140.39	min: 140.39
-(240, 178, 52, 255)	n: 1	mean distance: 140.01	range: 0.0	max: 140.01	min: 140.01
-(238, 174, 44, 255)	n: 1	mean distance: 140.39	range: 0.0	max: 140.39	min: 140.39
-(239, 175, 48, 255)	n: 2	mean distance: 141.78	range: 0.93	max: 142.24	min: 141.32
-(239, 176, 50, 255)	n: 2	mean distance: 141.41	range: 0.93	max: 141.87	min: 140.94
-(238, 173, 43, 255)	n: 1	mean distance: 141.32	range: 0.0	max: 141.32	min: 141.32
-(235, 164, 39, 255)	n: 61	mean distance: 152.4	range: 2.23	max: 153.44	min: 151.21
-(239, 180, 59, 255)	n: 1	mean distance: 141.51	range: 0.0	max: 141.51	min: 141.51
-(235, 163, 39, 255)	n: 34	mean distance: 153.15	range: 1.97	max: 154.04	min: 152.07
-(239, 173, 46, 255)	n: 1	mean distance: 143.17	range: 0.0	max: 143.17	min: 143.17
-(239, 179, 58, 255)	n: 1	mean distance: 142.44	range: 0.0	max: 142.44	min: 142.44
-(239, 175, 49, 255)	n: 1	mean distance: 142.8	range: 0.0	max: 142.8	min: 142.8
-(238, 171, 42, 255)	n: 1	mean distance: 143.17	range: 0.0	max: 143.17	min: 143.17
-(235, 162, 39, 255)	n: 25	mean distance: 153.78	range: 1.43	max: 154.38	min: 152.95
-(238, 171, 44, 255)	n: 1	mean distance: 144.1	range: 0.0	max: 144.1	min: 144.1
-(239, 176, 54, 255)	n: 1	mean distance: 143.74	range: 0.0	max: 143.74	min: 143.74
-(239, 177, 56, 255)	n: 1	mean distance: 143.38	range: 0.0	max: 143.38	min: 143.38
-(238, 173, 47, 255)	n: 1	mean distance: 143.74	range: 0.0	max: 143.74	min: 143.74
-(234, 162, 39, 255)	n: 10	mean distance: 153.89	range: 0.96	max: 154.35	min: 153.39
-(238, 175, 52, 255)	n: 1	mean distance: 144.67	range: 0.0	max: 144.67	min: 144.67
-(238, 176, 54, 255)	n: 1	mean distance: 144.31	range: 0.0	max: 144.31	min: 144.31
-(237, 172, 45, 255)	n: 1	mean distance: 144.67	range: 0.0	max: 144.67	min: 144.67
-(237, 167, 40, 255)	n: 3	mean distance: 148.47	range: 0.52	max: 148.76	min: 148.25
-(238, 173, 50, 255)	n: 1	mean distance: 145.6	range: 0.0	max: 145.6	min: 145.6
-(238, 174, 52, 255)	n: 1	mean distance: 145.25	range: 0.0	max: 145.25	min: 145.25
-(237, 170, 43, 255)	n: 1	mean distance: 145.6	range: 0.0	max: 145.6	min: 145.6
-(234, 161, 39, 255)	n: 68	mean distance: 155.36	range: 2.61	max: 156.54	min: 153.94
-(237, 170, 46, 255)	n: 1	mean distance: 146.54	range: 0.0	max: 146.54	min: 146.54
-(239, 176, 59, 255)	n: 1	mean distance: 145.84	range: 0.0	max: 145.84	min: 145.84
-(238, 172, 49, 255)	n: 1	mean distance: 146.18	range: 0.0	max: 146.18	min: 146.18
-(237, 168, 41, 255)	n: 3	mean distance: 147.47	range: 1.87	max: 148.41	min: 146.54
-(234, 161, 38, 255)	n: 14	mean distance: 156.0	range: 0.76	max: 156.39	min: 155.63
-(237, 169, 43, 255)	n: 1	mean distance: 147.47	range: 0.0	max: 147.47	min: 147.47
-(238, 174, 54, 255)	n: 1	mean distance: 147.12	range: 0.0	max: 147.12	min: 147.12
-(239, 175, 56, 255)	n: 1	mean distance: 146.78	range: 0.0	max: 146.78	min: 146.78
-(237, 171, 47, 255)	n: 1	mean distance: 147.12	range: 0.0	max: 147.12	min: 147.12
-(236, 164, 40, 255)	n: 10	mean distance: 151.57	range: 0.76	max: 151.92	min: 151.16
-(238, 173, 52, 255)	n: 1	mean distance: 148.06	range: 0.0	max: 148.06	min: 148.06
-(239, 178, 63, 255)	n: 1	mean distance: 147.38	range: 0.0	max: 147.38	min: 147.38
-(239, 175, 54, 255)	n: 1	mean distance: 147.72	range: 0.0	max: 147.72	min: 147.72
-(237, 169, 45, 255)	n: 1	mean distance: 148.06	range: 0.0	max: 148.06	min: 148.06
-(234, 160, 38, 255)	n: 34	mean distance: 157.15	range: 2.07	max: 158.15	min: 156.08
-(236, 170, 48, 255)	n: 1	mean distance: 149.0	range: 0.0	max: 149.0	min: 149.0
-(238, 176, 60, 255)	n: 1	mean distance: 148.33	range: 0.0	max: 148.33	min: 148.33
-(237, 172, 50, 255)	n: 1	mean distance: 148.66	range: 0.0	max: 148.66	min: 148.66
-(236, 167, 42, 255)	n: 1	mean distance: 149.0	range: 0.0	max: 149.0	min: 149.0
-(233, 159, 38, 255)	n: 32	mean distance: 158.42	range: 2.35	max: 159.33	min: 156.98
-(236, 168, 45, 255)	n: 1	mean distance: 149.94	range: 0.0	max: 149.94	min: 149.94
-(238, 174, 56, 255)	n: 1	mean distance: 149.6	range: 0.0	max: 149.6	min: 149.6
-(238, 174, 57, 255)	n: 1	mean distance: 149.27	range: 0.0	max: 149.27	min: 149.27
-(237, 169, 47, 255)	n: 1	mean distance: 149.6	range: 0.0	max: 149.6	min: 149.6
-(236, 166, 41, 255)	n: 1	mean distance: 149.94	range: 0.0	max: 149.94	min: 149.94
-(234, 159, 38, 255)	n: 27	mean distance: 157.89	range: 1.74	max: 158.76	min: 157.01
-(235, 161, 39, 255)	n: 15	mean distance: 154.86	range: 1.27	max: 155.59	min: 154.31
-(236, 166, 42, 255)	n: 1	mean distance: 150.88	range: 0.0	max: 150.88	min: 150.88
-(238, 171, 52, 255)	n: 1	mean distance: 150.55	range: 0.0	max: 150.55	min: 150.55
-(237, 172, 54, 255)	n: 1	mean distance: 150.22	range: 0.0	max: 150.22	min: 150.22
-(237, 167, 44, 255)	n: 1	mean distance: 150.55	range: 0.0	max: 150.55	min: 150.55
-(233, 158, 38, 255)	n: 13	mean distance: 158.86	range: 1.46	max: 159.38	min: 157.92
-(237, 168, 48, 255)	n: 1	mean distance: 151.49	range: 0.0	max: 151.49	min: 151.49
-(238, 173, 59, 255)	n: 1	mean distance: 151.16	range: 0.0	max: 151.16	min: 151.16
-(238, 175, 61, 255)	n: 1	mean distance: 150.84	range: 0.0	max: 150.84	min: 150.84
-(237, 169, 50, 255)	n: 1	mean distance: 151.16	range: 0.0	max: 151.16	min: 151.16
-(236, 165, 42, 255)	n: 2	mean distance: 151.96	range: 0.94	max: 152.43	min: 151.49
-(237, 171, 54, 255)	n: 2	mean distance: 152.74	range: 1.27	max: 153.38	min: 152.11
-(237, 171, 56, 255)	n: 1	mean distance: 151.79	range: 0.0	max: 151.79	min: 151.79
-(237, 166, 46, 255)	n: 1	mean distance: 152.11	range: 0.0	max: 152.11	min: 152.11
-(235, 164, 40, 255)	n: 1	mean distance: 152.43	range: 0.0	max: 152.43	min: 152.43
-(236, 168, 47, 255)	n: 1	mean distance: 153.06	range: 0.0	max: 153.06	min: 153.06
-(238, 173, 60, 255)	n: 1	mean distance: 152.43	range: 0.0	max: 152.43	min: 152.43
-(236, 169, 50, 255)	n: 1	mean distance: 152.74	range: 0.0	max: 152.74	min: 152.74
-(235, 165, 41, 255)	n: 1	mean distance: 153.06	range: 0.0	max: 153.06	min: 153.06
-(234, 157, 38, 255)	n: 26	mean distance: 160.91	range: 1.79	max: 161.61	min: 159.82
-(234, 158, 38, 255)	n: 56	mean distance: 160.01	range: 2.11	max: 161.12	min: 159.01
-(234, 160, 39, 255)	n: 12	mean distance: 156.86	range: 1.48	max: 157.85	min: 156.37
-(235, 164, 42, 255)	n: 1	mean distance: 154.0	range: 0.0	max: 154.0	min: 154.0
-(236, 170, 54, 255)	n: 1	mean distance: 153.69	range: 0.0	max: 153.69	min: 153.69
-(237, 176, 65, 255)	n: 1	mean distance: 153.08	range: 0.0	max: 153.08	min: 153.08
-(235, 167, 45, 255)	n: 1	mean distance: 153.69	range: 0.0	max: 153.69	min: 153.69
-(233, 157, 38, 255)	n: 10	mean distance: 161.34	range: 0.87	max: 161.6	min: 160.73
-(235, 162, 40, 255)	n: 1	mean distance: 154.95	range: 0.0	max: 154.95	min: 154.95
-(236, 166, 48, 255)	n: 1	mean distance: 154.64	range: 0.0	max: 154.64	min: 154.64
-(237, 173, 60, 255)	n: 1	mean distance: 154.03	range: 0.0	max: 154.03	min: 154.03
-(236, 167, 49, 255)	n: 1	mean distance: 154.33	range: 0.0	max: 154.33	min: 154.33
-(235, 163, 41, 255)	n: 1	mean distance: 154.64	range: 0.0	max: 154.64	min: 154.64
-(235, 163, 43, 255)	n: 2	mean distance: 156.72	range: 2.26	max: 157.85	min: 155.59
-(236, 168, 54, 255)	n: 1	mean distance: 155.28	range: 0.0	max: 155.28	min: 155.28
-(237, 175, 65, 255)	n: 1	mean distance: 154.69	range: 0.0	max: 154.69	min: 154.69
-(237, 169, 55, 255)	n: 1	mean distance: 154.98	range: 0.0	max: 154.98	min: 154.98
-(235, 164, 44, 255)	n: 1	mean distance: 155.28	range: 0.0	max: 155.28	min: 155.28
-(233, 156, 37, 255)	n: 17	mean distance: 162.21	range: 1.4	max: 163.05	min: 161.64
-(235, 165, 47, 255)	n: 1	mean distance: 156.24	range: 0.0	max: 156.24	min: 156.24
-(236, 171, 59, 255)	n: 1	mean distance: 155.94	range: 0.0	max: 155.94	min: 155.94
-(237, 171, 59, 255)	n: 1	mean distance: 155.65	range: 0.0	max: 155.65	min: 155.65
-(235, 166, 49, 255)	n: 1	mean distance: 155.94	range: 0.0	max: 155.94	min: 155.94
-(234, 161, 40, 255)	n: 1	mean distance: 156.24	range: 0.0	max: 156.24	min: 156.24
-(233, 155, 37, 255)	n: 18	mean distance: 162.78	range: 2.03	max: 163.95	min: 161.93
-(234, 161, 41, 255)	n: 1	mean distance: 157.19	range: 0.0	max: 157.19	min: 157.19
-(235, 167, 52, 255)	n: 1	mean distance: 156.89	range: 0.0	max: 156.89	min: 156.89
-(237, 173, 65, 255)	n: 1	mean distance: 156.32	range: 0.0	max: 156.32	min: 156.32
-(235, 167, 53, 255)	n: 1	mean distance: 156.6	range: 0.0	max: 156.6	min: 156.6
-(234, 162, 44, 255)	n: 1	mean distance: 156.89	range: 0.0	max: 156.89	min: 156.89
-(233, 155, 36, 255)	n: 44	mean distance: 163.47	range: 2.22	max: 164.47	min: 162.25
-(233, 156, 38, 255)	n: 6	mean distance: 162.01	range: 1.83	max: 163.23	min: 161.4
-(236, 169, 57, 255)	n: 2	mean distance: 157.42	range: 0.28	max: 157.56	min: 157.28
-(238, 175, 69, 255)	n: 1	mean distance: 157.0	range: 0.0	max: 157.0	min: 157.0
-(235, 164, 46, 255)	n: 1	mean distance: 157.56	range: 0.0	max: 157.56	min: 157.56
-(232, 155, 36, 255)	n: 3	mean distance: 164.05	range: 1.36	max: 164.77	min: 163.41
-(234, 158, 39, 255)	n: 1	mean distance: 158.81	range: 0.0	max: 158.81	min: 158.81
-(235, 164, 48, 255)	n: 1	mean distance: 158.52	range: 0.0	max: 158.52	min: 158.52
-(237, 171, 63, 255)	n: 1	mean distance: 158.24	range: 0.0	max: 158.24	min: 158.24
-(237, 177, 73, 255)	n: 1	mean distance: 157.7	range: 0.0	max: 157.7	min: 157.7
-(236, 172, 63, 255)	n: 1	mean distance: 157.97	range: 0.0	max: 157.97	min: 157.97
-(235, 165, 50, 255)	n: 1	mean distance: 158.24	range: 0.0	max: 158.24	min: 158.24
-(234, 160, 41, 255)	n: 2	mean distance: 159.0	range: 0.96	max: 159.48	min: 158.52
-(236, 166, 54, 255)	n: 1	mean distance: 159.2	range: 0.0	max: 159.2	min: 159.2
-(237, 173, 67, 255)	n: 1	mean distance: 158.66	range: 0.0	max: 158.66	min: 158.66
-(236, 168, 56, 255)	n: 1	mean distance: 158.93	range: 0.0	max: 158.93	min: 158.93
-(235, 161, 44, 255)	n: 1	mean distance: 159.2	range: 0.0	max: 159.2	min: 159.2
-(232, 154, 36, 255)	n: 26	mean distance: 165.37	range: 2.26	max: 166.4	min: 164.14
-(234, 156, 38, 255)	n: 3	mean distance: 161.94	range: 0.27	max: 162.09	min: 161.82
-(235, 161, 45, 255)	n: 1	mean distance: 160.16	range: 0.0	max: 160.16	min: 160.16
-(236, 168, 58, 255)	n: 1	mean distance: 159.89	range: 0.0	max: 159.89	min: 159.89
-(238, 174, 70, 255)	n: 1	mean distance: 159.36	range: 0.0	max: 159.36	min: 159.36
-(236, 169, 59, 255)	n: 2	mean distance: 160.11	range: 0.96	max: 160.59	min: 159.62
-(235, 163, 48, 255)	n: 1	mean distance: 159.89	range: 0.0	max: 159.89	min: 159.89
-(234, 159, 40, 255)	n: 1	mean distance: 160.16	range: 0.0	max: 160.16	min: 160.16
-(234, 156, 37, 255)	n: 4	mean distance: 162.27	range: 1.1	max: 162.78	min: 161.68
-(235, 162, 46, 255)	n: 1	mean distance: 160.85	range: 0.0	max: 160.85	min: 160.85
-(237, 173, 70, 255)	n: 1	mean distance: 160.08	range: 0.0	max: 160.08	min: 160.08
-(236, 168, 60, 255)	n: 1	mean distance: 160.33	range: 0.0	max: 160.33	min: 160.33
-(235, 164, 49, 255)	n: 1	mean distance: 160.59	range: 0.0	max: 160.59	min: 160.59
-(234, 159, 41, 255)	n: 2	mean distance: 161.2	range: 0.7	max: 161.55	min: 160.85
-(232, 153, 36, 255)	n: 33	mean distance: 166.22	range: 2.06	max: 167.15	min: 165.08
-(234, 157, 39, 255)	n: 2	mean distance: 162.17	range: 0.7	max: 162.52	min: 161.82
-(235, 162, 48, 255)	n: 1	mean distance: 161.55	range: 0.0	max: 161.55	min: 161.55
-(237, 169, 60, 255)	n: 1	mean distance: 161.3	range: 0.0	max: 161.3	min: 161.3
-(237, 174, 71, 255)	n: 1	mean distance: 160.8	range: 0.0	max: 160.8	min: 160.8
-(236, 169, 61, 255)	n: 1	mean distance: 161.05	range: 0.0	max: 161.05	min: 161.05
-(236, 164, 51, 255)	n: 2	mean distance: 161.66	range: 0.72	max: 162.02	min: 161.3
-(233, 154, 36, 255)	n: 18	mean distance: 164.86	range: 1.39	max: 165.68	min: 164.28
-(235, 162, 49, 255)	n: 1	mean distance: 162.27	range: 0.0	max: 162.27	min: 162.27
-(237, 168, 61, 255)	n: 1	mean distance: 162.02	range: 0.0	max: 162.02	min: 162.02
-(238, 174, 71, 255)	n: 1	mean distance: 161.53	range: 0.0	max: 161.53	min: 161.53
-(236, 169, 62, 255)	n: 3	mean distance: 162.59	range: 1.48	max: 163.25	min: 161.77
-(235, 158, 42, 255)	n: 1	mean distance: 162.27	range: 0.0	max: 162.27	min: 162.27
-(234, 157, 40, 255)	n: 1	mean distance: 163.23	range: 0.0	max: 163.23	min: 163.23
-(235, 162, 50, 255)	n: 1	mean distance: 162.98	range: 0.0	max: 162.98	min: 162.98
-(237, 169, 62, 255)	n: 1	mean distance: 162.51	range: 0.0	max: 162.51	min: 162.51
-(235, 164, 52, 255)	n: 2	mean distance: 163.11	range: 0.74	max: 163.48	min: 162.74
-(234, 158, 43, 255)	n: 1	mean distance: 162.98	range: 0.0	max: 162.98	min: 162.98
-(232, 152, 36, 255)	n: 31	mean distance: 167.78	range: 2.15	max: 169.06	min: 166.9
-(233, 157, 40, 255)	n: 1	mean distance: 163.95	range: 0.0	max: 163.95	min: 163.95
-(234, 162, 51, 255)	n: 1	mean distance: 163.71	range: 0.0	max: 163.71	min: 163.71
-(236, 168, 62, 255)	n: 1	mean distance: 163.48	range: 0.0	max: 163.48	min: 163.48
-(237, 173, 72, 255)	n: 1	mean distance: 163.02	range: 0.0	max: 163.02	min: 163.02
-(233, 158, 42, 255)	n: 1	mean distance: 163.71	range: 0.0	max: 163.71	min: 163.71
-(232, 151, 36, 255)	n: 26	mean distance: 169.09	range: 4.35	max: 171.69	min: 167.33
-(233, 155, 39, 255)	n: 1	mean distance: 164.68	range: 0.0	max: 164.68	min: 164.68
-(235, 160, 48, 255)	n: 1	mean distance: 164.45	range: 0.0	max: 164.45	min: 164.45
-(236, 167, 61, 255)	n: 2	mean distance: 164.11	range: 0.22	max: 164.22	min: 164.0
-(237, 172, 70, 255)	n: 1	mean distance: 163.78	range: 0.0	max: 163.78	min: 163.78
-(235, 162, 51, 255)	n: 1	mean distance: 164.22	range: 0.0	max: 164.22	min: 164.22
-(234, 157, 41, 255)	n: 1	mean distance: 164.45	range: 0.0	max: 164.45	min: 164.45
-(232, 151, 35, 255)	n: 23	mean distance: 169.66	range: 3.14	max: 171.14	min: 168.0
-(233, 155, 38, 255)	n: 1	mean distance: 165.42	range: 0.0	max: 165.42	min: 165.42
-(234, 159, 47, 255)	n: 1	mean distance: 165.2	range: 0.0	max: 165.2	min: 165.2
-(235, 165, 58, 255)	n: 1	mean distance: 164.98	range: 0.0	max: 164.98	min: 164.98
-(236, 170, 69, 255)	n: 2	mean distance: 165.04	range: 0.57	max: 165.33	min: 164.76
-(237, 172, 71, 255)	n: 1	mean distance: 164.55	range: 0.0	max: 164.55	min: 164.55
-(235, 166, 60, 255)	n: 1	mean distance: 164.76	range: 0.0	max: 164.76	min: 164.76
-(234, 161, 50, 255)	n: 1	mean distance: 164.98	range: 0.0	max: 164.98	min: 164.98
-(233, 156, 41, 255)	n: 1	mean distance: 165.2	range: 0.0	max: 165.2	min: 165.2
-(233, 154, 37, 255)	n: 1	mean distance: 165.42	range: 0.0	max: 165.42	min: 165.42
-(232, 154, 37, 255)	n: 1	mean distance: 166.17	range: 0.0	max: 166.17	min: 166.17
-(234, 159, 45, 255)	n: 1	mean distance: 165.95	range: 0.0	max: 165.95	min: 165.95
-(236, 165, 56, 255)	n: 1	mean distance: 165.74	range: 0.0	max: 165.74	min: 165.74
-(236, 170, 68, 255)	n: 1	mean distance: 165.53	range: 0.0	max: 165.53	min: 165.53
-(238, 175, 77, 255)	n: 1	mean distance: 165.13	range: 0.0	max: 165.13	min: 165.13
-(235, 165, 59, 255)	n: 1	mean distance: 165.53	range: 0.0	max: 165.53	min: 165.53
-(234, 160, 48, 255)	n: 1	mean distance: 165.74	range: 0.0	max: 165.74	min: 165.74
-(233, 156, 40, 255)	n: 1	mean distance: 165.95	range: 0.0	max: 165.95	min: 165.95
-(232, 153, 37, 255)	n: 1	mean distance: 166.93	range: 0.0	max: 166.93	min: 166.93
-(233, 157, 43, 255)	n: 1	mean distance: 166.72	range: 0.0	max: 166.72	min: 166.72
-(235, 163, 56, 255)	n: 1	mean distance: 166.51	range: 0.0	max: 166.51	min: 166.51
-(235, 169, 66, 255)	n: 1	mean distance: 166.31	range: 0.0	max: 166.31	min: 166.31
-(237, 173, 73, 255)	n: 1	mean distance: 166.11	range: 0.0	max: 166.11	min: 166.11
-(237, 174, 75, 255)	n: 1	mean distance: 165.92	range: 0.0	max: 165.92	min: 165.92
-(236, 169, 66, 255)	n: 1	mean distance: 166.11	range: 0.0	max: 166.11	min: 166.11
-(234, 165, 58, 255)	n: 1	mean distance: 166.31	range: 0.0	max: 166.31	min: 166.31
-(233, 159, 47, 255)	n: 1	mean distance: 166.51	range: 0.0	max: 166.51	min: 166.51
-(233, 154, 38, 255)	n: 1	mean distance: 166.72	range: 0.0	max: 166.72	min: 166.72
-(232, 150, 35, 255)	n: 28	mean distance: 170.94	range: 2.43	max: 171.98	min: 169.54
-(232, 154, 41, 255)	n: 1	mean distance: 167.49	range: 0.0	max: 167.49	min: 167.49
-(233, 160, 51, 255)	n: 1	mean distance: 167.29	range: 0.0	max: 167.29	min: 167.29
-(235, 167, 62, 255)	n: 1	mean distance: 167.09	range: 0.0	max: 167.09	min: 167.09
-(236, 171, 71, 255)	n: 1	mean distance: 166.9	range: 0.0	max: 166.9	min: 166.9
-(237, 175, 79, 255)	n: 1	mean distance: 166.54	range: 0.0	max: 166.54	min: 166.54
-(236, 172, 72, 255)	n: 1	mean distance: 166.72	range: 0.0	max: 166.72	min: 166.72
-(236, 168, 63, 255)	n: 1	mean distance: 166.9	range: 0.0	max: 166.9	min: 166.9
-(234, 162, 55, 255)	n: 2	mean distance: 167.49	range: 0.79	max: 167.89	min: 167.09
-(232, 157, 45, 255)	n: 1	mean distance: 167.29	range: 0.0	max: 167.29	min: 167.29
-(232, 153, 38, 255)	n: 3	mean distance: 168.42	range: 2.01	max: 169.5	min: 167.49
-(233, 156, 45, 255)	n: 3	mean distance: 169.59	range: 2.62	max: 170.7	min: 168.07
-(235, 166, 64, 255)	n: 1	mean distance: 167.71	range: 0.0	max: 167.71	min: 167.71
-(236, 171, 72, 255)	n: 1	mean distance: 167.53	range: 0.0	max: 167.53	min: 167.53
-(236, 172, 73, 255)	n: 1	mean distance: 167.36	range: 0.0	max: 167.36	min: 167.36
-(236, 168, 65, 255)	n: 1	mean distance: 167.53	range: 0.0	max: 167.53	min: 167.53
-(234, 163, 56, 255)	n: 1	mean distance: 167.71	range: 0.0	max: 167.71	min: 167.71
-(233, 158, 48, 255)	n: 1	mean distance: 167.89	range: 0.0	max: 167.89	min: 167.89
-(232, 154, 40, 255)	n: 1	mean distance: 168.07	range: 0.0	max: 168.07	min: 168.07
-(232, 152, 37, 255)	n: 2	mean distance: 168.57	range: 0.6	max: 168.87	min: 168.27
-(232, 153, 39, 255)	n: 2	mean distance: 169.51	range: 1.29	max: 170.16	min: 168.87
-(233, 157, 47, 255)	n: 1	mean distance: 168.69	range: 0.0	max: 168.69	min: 168.69
-(235, 162, 56, 255)	n: 1	mean distance: 168.51	range: 0.0	max: 168.51	min: 168.51
-(235, 167, 65, 255)	n: 1	mean distance: 168.34	range: 0.0	max: 168.34	min: 168.34
-(236, 170, 72, 255)	n: 4	mean distance: 170.22	range: 3.48	max: 171.66	min: 168.18
-(237, 175, 80, 255)	n: 1	mean distance: 167.87	range: 0.0	max: 167.87	min: 167.87
-(237, 171, 73, 255)	n: 1	mean distance: 168.02	range: 0.0	max: 168.02	min: 168.02
-(235, 167, 66, 255)	n: 5	mean distance: 170.18	range: 3.57	max: 171.75	min: 168.18
-(235, 163, 57, 255)	n: 1	mean distance: 168.34	range: 0.0	max: 168.34	min: 168.34
-(234, 159, 48, 255)	n: 1	mean distance: 168.51	range: 0.0	max: 168.51	min: 168.51
-(233, 155, 41, 255)	n: 1	mean distance: 168.69	range: 0.0	max: 168.69	min: 168.69
-(232, 151, 37, 255)	n: 1	mean distance: 169.67	range: 0.0	max: 169.67	min: 169.67
-(233, 154, 41, 255)	n: 1	mean distance: 169.5	range: 0.0	max: 169.5	min: 169.5
-(233, 158, 49, 255)	n: 1	mean distance: 169.33	range: 0.0	max: 169.33	min: 169.33
-(234, 163, 59, 255)	n: 1	mean distance: 169.17	range: 0.0	max: 169.17	min: 169.17
-(236, 172, 74, 255)	n: 1	mean distance: 168.86	range: 0.0	max: 168.86	min: 168.86
-(237, 176, 82, 255)	n: 1	mean distance: 168.58	range: 0.0	max: 168.58	min: 168.58
-(236, 172, 76, 255)	n: 1	mean distance: 168.72	range: 0.0	max: 168.72	min: 168.72
-(235, 168, 68, 255)	n: 1	mean distance: 168.86	range: 0.0	max: 168.86	min: 168.86
-(235, 164, 60, 255)	n: 1	mean distance: 169.01	range: 0.0	max: 169.01	min: 169.01
-(233, 160, 53, 255)	n: 1	mean distance: 169.17	range: 0.0	max: 169.17	min: 169.17
-(233, 155, 44, 255)	n: 1	mean distance: 169.33	range: 0.0	max: 169.33	min: 169.33
-(232, 154, 42, 255)	n: 1	mean distance: 170.16	range: 0.0	max: 170.16	min: 170.16
-(234, 158, 51, 255)	n: 1	mean distance: 170.0	range: 0.0	max: 170.0	min: 170.0
-(235, 163, 60, 255)	n: 3	mean distance: 170.71	range: 1.99	max: 171.84	min: 169.85
-(235, 168, 69, 255)	n: 1	mean distance: 169.71	range: 0.0	max: 169.71	min: 169.71
-(236, 171, 74, 255)	n: 1	mean distance: 169.57	range: 0.0	max: 169.57	min: 169.57
-(237, 174, 80, 255)	n: 1	mean distance: 169.43	range: 0.0	max: 169.43	min: 169.43
-(237, 175, 81, 255)	n: 2	mean distance: 170.03	range: 1.44	max: 170.75	min: 169.31
-(236, 172, 75, 255)	n: 1	mean distance: 169.43	range: 0.0	max: 169.43	min: 169.43
-(236, 169, 69, 255)	n: 1	mean distance: 169.57	range: 0.0	max: 169.57	min: 169.57
-(235, 164, 62, 255)	n: 3	mean distance: 171.54	range: 2.78	max: 172.49	min: 169.71
-(234, 160, 52, 255)	n: 1	mean distance: 169.85	range: 0.0	max: 169.85	min: 169.85
-(232, 149, 35, 255)	n: 20	mean distance: 172.65	range: 1.83	max: 173.65	min: 171.82
-(233, 154, 42, 255)	n: 1	mean distance: 170.84	range: 0.0	max: 170.84	min: 170.84
-(233, 159, 51, 255)	n: 1	mean distance: 170.7	range: 0.0	max: 170.7	min: 170.7
-(235, 163, 59, 255)	n: 1	mean distance: 170.56	range: 0.0	max: 170.56	min: 170.56
-(235, 166, 65, 255)	n: 1	mean distance: 170.43	range: 0.0	max: 170.43	min: 170.43
-(236, 169, 71, 255)	n: 1	mean distance: 170.3	range: 0.0	max: 170.3	min: 170.3
-(237, 172, 76, 255)	n: 3	mean distance: 171.31	range: 2.01	max: 172.19	min: 170.18
-(238, 177, 86, 255)	n: 3	mean distance: 170.83	range: 1.5	max: 171.35	min: 169.85
-(237, 175, 82, 255)	n: 3	mean distance: 170.9	range: 2.12	max: 172.07	min: 169.96
-(237, 172, 77, 255)	n: 1	mean distance: 170.06	range: 0.0	max: 170.06	min: 170.06
-(234, 160, 53, 255)	n: 1	mean distance: 170.56	range: 0.0	max: 170.56	min: 170.56
-(232, 152, 39, 255)	n: 2	mean distance: 171.5	range: 1.33	max: 172.17	min: 170.84
-(231, 149, 35, 255)	n: 1	mean distance: 172.63	range: 0.0	max: 172.63	min: 172.63
-(233, 153, 41, 255)	n: 3	mean distance: 172.18	range: 1.29	max: 172.84	min: 171.55
-(233, 156, 46, 255)	n: 1	mean distance: 171.42	range: 0.0	max: 171.42	min: 171.42
-(234, 161, 54, 255)	n: 1	mean distance: 171.29	range: 0.0	max: 171.29	min: 171.29
-(235, 165, 61, 255)	n: 2	mean distance: 171.12	range: 0.11	max: 171.17	min: 171.06
-(235, 167, 67, 255)	n: 1	mean distance: 171.06	range: 0.0	max: 171.06	min: 171.06
-(236, 170, 71, 255)	n: 2	mean distance: 171.26	range: 0.62	max: 171.57	min: 170.95
-(237, 173, 76, 255)	n: 1	mean distance: 170.85	range: 0.0	max: 170.85	min: 170.85
-(238, 178, 86, 255)	n: 1	mean distance: 170.58	range: 0.0	max: 170.58	min: 170.58
-(236, 173, 78, 255)	n: 1	mean distance: 170.75	range: 0.0	max: 170.75	min: 170.75
-(235, 168, 67, 255)	n: 1	mean distance: 170.95	range: 0.0	max: 170.95	min: 170.95
-(234, 162, 56, 255)	n: 1	mean distance: 171.17	range: 0.0	max: 171.17	min: 171.17
-(233, 158, 50, 255)	n: 1	mean distance: 171.29	range: 0.0	max: 171.29	min: 171.29
-(233, 154, 43, 255)	n: 1	mean distance: 171.42	range: 0.0	max: 171.42	min: 171.42
-(232, 152, 38, 255)	n: 1	mean distance: 171.55	range: 0.0	max: 171.55	min: 171.55
-(231, 148, 35, 255)	n: 6	mean distance: 173.92	range: 1.29	max: 174.41	min: 173.12
-(232, 148, 35, 255)	n: 5	mean distance: 173.53	range: 0.77	max: 173.74	min: 172.97
-(232, 150, 37, 255)	n: 3	mean distance: 172.5	range: 0.65	max: 172.94	min: 172.28
-(233, 157, 48, 255)	n: 1	mean distance: 172.05	range: 0.0	max: 172.05	min: 172.05
-(234, 160, 54, 255)	n: 1	mean distance: 171.94	range: 0.0	max: 171.94	min: 171.94
-(237, 173, 80, 255)	n: 1	mean distance: 171.49	range: 0.0	max: 171.49	min: 171.49
-(237, 176, 83, 255)	n: 1	mean distance: 171.42	range: 0.0	max: 171.42	min: 171.42
-(238, 178, 88, 255)	n: 1	mean distance: 171.29	range: 0.0	max: 171.29	min: 171.29
-(238, 178, 89, 255)	n: 1	mean distance: 171.24	range: 0.0	max: 171.24	min: 171.24
-(238, 176, 83, 255)	n: 1	mean distance: 171.35	range: 0.0	max: 171.35	min: 171.35
-(237, 174, 79, 255)	n: 3	mean distance: 171.89	range: 0.72	max: 172.14	min: 171.42
-(237, 172, 75, 255)	n: 1	mean distance: 171.49	range: 0.0	max: 171.49	min: 171.49
-(235, 164, 61, 255)	n: 1	mean distance: 171.75	range: 0.0	max: 171.75	min: 171.75
-(235, 161, 55, 255)	n: 1	mean distance: 171.84	range: 0.0	max: 171.84	min: 171.84
-(234, 158, 50, 255)	n: 1	mean distance: 171.94	range: 0.0	max: 171.94	min: 171.94
-(233, 155, 45, 255)	n: 1	mean distance: 172.05	range: 0.0	max: 172.05	min: 172.05
-(233, 155, 47, 255)	n: 1	mean distance: 172.74	range: 0.0	max: 172.74	min: 172.74
-(234, 158, 52, 255)	n: 1	mean distance: 172.65	range: 0.0	max: 172.65	min: 172.65
-(234, 161, 57, 255)	n: 1	mean distance: 172.57	range: 0.0	max: 172.57	min: 172.57
-(235, 166, 66, 255)	n: 1	mean distance: 172.42	range: 0.0	max: 172.42	min: 172.42
-(236, 169, 70, 255)	n: 2	mean distance: 172.32	range: 0.06	max: 172.35	min: 172.29
-(236, 170, 73, 255)	n: 2	mean distance: 172.26	range: 0.06	max: 172.29	min: 172.24
-(237, 171, 75, 255)	n: 1	mean distance: 172.24	range: 0.0	max: 172.24	min: 172.24
-(237, 173, 77, 255)	n: 1	mean distance: 172.19	range: 0.0	max: 172.19	min: 172.19
-(237, 174, 82, 255)	n: 1	mean distance: 172.1	range: 0.0	max: 172.1	min: 172.1
-(238, 175, 83, 255)	n: 2	mean distance: 172.06	range: 0.03	max: 172.07	min: 172.05
-(238, 176, 84, 255)	n: 2	mean distance: 172.04	range: 0.02	max: 172.05	min: 172.03
-(238, 176, 85, 255)	n: 5	mean distance: 172.01	range: 0.02	max: 172.03	min: 172.0
-(238, 177, 85, 255)	n: 1	mean distance: 172.0	range: 0.0	max: 172.0	min: 172.0
-(237, 173, 78, 255)	n: 1	mean distance: 172.14	range: 0.0	max: 172.14	min: 172.14
-(236, 167, 66, 255)	n: 1	mean distance: 172.35	range: 0.0	max: 172.35	min: 172.35
-(235, 161, 58, 255)	n: 2	mean distance: 172.84	range: 0.69	max: 173.18	min: 172.49
-(234, 159, 53, 255)	n: 1	mean distance: 172.57	range: 0.0	max: 172.57	min: 172.57
-(233, 156, 47, 255)	n: 1	mean distance: 172.65	range: 0.0	max: 172.65	min: 172.65
-(233, 153, 43, 255)	n: 2	mean distance: 173.08	range: 0.67	max: 173.42	min: 172.74
-(233, 151, 39, 255)	n: 1	mean distance: 172.84	range: 0.0	max: 172.84	min: 172.84
-(232, 149, 36, 255)	n: 2	mean distance: 173.29	range: 0.71	max: 173.65	min: 172.94
-(232, 151, 39, 255)	n: 1	mean distance: 173.57	range: 0.0	max: 173.57	min: 173.57
-(233, 152, 42, 255)	n: 1	mean distance: 173.49	range: 0.0	max: 173.49	min: 173.49
-(233, 154, 45, 255)	n: 1	mean distance: 173.42	range: 0.0	max: 173.42	min: 173.42
-(234, 156, 48, 255)	n: 1	mean distance: 173.35	range: 0.0	max: 173.35	min: 173.35
-(234, 158, 53, 255)	n: 1	mean distance: 173.29	range: 0.0	max: 173.29	min: 173.29
-(235, 160, 57, 255)	n: 1	mean distance: 173.23	range: 0.0	max: 173.23	min: 173.23
-(235, 162, 60, 255)	n: 2	mean distance: 173.16	range: 0.04	max: 173.18	min: 173.14
-(235, 163, 62, 255)	n: 2	mean distance: 173.12	range: 0.04	max: 173.14	min: 173.1
-(235, 164, 65, 255)	n: 1	mean distance: 173.1	range: 0.0	max: 173.1	min: 173.1
-(236, 166, 67, 255)	n: 4	mean distance: 173.05	range: 0.05	max: 173.07	min: 173.03
-(236, 166, 68, 255)	n: 5	mean distance: 173.01	range: 0.02	max: 173.03	min: 173.0
-(236, 167, 68, 255)	n: 1	mean distance: 173.0	range: 0.0	max: 173.0	min: 173.0
-(235, 165, 65, 255)	n: 1	mean distance: 173.07	range: 0.0	max: 173.07	min: 173.07
-(234, 159, 55, 255)	n: 1	mean distance: 173.23	range: 0.0	max: 173.23	min: 173.23
-(234, 157, 51, 255)	n: 1	mean distance: 173.29	range: 0.0	max: 173.29	min: 173.29
-(234, 155, 46, 255)	n: 1	mean distance: 173.35	range: 0.0	max: 173.35	min: 173.35
-(233, 151, 40, 255)	n: 1	mean distance: 173.49	range: 0.0	max: 173.49	min: 173.49
-(232, 150, 38, 255)	n: 1	mean distance: 173.57	range: 0.0	max: 173.57	min: 173.57
-(231, 147, 35, 255)	n: 2	mean distance: 174.52	range: 0.08	max: 174.56	min: 174.48
-(231, 148, 36, 255)	n: 1	mean distance: 174.35	range: 0.0	max: 174.35	min: 174.35
-(231, 149, 36, 255)	n: 2	mean distance: 174.29	range: 0.0	max: 174.29	min: 174.29
-(231, 149, 37, 255)	n: 2	mean distance: 174.23	range: 0.0	max: 174.23	min: 174.23
-(231, 150, 39, 255)	n: 2	mean distance: 174.16	range: 0.04	max: 174.18	min: 174.14
-(232, 150, 39, 255)	n: 1	mean distance: 174.14	range: 0.0	max: 174.14	min: 174.14
-(232, 151, 42, 255)	n: 1	mean distance: 174.1	range: 0.0	max: 174.1	min: 174.1
-(233, 153, 44, 255)	n: 2	mean distance: 174.06	range: 0.03	max: 174.07	min: 174.05
-(233, 153, 45, 255)	n: 1	mean distance: 174.05	range: 0.0	max: 174.05	min: 174.05
-(233, 154, 46, 255)	n: 7	mean distance: 174.01	range: 0.03	max: 174.03	min: 174.0
-(233, 152, 43, 255)	n: 1	mean distance: 174.07	range: 0.0	max: 174.07	min: 174.07
-(232, 151, 41, 255)	n: 1	mean distance: 174.1	range: 0.0	max: 174.1	min: 174.1
-(231, 150, 38, 255)	n: 1	mean distance: 174.18	range: 0.0	max: 174.18	min: 174.18
-(247, 224, 69, 255):	n: 25	mean distance: 9.21,	range: 9.23,	max: 15.23,	min: 6.0
-(247, 225, 68, 255):	n: 37	mean distance: 12.24,	range: 14.19,	max: 21.19,	min: 7.0
-(247, 225, 67, 255):	n: 45	mean distance: 14.52,	range: 17.3,	max: 25.3,	min: 8.0
-(247, 223, 67, 255):	n: 171	mean distance: 18.4,	range: 25.79,	max: 34.79,	min: 9.0
-(247, 223, 66, 255):	n: 67	mean distance: 21.61,	range: 25.0,	max: 37.0,	min: 12.0
-(247, 223, 65, 255):	n: 148	mean distance: 24.05,	range: 29.38,	max: 42.38,	min: 13.0
-(247, 223, 64, 255):	n: 211	mean distance: 29.27,	range: 33.1,	max: 48.1,	min: 15.0
-(247, 223, 63, 255):	n: 59	mean distance: 35.97,	range: 26.25,	max: 50.33,	min: 24.08
-(247, 223, 62, 255):	n: 106	mean distance: 39.67,	range: 26.27,	max: 53.85,	min: 27.59
-(247, 222, 62, 255):	n: 98	mean distance: 43.66,	range: 23.81,	max: 56.46,	min: 32.65
-(247, 221, 61, 255):	n: 48	mean distance: 46.76,	range: 22.46,	max: 58.69,	min: 36.24
-(247, 221, 60, 255):	n: 93	mean distance: 49.13,	range: 22.91,	max: 61.33,	min: 38.42
-(247, 221, 59, 255):	n: 91	mean distance: 52.52,	range: 22.87,	max: 64.88,	min: 42.01
-(246, 220, 58, 255):	n: 84	mean distance: 64.29,	range: 11.46,	max: 67.54,	min: 56.08
-(246, 221, 58, 255):	n: 296	mean distance: 57.1,	range: 19.68,	max: 64.5,	min: 44.82
-(246, 219, 58, 255):	n: 50	mean distance: 68.2,	range: 3.55,	max: 69.84,	min: 66.29
-(246, 218, 58, 255):	n: 36	mean distance: 70.93,	range: 3.38,	max: 72.72,	min: 69.34
-(246, 217, 58, 255):	n: 17	mean distance: 73.33,	range: 1.96,	max: 74.43,	min: 72.47
-(246, 217, 57, 255):	n: 52	mean distance: 71.93,	range: 6.69,	max: 74.71,	min: 68.01
-(246, 216, 56, 255):	n: 93	mean distance: 74.78,	range: 7.17,	max: 77.9,	min: 70.72
-(246, 217, 56, 255):	n: 25	mean distance: 72.03,	range: 6.7,	max: 75.29,	min: 68.59
-(246, 215, 56, 255):	n: 46	mean distance: 78.69,	range: 3.35,	max: 80.45,	min: 77.1
-(246, 218, 57, 255):	n: 87	mean distance: 68.71,	range: 6.05,	max: 71.85,	min: 65.8
-(246, 219, 57, 255):	n: 43	mean distance: 65.25,	range: 5.94,	max: 69.07,	min: 63.13
-(246, 220, 57, 255):	n: 21	mean distance: 61.89,	range: 3.86,	max: 63.41,	min: 59.55
-(246, 214, 56, 255):	n: 29	mean distance: 81.33,	range: 3.12,	max: 83.01,	min: 79.88
-(247, 213, 56, 255):	n: 15	mean distance: 83.74,	range: 2.86,	max: 85.23,	min: 82.38
-(247, 212, 56, 255):	n: 5	mean distance: 86.24,	range: 1.69,	max: 87.13,	min: 85.44
-(246, 216, 57, 255):	n: 12	mean distance: 72.16,	range: 2.47,	max: 73.41,	min: 70.94
-(247, 211, 55, 255):	n: 73	mean distance: 87.01,	range: 6.27,	max: 90.44,	min: 84.17
-(247, 212, 55, 255):	n: 86	mean distance: 84.38,	range: 6.69,	max: 88.01,	min: 81.32
-(247, 213, 55, 255):	n: 38	mean distance: 83.74,	range: 4.01,	max: 85.7,	min: 81.69
-(246, 214, 55, 255):	n: 103	mean distance: 78.49,	range: 7.0,	max: 82.66,	min: 75.66
-(246, 215, 55, 255):	n: 60	mean distance: 75.05,	range: 3.47,	max: 77.01,	min: 73.54
-(246, 218, 56, 255):	n: 2	mean distance: 68.26,	range: 0.73,	max: 68.62,	min: 67.9
-(246, 216, 55, 255):	n: 9	mean distance: 73.34,	range: 1.04,	max: 73.88,	min: 72.84
-(247, 210, 55, 255):	n: 54	mean distance: 89.5,	range: 5.8,	max: 92.91,	min: 87.11
-(246, 213, 55, 255):	n: 67	mean distance: 80.28,	range: 3.49,	max: 82.01,	min: 78.52
-(247, 209, 55, 255):	n: 43	mean distance: 92.2,	range: 5.71,	max: 95.21,	min: 89.5
-(247, 208, 55, 255):	n: 21	mean distance: 94.55,	range: 3.94,	max: 96.4,	min: 92.46
-(247, 208, 54, 255):	n: 20	mean distance: 94.72,	range: 5.81,	max: 98.01,	min: 92.2
-(247, 207, 54, 255):	n: 5	mean distance: 96.27,	range: 2.96,	max: 98.23,	min: 95.27
-(247, 206, 54, 255):	n: 3	mean distance: 97.29,	range: 2.77,	max: 98.81,	min: 96.05
-(247, 206, 53, 255):	n: 8	mean distance: 98.78,	range: 3.38,	max: 100.21,	min: 96.83
-(247, 207, 53, 255):	n: 5	mean distance: 97.06,	range: 1.75,	max: 97.8,	min: 96.05
-(247, 209, 54, 255):	n: 15	mean distance: 90.99,	range: 3.12,	max: 92.31,	min: 89.2
-(247, 210, 54, 255):	n: 15	mean distance: 88.25,	range: 3.03,	max: 90.03,	min: 87.0
-(247, 211, 54, 255):	n: 15	mean distance: 85.48,	range: 2.9,	max: 87.05,	min: 84.15
-(247, 212, 54, 255):	n: 18	mean distance: 82.56,	range: 3.43,	max: 84.15,	min: 80.72
-(246, 213, 54, 255):	n: 9	mean distance: 80.23,	range: 2.04,	max: 81.34,	min: 79.31
-(246, 214, 54, 255):	n: 1	mean distance: 78.64,	range: 0.0,	max: 78.64,	min: 78.64
-(247, 205, 53, 255):	n: 1	mean distance: 100.8,	range: 0.0,	max: 100.8,	min: 100.8
-(246, 205, 53, 255):	n: 69	mean distance: 98.93,	range: 7.99,	max: 102.8,	min: 94.81
-(246, 207, 53, 255):	n: 49	mean distance: 93.7,	range: 6.24,	max: 97.45,	min: 91.21
-(246, 207, 54, 255):	n: 27	mean distance: 94.92,	range: 2.3,	max: 95.9,	min: 93.61
-(246, 208, 54, 255):	n: 110	mean distance: 92.41,	range: 6.89,	max: 95.13,	min: 88.24
-(246, 209, 54, 255):	n: 85	mean distance: 89.87,	range: 5.41,	max: 92.1,	min: 86.68
-(246, 210, 54, 255):	n: 50	mean distance: 87.7,	range: 4.4,	max: 89.83,	min: 85.43
-(246, 211, 54, 255):	n: 46	mean distance: 85.18,	range: 3.49,	max: 86.98,	min: 83.49
-(246, 212, 54, 255):	n: 22	mean distance: 82.5,	range: 3.71,	max: 83.87,	min: 80.16
-(246, 206, 53, 255):	n: 52	mean distance: 95.94,	range: 4.63,	max: 98.23,	min: 93.6
-(246, 206, 54, 255):	n: 11	mean distance: 95.63,	range: 1.69,	max: 96.54,	min: 94.85
-(246, 204, 53, 255):	n: 45	mean distance: 101.57,	range: 3.68,	max: 103.41,	min: 99.72
-(246, 203, 53, 255):	n: 20	mean distance: 103.89,	range: 2.77,	max: 105.42,	min: 102.65
-(246, 202, 52, 255):	n: 30	mean distance: 103.3,	range: 4.21,	max: 106.04,	min: 101.83
-(246, 201, 52, 255):	n: 6	mean distance: 106.7,	range: 2.31,	max: 108.07,	min: 105.76
-(246, 202, 53, 255):	n: 1	mean distance: 105.12,	range: 0.0,	max: 105.12,	min: 105.12
-(246, 203, 52, 255):	n: 72	mean distance: 101.35,	range: 5.92,	max: 104.74,	min: 98.81
-(245, 200, 51, 255):	n: 114	mean distance: 105.78,	range: 6.31,	max: 108.71,	min: 102.4
-(245, 201, 51, 255):	n: 67	mean distance: 103.66,	range: 6.42,	max: 107.94,	min: 101.51
-(245, 202, 52, 255):	n: 22	mean distance: 104.58,	range: 2.41,	max: 105.65,	min: 103.24
-(245, 202, 51, 255):	n: 9	mean distance: 102.77,	range: 4.96,	max: 105.65,	min: 100.69
-(245, 200, 52, 255):	n: 29	mean distance: 109.38,	range: 2.99,	max: 111.2,	min: 108.21
-(245, 201, 52, 255):	n: 45	mean distance: 106.58,	range: 4.41,	max: 108.37,	min: 103.97
-(246, 204, 52, 255):	n: 109	mean distance: 99.13,	range: 6.33,	max: 102.59,	min: 96.26
-(246, 205, 52, 255):	n: 51	mean distance: 97.28,	range: 5.54,	max: 100.41,	min: 94.87
-(246, 206, 52, 255):	n: 23	mean distance: 95.97,	range: 2.78,	max: 97.59,	min: 94.81
-(246, 207, 52, 255):	n: 2	mean distance: 95.56,	range: 0.06,	max: 95.59,	min: 95.52
-(245, 199, 52, 255):	n: 8	mean distance: 111.87,	range: 1.57,	max: 112.7,	min: 111.13
-(246, 208, 53, 255):	n: 8	mean distance: 90.48,	range: 1.81,	max: 91.21,	min: 89.4
-(244, 198, 52, 255):	n: 1	mean distance: 113.36,	range: 0.0,	max: 113.36,	min: 113.36
-(244, 197, 51, 255):	n: 70	mean distance: 112.16,	range: 6.1,	max: 116.1,	min: 110.0
-(244, 198, 51, 255):	n: 14	mean distance: 110.78,	range: 4.26,	max: 113.28,	min: 109.02
-(245, 199, 51, 255):	n: 127	mean distance: 108.48,	range: 8.91,	max: 113.22,	min: 104.31
-(245, 198, 51, 255):	n: 36	mean distance: 110.98,	range: 3.67,	max: 112.49,	min: 108.81
-(244, 196, 51, 255):	n: 36	mean distance: 113.96,	range: 4.62,	max: 116.78,	min: 112.16
-(244, 195, 50, 255):	n: 80	mean distance: 113.74,	range: 5.81,	max: 117.46,	min: 111.65
-(244, 195, 51, 255):	n: 4	mean distance: 115.8,	range: 0.74,	max: 116.0,	min: 115.26
-(244, 194, 50, 255):	n: 36	mean distance: 116.37,	range: 4.49,	max: 118.14,	min: 113.65
-(246, 202, 51, 255):	n: 15	mean distance: 102.23,	range: 2.15,	max: 103.41,	min: 101.26
-(246, 203, 51, 255):	n: 33	mean distance: 100.24,	range: 3.27,	max: 102.0,	min: 98.74
-(246, 204, 51, 255):	n: 7	mean distance: 98.15,	range: 1.39,	max: 98.74,	min: 97.35
-(244, 193, 50, 255):	n: 1	mean distance: 118.83,	range: 0.0,	max: 118.83,	min: 118.83
-(243, 192, 49, 255):	n: 27	mean distance: 118.19,	range: 4.67,	max: 120.92,	min: 116.25
-(243, 193, 49, 255):	n: 16	mean distance: 117.5,	range: 1.87,	max: 118.26,	min: 116.39
-(243, 193, 50, 255):	n: 13	mean distance: 117.47,	range: 1.52,	max: 118.19,	min: 116.67
-(244, 196, 50, 255):	n: 82	mean distance: 111.56,	range: 4.72,	max: 114.34,	min: 109.62
-(244, 191, 49, 255):	n: 2	mean distance: 121.27,	range: 0.71,	max: 121.62,	min: 120.92
-(244, 191, 48, 255):	n: 31	mean distance: 121.53,	range: 6.4,	max: 123.17,	min: 116.76
-(243, 192, 48, 255):	n: 61	mean distance: 119.04,	range: 4.32,	max: 121.17,	min: 116.85
-(243, 193, 48, 255):	n: 6	mean distance: 117.95,	range: 1.0,	max: 118.44,	min: 117.44
-(244, 193, 49, 255):	n: 57	mean distance: 115.78,	range: 3.05,	max: 117.59,	min: 114.55
-(243, 190, 48, 255):	n: 6	mean distance: 123.18,	range: 1.3,	max: 123.79,	min: 122.49
-(244, 194, 49, 255):	n: 54	mean distance: 115.0,	range: 4.08,	max: 117.29,	min: 113.21
-(244, 195, 49, 255):	n: 22	mean distance: 114.21,	range: 2.53,	max: 115.42,	min: 112.89
-(245, 197, 50, 255):	n: 17	mean distance: 109.63,	range: 1.45,	max: 110.45,	min: 109.0
-(245, 198, 50, 255):	n: 46	mean distance: 108.06,	range: 2.76,	max: 109.29,	min: 106.53
-(245, 199, 50, 255):	n: 20	mean distance: 105.7,	range: 2.75,	max: 106.85,	min: 104.1
-(243, 189, 48, 255):	n: 31	mean distance: 123.61,	range: 3.2,	max: 125.4,	min: 122.2
-(244, 197, 50, 255):	n: 4	mean distance: 109.72,	range: 0.86,	max: 110.14,	min: 109.27
-(243, 188, 47, 255):	n: 38	mean distance: 123.99,	range: 3.94,	max: 126.06,	min: 122.12
-(243, 187, 47, 255):	n: 66	mean distance: 124.24,	range: 4.82,	max: 127.4,	min: 122.59
-(244, 190, 48, 255):	n: 47	mean distance: 121.6,	range: 3.58,	max: 123.43,	min: 119.85
-(243, 191, 48, 255):	n: 64	mean distance: 119.1,	range: 3.64,	max: 120.88,	min: 117.24
-(244, 192, 49, 255):	n: 1	mean distance: 117.2,	range: 0.0,	max: 117.2,	min: 117.2
-(242, 186, 47, 255):	n: 15	mean distance: 127.97,	range: 1.87,	max: 128.89,	min: 127.02
-(243, 186, 47, 255):	n: 17	mean distance: 126.5,	range: 3.24,	max: 127.66,	min: 124.42
-(243, 188, 48, 255):	n: 21	mean distance: 124.15,	range: 2.88,	max: 125.42,	min: 122.54
-(244, 189, 48, 255):	n: 6	mean distance: 122.43,	range: 2.48,	max: 123.23,	min: 120.75
-(242, 185, 47, 255):	n: 5	mean distance: 129.32,	range: 0.75,	max: 129.73,	min: 128.97
-(243, 187, 48, 255):	n: 2	mean distance: 124.59,	range: 2.3,	max: 125.73,	min: 123.44
-(242, 184, 47, 255):	n: 4	mean distance: 130.46,	range: 1.3,	max: 131.14,	min: 129.83
-(242, 183, 46, 255):	n: 51	mean distance: 130.23,	range: 3.58,	max: 132.28,	min: 128.7
-(242, 184, 46, 255):	n: 52	mean distance: 129.37,	range: 3.61,	max: 131.24,	min: 127.63
-(242, 185, 46, 255):	n: 60	mean distance: 127.75,	range: 5.18,	max: 130.42,	min: 125.24
-(243, 186, 46, 255):	n: 53	mean distance: 125.61,	range: 4.04,	max: 128.06,	min: 124.02
-(243, 187, 46, 255):	n: 17	mean distance: 125.15,	range: 2.17,	max: 126.21,	min: 124.04
-(244, 190, 47, 255):	n: 34	mean distance: 121.3,	range: 2.75,	max: 122.64,	min: 119.89
-(243, 191, 47, 255):	n: 30	mean distance: 118.78,	range: 3.19,	max: 120.37,	min: 117.18
-(244, 192, 48, 255):	n: 7	mean distance: 117.0,	range: 1.36,	max: 117.66,	min: 116.3
-(244, 193, 48, 255):	n: 15	mean distance: 115.79,	range: 2.09,	max: 116.62,	min: 114.53
-(243, 192, 47, 255):	n: 1	mean distance: 117.66,	range: 0.0,	max: 117.66,	min: 117.66
-(243, 189, 47, 255):	n: 10	mean distance: 122.65,	range: 1.11,	max: 123.22,	min: 122.11
-(242, 186, 46, 255):	n: 19	mean distance: 127.67,	range: 4.07,	max: 128.84,	min: 124.78
-(241, 182, 45, 255):	n: 33	mean distance: 131.47,	range: 3.71,	max: 133.42,	min: 129.71
-(241, 181, 45, 255):	n: 47	mean distance: 131.82,	range: 2.96,	max: 133.54,	min: 130.59
-(244, 189, 47, 255):	n: 46	mean distance: 121.01,	range: 3.4,	max: 122.87,	min: 119.47
-(243, 190, 47, 255):	n: 30	mean distance: 118.8,	range: 2.57,	max: 120.22,	min: 117.65
-(241, 180, 45, 255):	n: 28	mean distance: 133.3,	range: 3.23,	max: 135.25,	min: 132.02
-(243, 185, 46, 255):	n: 39	mean distance: 126.05,	range: 1.95,	max: 127.14,	min: 125.2
-(241, 183, 45, 255):	n: 20	mean distance: 129.75,	range: 3.02,	max: 131.4,	min: 128.38
-(240, 180, 45, 255):	n: 2	mean distance: 134.19,	range: 3.37,	max: 135.87,	min: 132.5
-(244, 188, 47, 255):	n: 8	mean distance: 122.4,	range: 0.71,	max: 122.8,	min: 122.09
-(240, 179, 45, 255):	n: 12	mean distance: 135.58,	range: 1.8,	max: 136.65,	min: 134.85
-(241, 179, 45, 255):	n: 27	mean distance: 134.27,	range: 2.29,	max: 135.43,	min: 133.14
-(240, 178, 45, 255):	n: 10	mean distance: 135.74,	range: 4.02,	max: 137.44,	min: 133.42
-(242, 182, 46, 255):	n: 7	mean distance: 131.13,	range: 1.11,	max: 131.75,	min: 130.63
-(240, 177, 45, 255):	n: 10	mean distance: 137.17,	range: 1.6,	max: 138.0,	min: 136.4
-(240, 176, 44, 255):	n: 4	mean distance: 138.41,	range: 0.38,	max: 138.6,	min: 138.22
-(239, 175, 44, 255):	n: 12	mean distance: 138.45,	range: 1.14,	max: 139.2,	min: 138.06
-(243, 189, 52, 255):	n: 1	mean distance: 123.0,	range: 0.0,	max: 123.0,	min: 123.0
-(239, 175, 43, 255):	n: 30	mean distance: 138.5,	range: 3.01,	max: 140.09,	min: 137.08
-(240, 175, 43, 255):	n: 6	mean distance: 139.15,	range: 0.82,	max: 139.52,	min: 138.7
-(240, 176, 43, 255):	n: 5	mean distance: 138.38,	range: 0.93,	max: 138.81,	min: 137.88
-(240, 177, 44, 255):	n: 34	mean distance: 136.84,	range: 2.93,	max: 138.45,	min: 135.52
-(240, 178, 44, 255):	n: 78	mean distance: 134.69,	range: 3.48,	max: 136.75,	min: 133.27
-(241, 179, 44, 255):	n: 22	mean distance: 134.31,	range: 2.66,	max: 135.92,	min: 133.26
-(241, 180, 44, 255):	n: 10	mean distance: 132.86,	range: 1.46,	max: 133.69,	min: 132.23
-(241, 181, 44, 255):	n: 12	mean distance: 131.9,	range: 1.38,	max: 132.61,	min: 131.23
-(242, 182, 45, 255):	n: 10	mean distance: 130.91,	range: 1.3,	max: 131.55,	min: 130.25
-(242, 183, 45, 255):	n: 14	mean distance: 129.83,	range: 1.51,	max: 130.51,	min: 129.0
-(242, 184, 45, 255):	n: 21	mean distance: 128.49,	range: 2.31,	max: 129.77,	min: 127.46
-(242, 185, 45, 255):	n: 26	mean distance: 126.7,	range: 2.35,	max: 128.02,	min: 125.67
-(242, 189, 51, 255):	n: 1	mean distance: 123.91,	range: 0.0,	max: 123.91,	min: 123.91
-(242, 187, 47, 255):	n: 1	mean distance: 124.34,	range: 0.0,	max: 124.34,	min: 124.34
-(242, 186, 45, 255):	n: 2	mean distance: 125.0,	range: 0.44,	max: 125.22,	min: 124.78
-(240, 179, 44, 255):	n: 32	mean distance: 133.81,	range: 3.09,	max: 135.92,	min: 132.82
-(239, 175, 42, 255):	n: 5	mean distance: 140.71,	range: 1.03,	max: 141.24,	min: 140.21
-(242, 187, 50, 255):	n: 3	mean distance: 125.72,	range: 1.81,	max: 126.63,	min: 124.81
-(241, 182, 44, 255):	n: 1	mean distance: 130.86,	range: 0.0,	max: 130.86,	min: 130.86
-(239, 174, 42, 255):	n: 21	mean distance: 140.01,	range: 3.17,	max: 141.82,	min: 138.65
-(240, 180, 44, 255):	n: 17	mean distance: 132.4,	range: 1.15,	max: 133.09,	min: 131.95
-(240, 181, 44, 255):	n: 5	mean distance: 131.87,	range: 0.57,	max: 132.1,	min: 131.53
-(241, 184, 45, 255):	n: 7	mean distance: 128.67,	range: 1.34,	max: 129.25,	min: 127.91
-(241, 185, 45, 255):	n: 2	mean distance: 127.69,	range: 0.43,	max: 127.91,	min: 127.48
-(239, 176, 43, 255):	n: 5	mean distance: 137.7,	range: 1.99,	max: 138.96,	min: 136.97
-(239, 173, 42, 255):	n: 8	mean distance: 140.43,	range: 3.95,	max: 142.87,	min: 138.92
-(239, 174, 43, 255):	n: 31	mean distance: 139.04,	range: 1.77,	max: 140.06,	min: 138.29
-(239, 176, 44, 255):	n: 51	mean distance: 137.33,	range: 1.85,	max: 138.2,	min: 136.34
-(239, 177, 44, 255):	n: 28	mean distance: 136.33,	range: 1.63,	max: 137.32,	min: 135.69
-(239, 178, 44, 255):	n: 9	mean distance: 135.41,	range: 1.03,	max: 136.0,	min: 134.97
-(242, 186, 50, 255):	n: 1	mean distance: 127.53,	range: 0.0,	max: 127.53,	min: 127.53
-(241, 184, 46, 255):	n: 1	mean distance: 127.95,	range: 0.0,	max: 127.95,	min: 127.95
-(242, 185, 50, 255):	n: 2	mean distance: 128.9,	range: 0.91,	max: 129.36,	min: 128.44
-(241, 183, 46, 255):	n: 2	mean distance: 129.31,	range: 0.91,	max: 129.77,	min: 128.86
-(237, 172, 42, 255):	n: 10	mean distance: 143.41,	range: 0.66,	max: 143.69,	min: 143.03
-(238, 173, 42, 255):	n: 28	mean distance: 141.78,	range: 2.36,	max: 143.13,	min: 140.77
-(238, 174, 42, 255):	n: 39	mean distance: 140.51,	range: 1.91,	max: 141.45,	min: 139.54
-(238, 174, 43, 255):	n: 13	mean distance: 139.63,	range: 1.27,	max: 140.36,	min: 139.09
-(237, 171, 42, 255):	n: 10	mean distance: 144.01,	range: 0.67,	max: 144.4,	min: 143.74
-(238, 172, 42, 255):	n: 21	mean distance: 142.66,	range: 1.76,	max: 143.42,	min: 141.66
-(242, 183, 51, 255):	n: 2	mean distance: 130.73,	range: 0.91,	max: 131.18,	min: 130.27
-(241, 181, 46, 255):	n: 2	mean distance: 131.13,	range: 0.91,	max: 131.59,	min: 130.68
-(237, 170, 41, 255):	n: 47	mean distance: 144.45,	range: 3.23,	max: 146.49,	min: 143.27
-(237, 170, 42, 255):	n: 5	mean distance: 144.65,	range: 0.99,	max: 145.06,	min: 144.06
-(241, 183, 51, 255):	n: 1	mean distance: 132.1,	range: 0.0,	max: 132.1,	min: 132.1
-(240, 180, 47, 255):	n: 3	mean distance: 134.33,	range: 1.83,	max: 135.25,	min: 133.42
-(241, 181, 50, 255):	n: 1	mean distance: 133.02,	range: 0.0,	max: 133.02,	min: 133.02
-(237, 169, 41, 255):	n: 28	mean distance: 144.93,	range: 3.02,	max: 147.03,	min: 144.0
-(241, 180, 50, 255):	n: 1	mean distance: 133.93,	range: 0.0,	max: 133.93,	min: 133.93
-(241, 180, 49, 255):	n: 1	mean distance: 134.85,	range: 0.0,	max: 134.85,	min: 134.85
-(236, 168, 40, 255):	n: 4	mean distance: 147.19,	range: 1.18,	max: 147.87,	min: 146.69
-(237, 169, 40, 255):	n: 57	mean distance: 145.55,	range: 2.8,	max: 146.81,	min: 144.01
-(237, 170, 40, 255):	n: 6	mean distance: 145.18,	range: 1.52,	max: 145.77,	min: 144.25
-(237, 171, 41, 255):	n: 5	mean distance: 143.45,	range: 0.65,	max: 143.76,	min: 143.11
-(238, 172, 41, 255):	n: 48	mean distance: 141.74,	range: 2.74,	max: 143.27,	min: 140.53
-(238, 173, 41, 255):	n: 22	mean distance: 140.69,	range: 2.58,	max: 142.3,	min: 139.71
-(238, 174, 41, 255):	n: 5	mean distance: 140.34,	range: 0.91,	max: 140.89,	min: 139.98
-(239, 177, 43, 255):	n: 4	mean distance: 136.57,	range: 0.81,	max: 136.97,	min: 136.17
-(240, 179, 46, 255):	n: 1	mean distance: 136.17,	range: 0.0,	max: 136.17,	min: 136.17
-(240, 179, 48, 255):	n: 1	mean distance: 135.77,	range: 0.0,	max: 135.77,	min: 135.77
-(239, 174, 41, 255):	n: 1	mean distance: 139.53,	range: 0.0,	max: 139.53,	min: 139.53
-(237, 172, 41, 255):	n: 3	mean distance: 143.27,	range: 0.98,	max: 143.76,	min: 142.78
-(236, 167, 40, 255):	n: 58	mean distance: 147.94,	range: 1.99,	max: 148.76,	min: 146.77
-(237, 168, 40, 255):	n: 66	mean distance: 146.88,	range: 2.57,	max: 148.19,	min: 145.62
-(238, 171, 41, 255):	n: 27	mean distance: 142.86,	range: 1.36,	max: 143.59,	min: 142.23
-(239, 173, 41, 255):	n: 7	mean distance: 139.74,	range: 0.72,	max: 140.04,	min: 139.32
-(239, 177, 46, 255):	n: 1	mean distance: 137.08,	range: 0.0,	max: 137.08,	min: 137.08
-(240, 181, 55, 255):	n: 2	mean distance: 136.77,	range: 0.92,	max: 137.23,	min: 136.31
-(240, 177, 47, 255):	n: 1	mean distance: 136.69,	range: 0.0,	max: 136.69,	min: 136.69
-(236, 166, 40, 255):	n: 46	mean distance: 149.09,	range: 2.06,	max: 150.28,	min: 148.22
-(239, 175, 45, 255):	n: 1	mean distance: 138.0,	range: 0.0,	max: 138.0,	min: 138.0
-(240, 176, 47, 255):	n: 1	mean distance: 137.62,	range: 0.0,	max: 137.62,	min: 137.62
-(236, 165, 40, 255):	n: 76	mean distance: 150.23,	range: 2.35,	max: 151.57,	min: 149.22
-(239, 174, 44, 255):	n: 2	mean distance: 139.19,	range: 0.54,	max: 139.46,	min: 138.92
-(240, 179, 54, 255):	n: 1	mean distance: 138.16,	range: 0.0,	max: 138.16,	min: 138.16
-(240, 175, 47, 255):	n: 1	mean distance: 138.54,	range: 0.0,	max: 138.54,	min: 138.54
-(240, 177, 51, 255):	n: 1	mean distance: 139.46,	range: 0.0,	max: 139.46,	min: 139.46
-(240, 178, 53, 255):	n: 1	mean distance: 139.09,	range: 0.0,	max: 139.09,	min: 139.09
-(235, 165, 39, 255):	n: 26	mean distance: 151.06,	range: 1.45,	max: 151.72,	min: 150.27
-(238, 170, 41, 255):	n: 6	mean distance: 143.54,	range: 0.66,	max: 143.92,	min: 143.27
-(239, 177, 50, 255):	n: 1	mean distance: 140.39,	range: 0.0,	max: 140.39,	min: 140.39
-(240, 178, 52, 255):	n: 1	mean distance: 140.01,	range: 0.0,	max: 140.01,	min: 140.01
-(238, 174, 44, 255):	n: 1	mean distance: 140.39,	range: 0.0,	max: 140.39,	min: 140.39
-(239, 175, 48, 255):	n: 2	mean distance: 141.78,	range: 0.93,	max: 142.24,	min: 141.32
-(239, 176, 50, 255):	n: 2	mean distance: 141.41,	range: 0.93,	max: 141.87,	min: 140.94
-(238, 173, 43, 255):	n: 1	mean distance: 141.32,	range: 0.0,	max: 141.32,	min: 141.32
-(235, 164, 39, 255):	n: 61	mean distance: 152.4,	range: 2.23,	max: 153.44,	min: 151.21
-(239, 180, 59, 255):	n: 1	mean distance: 141.51,	range: 0.0,	max: 141.51,	min: 141.51
-(235, 163, 39, 255):	n: 34	mean distance: 153.15,	range: 1.97,	max: 154.04,	min: 152.07
-(239, 173, 46, 255):	n: 1	mean distance: 143.17,	range: 0.0,	max: 143.17,	min: 143.17
-(239, 179, 58, 255):	n: 1	mean distance: 142.44,	range: 0.0,	max: 142.44,	min: 142.44
-(239, 175, 49, 255):	n: 1	mean distance: 142.8,	range: 0.0,	max: 142.8,	min: 142.8
-(238, 171, 42, 255):	n: 1	mean distance: 143.17,	range: 0.0,	max: 143.17,	min: 143.17
-(235, 162, 39, 255):	n: 25	mean distance: 153.78,	range: 1.43,	max: 154.38,	min: 152.95
-(238, 171, 44, 255):	n: 1	mean distance: 144.1,	range: 0.0,	max: 144.1,	min: 144.1
-(239, 176, 54, 255):	n: 1	mean distance: 143.74,	range: 0.0,	max: 143.74,	min: 143.74
-(239, 177, 56, 255):	n: 1	mean distance: 143.38,	range: 0.0,	max: 143.38,	min: 143.38
-(238, 173, 47, 255):	n: 1	mean distance: 143.74,	range: 0.0,	max: 143.74,	min: 143.74
-(234, 162, 39, 255):	n: 10	mean distance: 153.89,	range: 0.96,	max: 154.35,	min: 153.39
-(238, 175, 52, 255):	n: 1	mean distance: 144.67,	range: 0.0,	max: 144.67,	min: 144.67
-(238, 176, 54, 255):	n: 1	mean distance: 144.31,	range: 0.0,	max: 144.31,	min: 144.31
-(237, 172, 45, 255):	n: 1	mean distance: 144.67,	range: 0.0,	max: 144.67,	min: 144.67
-(237, 167, 40, 255):	n: 3	mean distance: 148.47,	range: 0.52,	max: 148.76,	min: 148.25
-(238, 173, 50, 255):	n: 1	mean distance: 145.6,	range: 0.0,	max: 145.6,	min: 145.6
-(238, 174, 52, 255):	n: 1	mean distance: 145.25,	range: 0.0,	max: 145.25,	min: 145.25
-(237, 170, 43, 255):	n: 1	mean distance: 145.6,	range: 0.0,	max: 145.6,	min: 145.6
-(234, 161, 39, 255):	n: 68	mean distance: 155.36,	range: 2.61,	max: 156.54,	min: 153.94
-(237, 170, 46, 255):	n: 1	mean distance: 146.54,	range: 0.0,	max: 146.54,	min: 146.54
-(239, 176, 59, 255):	n: 1	mean distance: 145.84,	range: 0.0,	max: 145.84,	min: 145.84
-(238, 172, 49, 255):	n: 1	mean distance: 146.18,	range: 0.0,	max: 146.18,	min: 146.18
-(237, 168, 41, 255):	n: 3	mean distance: 147.47,	range: 1.87,	max: 148.41,	min: 146.54
-(234, 161, 38, 255):	n: 14	mean distance: 156.0,	range: 0.76,	max: 156.39,	min: 155.63
-(237, 169, 43, 255):	n: 1	mean distance: 147.47,	range: 0.0,	max: 147.47,	min: 147.47
-(238, 174, 54, 255):	n: 1	mean distance: 147.12,	range: 0.0,	max: 147.12,	min: 147.12
-(239, 175, 56, 255):	n: 1	mean distance: 146.78,	range: 0.0,	max: 146.78,	min: 146.78
-(237, 171, 47, 255):	n: 1	mean distance: 147.12,	range: 0.0,	max: 147.12,	min: 147.12
-(236, 164, 40, 255):	n: 10	mean distance: 151.57,	range: 0.76,	max: 151.92,	min: 151.16
-(238, 173, 52, 255):	n: 1	mean distance: 148.06,	range: 0.0,	max: 148.06,	min: 148.06
-(239, 178, 63, 255):	n: 1	mean distance: 147.38,	range: 0.0,	max: 147.38,	min: 147.38
-(239, 175, 54, 255):	n: 1	mean distance: 147.72,	range: 0.0,	max: 147.72,	min: 147.72
-(237, 169, 45, 255):	n: 1	mean distance: 148.06,	range: 0.0,	max: 148.06,	min: 148.06
-(234, 160, 38, 255):	n: 34	mean distance: 157.15,	range: 2.07,	max: 158.15,	min: 156.08
-(236, 170, 48, 255):	n: 1	mean distance: 149.0,	range: 0.0,	max: 149.0,	min: 149.0
-(238, 176, 60, 255):	n: 1	mean distance: 148.33,	range: 0.0,	max: 148.33,	min: 148.33
-(237, 172, 50, 255):	n: 1	mean distance: 148.66,	range: 0.0,	max: 148.66,	min: 148.66
-(236, 167, 42, 255):	n: 1	mean distance: 149.0,	range: 0.0,	max: 149.0,	min: 149.0
-(233, 159, 38, 255):	n: 32	mean distance: 158.42,	range: 2.35,	max: 159.33,	min: 156.98
-(236, 168, 45, 255):	n: 1	mean distance: 149.94,	range: 0.0,	max: 149.94,	min: 149.94
-(238, 174, 56, 255):	n: 1	mean distance: 149.6,	range: 0.0,	max: 149.6,	min: 149.6
-(238, 174, 57, 255):	n: 1	mean distance: 149.27,	range: 0.0,	max: 149.27,	min: 149.27
-(237, 169, 47, 255):	n: 1	mean distance: 149.6,	range: 0.0,	max: 149.6,	min: 149.6
-(236, 166, 41, 255):	n: 1	mean distance: 149.94,	range: 0.0,	max: 149.94,	min: 149.94
-(234, 159, 38, 255):	n: 27	mean distance: 157.89,	range: 1.74,	max: 158.76,	min: 157.01
-(235, 161, 39, 255):	n: 15	mean distance: 154.86,	range: 1.27,	max: 155.59,	min: 154.31
-(236, 166, 42, 255):	n: 1	mean distance: 150.88,	range: 0.0,	max: 150.88,	min: 150.88
-(238, 171, 52, 255):	n: 1	mean distance: 150.55,	range: 0.0,	max: 150.55,	min: 150.55
-(237, 172, 54, 255):	n: 1	mean distance: 150.22,	range: 0.0,	max: 150.22,	min: 150.22
-(237, 167, 44, 255):	n: 1	mean distance: 150.55,	range: 0.0,	max: 150.55,	min: 150.55
-(233, 158, 38, 255):	n: 13	mean distance: 158.86,	range: 1.46,	max: 159.38,	min: 157.92
-(237, 168, 48, 255):	n: 1	mean distance: 151.49,	range: 0.0,	max: 151.49,	min: 151.49
-(238, 173, 59, 255):	n: 1	mean distance: 151.16,	range: 0.0,	max: 151.16,	min: 151.16
-(238, 175, 61, 255):	n: 1	mean distance: 150.84,	range: 0.0,	max: 150.84,	min: 150.84
-(237, 169, 50, 255):	n: 1	mean distance: 151.16,	range: 0.0,	max: 151.16,	min: 151.16
-(236, 165, 42, 255):	n: 2	mean distance: 151.96,	range: 0.94,	max: 152.43,	min: 151.49
-(237, 171, 54, 255):	n: 2	mean distance: 152.74,	range: 1.27,	max: 153.38,	min: 152.11
-(237, 171, 56, 255):	n: 1	mean distance: 151.79,	range: 0.0,	max: 151.79,	min: 151.79
-(237, 166, 46, 255):	n: 1	mean distance: 152.11,	range: 0.0,	max: 152.11,	min: 152.11
-(235, 164, 40, 255):	n: 1	mean distance: 152.43,	range: 0.0,	max: 152.43,	min: 152.43
-(236, 168, 47, 255):	n: 1	mean distance: 153.06,	range: 0.0,	max: 153.06,	min: 153.06
-(238, 173, 60, 255):	n: 1	mean distance: 152.43,	range: 0.0,	max: 152.43,	min: 152.43
-(236, 169, 50, 255):	n: 1	mean distance: 152.74,	range: 0.0,	max: 152.74,	min: 152.74
-(235, 165, 41, 255):	n: 1	mean distance: 153.06,	range: 0.0,	max: 153.06,	min: 153.06
-(234, 157, 38, 255):	n: 26	mean distance: 160.91,	range: 1.79,	max: 161.61,	min: 159.82
-(234, 158, 38, 255):	n: 56	mean distance: 160.01,	range: 2.11,	max: 161.12,	min: 159.01
-(234, 160, 39, 255):	n: 12	mean distance: 156.86,	range: 1.48,	max: 157.85,	min: 156.37
-(235, 164, 42, 255):	n: 1	mean distance: 154.0,	range: 0.0,	max: 154.0,	min: 154.0
-(236, 170, 54, 255):	n: 1	mean distance: 153.69,	range: 0.0,	max: 153.69,	min: 153.69
-(237, 176, 65, 255):	n: 1	mean distance: 153.08,	range: 0.0,	max: 153.08,	min: 153.08
-(235, 167, 45, 255):	n: 1	mean distance: 153.69,	range: 0.0,	max: 153.69,	min: 153.69
-(233, 157, 38, 255):	n: 10	mean distance: 161.34,	range: 0.87,	max: 161.6,	min: 160.73
-(235, 162, 40, 255):	n: 1	mean distance: 154.95,	range: 0.0,	max: 154.95,	min: 154.95
-(236, 166, 48, 255):	n: 1	mean distance: 154.64,	range: 0.0,	max: 154.64,	min: 154.64
-(237, 173, 60, 255):	n: 1	mean distance: 154.03,	range: 0.0,	max: 154.03,	min: 154.03
-(236, 167, 49, 255):	n: 1	mean distance: 154.33,	range: 0.0,	max: 154.33,	min: 154.33
-(235, 163, 41, 255):	n: 1	mean distance: 154.64,	range: 0.0,	max: 154.64,	min: 154.64
-(235, 163, 43, 255):	n: 2	mean distance: 156.72,	range: 2.26,	max: 157.85,	min: 155.59
-(236, 168, 54, 255):	n: 1	mean distance: 155.28,	range: 0.0,	max: 155.28,	min: 155.28
-(237, 175, 65, 255):	n: 1	mean distance: 154.69,	range: 0.0,	max: 154.69,	min: 154.69
-(237, 169, 55, 255):	n: 1	mean distance: 154.98,	range: 0.0,	max: 154.98,	min: 154.98
-(235, 164, 44, 255):	n: 1	mean distance: 155.28,	range: 0.0,	max: 155.28,	min: 155.28
-(233, 156, 37, 255):	n: 17	mean distance: 162.21,	range: 1.4,	max: 163.05,	min: 161.64
-(235, 165, 47, 255):	n: 1	mean distance: 156.24,	range: 0.0,	max: 156.24,	min: 156.24
-(236, 171, 59, 255):	n: 1	mean distance: 155.94,	range: 0.0,	max: 155.94,	min: 155.94
-(237, 171, 59, 255):	n: 1	mean distance: 155.65,	range: 0.0,	max: 155.65,	min: 155.65
-(235, 166, 49, 255):	n: 1	mean distance: 155.94,	range: 0.0,	max: 155.94,	min: 155.94
-(234, 161, 40, 255):	n: 1	mean distance: 156.24,	range: 0.0,	max: 156.24,	min: 156.24
-(233, 155, 37, 255):	n: 18	mean distance: 162.78,	range: 2.03,	max: 163.95,	min: 161.93
-(234, 161, 41, 255):	n: 1	mean distance: 157.19,	range: 0.0,	max: 157.19,	min: 157.19
-(235, 167, 52, 255):	n: 1	mean distance: 156.89,	range: 0.0,	max: 156.89,	min: 156.89
-(237, 173, 65, 255):	n: 1	mean distance: 156.32,	range: 0.0,	max: 156.32,	min: 156.32
-(235, 167, 53, 255):	n: 1	mean distance: 156.6,	range: 0.0,	max: 156.6,	min: 156.6
-(234, 162, 44, 255):	n: 1	mean distance: 156.89,	range: 0.0,	max: 156.89,	min: 156.89
-(233, 155, 36, 255):	n: 44	mean distance: 163.47,	range: 2.22,	max: 164.47,	min: 162.25
-(233, 156, 38, 255):	n: 6	mean distance: 162.01,	range: 1.83,	max: 163.23,	min: 161.4
-(236, 169, 57, 255):	n: 2	mean distance: 157.42,	range: 0.28,	max: 157.56,	min: 157.28
-(238, 175, 69, 255):	n: 1	mean distance: 157.0,	range: 0.0,	max: 157.0,	min: 157.0
-(235, 164, 46, 255):	n: 1	mean distance: 157.56,	range: 0.0,	max: 157.56,	min: 157.56
-(232, 155, 36, 255):	n: 3	mean distance: 164.05,	range: 1.36,	max: 164.77,	min: 163.41
-(234, 158, 39, 255):	n: 1	mean distance: 158.81,	range: 0.0,	max: 158.81,	min: 158.81
-(235, 164, 48, 255):	n: 1	mean distance: 158.52,	range: 0.0,	max: 158.52,	min: 158.52
-(237, 171, 63, 255):	n: 1	mean distance: 158.24,	range: 0.0,	max: 158.24,	min: 158.24
-(237, 177, 73, 255):	n: 1	mean distance: 157.7,	range: 0.0,	max: 157.7,	min: 157.7
-(236, 172, 63, 255):	n: 1	mean distance: 157.97,	range: 0.0,	max: 157.97,	min: 157.97
-(235, 165, 50, 255):	n: 1	mean distance: 158.24,	range: 0.0,	max: 158.24,	min: 158.24
-(234, 160, 41, 255):	n: 2	mean distance: 159.0,	range: 0.96,	max: 159.48,	min: 158.52
-(236, 166, 54, 255):	n: 1	mean distance: 159.2,	range: 0.0,	max: 159.2,	min: 159.2
-(237, 173, 67, 255):	n: 1	mean distance: 158.66,	range: 0.0,	max: 158.66,	min: 158.66
-(236, 168, 56, 255):	n: 1	mean distance: 158.93,	range: 0.0,	max: 158.93,	min: 158.93
-(235, 161, 44, 255):	n: 1	mean distance: 159.2,	range: 0.0,	max: 159.2,	min: 159.2
-(232, 154, 36, 255):	n: 26	mean distance: 165.37,	range: 2.26,	max: 166.4,	min: 164.14
-(234, 156, 38, 255):	n: 3	mean distance: 161.94,	range: 0.27,	max: 162.09,	min: 161.82
-(235, 161, 45, 255):	n: 1	mean distance: 160.16,	range: 0.0,	max: 160.16,	min: 160.16
-(236, 168, 58, 255):	n: 1	mean distance: 159.89,	range: 0.0,	max: 159.89,	min: 159.89
-(238, 174, 70, 255):	n: 1	mean distance: 159.36,	range: 0.0,	max: 159.36,	min: 159.36
-(236, 169, 59, 255):	n: 2	mean distance: 160.11,	range: 0.96,	max: 160.59,	min: 159.62
-(235, 163, 48, 255):	n: 1	mean distance: 159.89,	range: 0.0,	max: 159.89,	min: 159.89
-(234, 159, 40, 255):	n: 1	mean distance: 160.16,	range: 0.0,	max: 160.16,	min: 160.16
-(234, 156, 37, 255):	n: 4	mean distance: 162.27,	range: 1.1,	max: 162.78,	min: 161.68
-(235, 162, 46, 255):	n: 1	mean distance: 160.85,	range: 0.0,	max: 160.85,	min: 160.85
-(237, 173, 70, 255):	n: 1	mean distance: 160.08,	range: 0.0,	max: 160.08,	min: 160.08
-(236, 168, 60, 255):	n: 1	mean distance: 160.33,	range: 0.0,	max: 160.33,	min: 160.33
-(235, 164, 49, 255):	n: 1	mean distance: 160.59,	range: 0.0,	max: 160.59,	min: 160.59
-(234, 159, 41, 255):	n: 2	mean distance: 161.2,	range: 0.7,	max: 161.55,	min: 160.85
-(232, 153, 36, 255):	n: 33	mean distance: 166.22,	range: 2.06,	max: 167.15,	min: 165.08
-(234, 157, 39, 255):	n: 2	mean distance: 162.17,	range: 0.7,	max: 162.52,	min: 161.82
-(235, 162, 48, 255):	n: 1	mean distance: 161.55,	range: 0.0,	max: 161.55,	min: 161.55
-(237, 169, 60, 255):	n: 1	mean distance: 161.3,	range: 0.0,	max: 161.3,	min: 161.3
-(237, 174, 71, 255):	n: 1	mean distance: 160.8,	range: 0.0,	max: 160.8,	min: 160.8
-(236, 169, 61, 255):	n: 1	mean distance: 161.05,	range: 0.0,	max: 161.05,	min: 161.05
-(236, 164, 51, 255):	n: 2	mean distance: 161.66,	range: 0.72,	max: 162.02,	min: 161.3
-(233, 154, 36, 255):	n: 18	mean distance: 164.86,	range: 1.39,	max: 165.68,	min: 164.28
-(235, 162, 49, 255):	n: 1	mean distance: 162.27,	range: 0.0,	max: 162.27,	min: 162.27
-(237, 168, 61, 255):	n: 1	mean distance: 162.02,	range: 0.0,	max: 162.02,	min: 162.02
-(238, 174, 71, 255):	n: 1	mean distance: 161.53,	range: 0.0,	max: 161.53,	min: 161.53
-(236, 169, 62, 255):	n: 3	mean distance: 162.59,	range: 1.48,	max: 163.25,	min: 161.77
-(235, 158, 42, 255):	n: 1	mean distance: 162.27,	range: 0.0,	max: 162.27,	min: 162.27
-(234, 157, 40, 255):	n: 1	mean distance: 163.23,	range: 0.0,	max: 163.23,	min: 163.23
-(235, 162, 50, 255):	n: 1	mean distance: 162.98,	range: 0.0,	max: 162.98,	min: 162.98
-(237, 169, 62, 255):	n: 1	mean distance: 162.51,	range: 0.0,	max: 162.51,	min: 162.51
-(235, 164, 52, 255):	n: 2	mean distance: 163.11,	range: 0.74,	max: 163.48,	min: 162.74
-(234, 158, 43, 255):	n: 1	mean distance: 162.98,	range: 0.0,	max: 162.98,	min: 162.98
-(232, 152, 36, 255):	n: 31	mean distance: 167.78,	range: 2.15,	max: 169.06,	min: 166.9
-(233, 157, 40, 255):	n: 1	mean distance: 163.95,	range: 0.0,	max: 163.95,	min: 163.95
-(234, 162, 51, 255):	n: 1	mean distance: 163.71,	range: 0.0,	max: 163.71,	min: 163.71
-(236, 168, 62, 255):	n: 1	mean distance: 163.48,	range: 0.0,	max: 163.48,	min: 163.48
-(237, 173, 72, 255):	n: 1	mean distance: 163.02,	range: 0.0,	max: 163.02,	min: 163.02
-(233, 158, 42, 255):	n: 1	mean distance: 163.71,	range: 0.0,	max: 163.71,	min: 163.71
-(232, 151, 36, 255):	n: 26	mean distance: 169.09,	range: 4.35,	max: 171.69,	min: 167.33
-(233, 155, 39, 255):	n: 1	mean distance: 164.68,	range: 0.0,	max: 164.68,	min: 164.68
-(235, 160, 48, 255):	n: 1	mean distance: 164.45,	range: 0.0,	max: 164.45,	min: 164.45
-(236, 167, 61, 255):	n: 2	mean distance: 164.11,	range: 0.22,	max: 164.22,	min: 164.0
-(237, 172, 70, 255):	n: 1	mean distance: 163.78,	range: 0.0,	max: 163.78,	min: 163.78
-(235, 162, 51, 255):	n: 1	mean distance: 164.22,	range: 0.0,	max: 164.22,	min: 164.22
-(234, 157, 41, 255):	n: 1	mean distance: 164.45,	range: 0.0,	max: 164.45,	min: 164.45
-(232, 151, 35, 255):	n: 23	mean distance: 169.66,	range: 3.14,	max: 171.14,	min: 168.0
-(233, 155, 38, 255):	n: 1	mean distance: 165.42,	range: 0.0,	max: 165.42,	min: 165.42
-(234, 159, 47, 255):	n: 1	mean distance: 165.2,	range: 0.0,	max: 165.2,	min: 165.2
-(235, 165, 58, 255):	n: 1	mean distance: 164.98,	range: 0.0,	max: 164.98,	min: 164.98
-(236, 170, 69, 255):	n: 2	mean distance: 165.04,	range: 0.57,	max: 165.33,	min: 164.76
-(237, 172, 71, 255):	n: 1	mean distance: 164.55,	range: 0.0,	max: 164.55,	min: 164.55
-(235, 166, 60, 255):	n: 1	mean distance: 164.76,	range: 0.0,	max: 164.76,	min: 164.76
-(234, 161, 50, 255):	n: 1	mean distance: 164.98,	range: 0.0,	max: 164.98,	min: 164.98
-(233, 156, 41, 255):	n: 1	mean distance: 165.2,	range: 0.0,	max: 165.2,	min: 165.2
-(233, 154, 37, 255):	n: 1	mean distance: 165.42,	range: 0.0,	max: 165.42,	min: 165.42
-(232, 154, 37, 255):	n: 1	mean distance: 166.17,	range: 0.0,	max: 166.17,	min: 166.17
-(234, 159, 45, 255):	n: 1	mean distance: 165.95,	range: 0.0,	max: 165.95,	min: 165.95
-(236, 165, 56, 255):	n: 1	mean distance: 165.74,	range: 0.0,	max: 165.74,	min: 165.74
-(236, 170, 68, 255):	n: 1	mean distance: 165.53,	range: 0.0,	max: 165.53,	min: 165.53
-(238, 175, 77, 255):	n: 1	mean distance: 165.13,	range: 0.0,	max: 165.13,	min: 165.13
-(235, 165, 59, 255):	n: 1	mean distance: 165.53,	range: 0.0,	max: 165.53,	min: 165.53
-(234, 160, 48, 255):	n: 1	mean distance: 165.74,	range: 0.0,	max: 165.74,	min: 165.74
-(233, 156, 40, 255):	n: 1	mean distance: 165.95,	range: 0.0,	max: 165.95,	min: 165.95
-(232, 153, 37, 255):	n: 1	mean distance: 166.93,	range: 0.0,	max: 166.93,	min: 166.93
-(233, 157, 43, 255):	n: 1	mean distance: 166.72,	range: 0.0,	max: 166.72,	min: 166.72
-(235, 163, 56, 255):	n: 1	mean distance: 166.51,	range: 0.0,	max: 166.51,	min: 166.51
-(235, 169, 66, 255):	n: 1	mean distance: 166.31,	range: 0.0,	max: 166.31,	min: 166.31
-(237, 173, 73, 255):	n: 1	mean distance: 166.11,	range: 0.0,	max: 166.11,	min: 166.11
-(237, 174, 75, 255):	n: 1	mean distance: 165.92,	range: 0.0,	max: 165.92,	min: 165.92
-(236, 169, 66, 255):	n: 1	mean distance: 166.11,	range: 0.0,	max: 166.11,	min: 166.11
-(234, 165, 58, 255):	n: 1	mean distance: 166.31,	range: 0.0,	max: 166.31,	min: 166.31
-(233, 159, 47, 255):	n: 1	mean distance: 166.51,	range: 0.0,	max: 166.51,	min: 166.51
-(233, 154, 38, 255):	n: 1	mean distance: 166.72,	range: 0.0,	max: 166.72,	min: 166.72
-(232, 150, 35, 255):	n: 28	mean distance: 170.94,	range: 2.43,	max: 171.98,	min: 169.54
-(232, 154, 41, 255):	n: 1	mean distance: 167.49,	range: 0.0,	max: 167.49,	min: 167.49
-(233, 160, 51, 255):	n: 1	mean distance: 167.29,	range: 0.0,	max: 167.29,	min: 167.29
-(235, 167, 62, 255):	n: 1	mean distance: 167.09,	range: 0.0,	max: 167.09,	min: 167.09
-(236, 171, 71, 255):	n: 1	mean distance: 166.9,	range: 0.0,	max: 166.9,	min: 166.9
-(237, 175, 79, 255):	n: 1	mean distance: 166.54,	range: 0.0,	max: 166.54,	min: 166.54
-(236, 172, 72, 255):	n: 1	mean distance: 166.72,	range: 0.0,	max: 166.72,	min: 166.72
-(236, 168, 63, 255):	n: 1	mean distance: 166.9,	range: 0.0,	max: 166.9,	min: 166.9
-(234, 162, 55, 255):	n: 2	mean distance: 167.49,	range: 0.79,	max: 167.89,	min: 167.09
-(232, 157, 45, 255):	n: 1	mean distance: 167.29,	range: 0.0,	max: 167.29,	min: 167.29
-(232, 153, 38, 255):	n: 3	mean distance: 168.42,	range: 2.01,	max: 169.5,	min: 167.49
-(233, 156, 45, 255):	n: 3	mean distance: 169.59,	range: 2.62,	max: 170.7,	min: 168.07
-(235, 166, 64, 255):	n: 1	mean distance: 167.71,	range: 0.0,	max: 167.71,	min: 167.71
-(236, 171, 72, 255):	n: 1	mean distance: 167.53,	range: 0.0,	max: 167.53,	min: 167.53
-(236, 172, 73, 255):	n: 1	mean distance: 167.36,	range: 0.0,	max: 167.36,	min: 167.36
-(236, 168, 65, 255):	n: 1	mean distance: 167.53,	range: 0.0,	max: 167.53,	min: 167.53
-(234, 163, 56, 255):	n: 1	mean distance: 167.71,	range: 0.0,	max: 167.71,	min: 167.71
-(233, 158, 48, 255):	n: 1	mean distance: 167.89,	range: 0.0,	max: 167.89,	min: 167.89
-(232, 154, 40, 255):	n: 1	mean distance: 168.07,	range: 0.0,	max: 168.07,	min: 168.07
-(232, 152, 37, 255):	n: 2	mean distance: 168.57,	range: 0.6,	max: 168.87,	min: 168.27
-(232, 153, 39, 255):	n: 2	mean distance: 169.51,	range: 1.29,	max: 170.16,	min: 168.87
-(233, 157, 47, 255):	n: 1	mean distance: 168.69,	range: 0.0,	max: 168.69,	min: 168.69
-(235, 162, 56, 255):	n: 1	mean distance: 168.51,	range: 0.0,	max: 168.51,	min: 168.51
-(235, 167, 65, 255):	n: 1	mean distance: 168.34,	range: 0.0,	max: 168.34,	min: 168.34
-(236, 170, 72, 255):	n: 4	mean distance: 170.22,	range: 3.48,	max: 171.66,	min: 168.18
-(237, 175, 80, 255):	n: 1	mean distance: 167.87,	range: 0.0,	max: 167.87,	min: 167.87
-(237, 171, 73, 255):	n: 1	mean distance: 168.02,	range: 0.0,	max: 168.02,	min: 168.02
-(235, 167, 66, 255):	n: 5	mean distance: 170.18,	range: 3.57,	max: 171.75,	min: 168.18
-(235, 163, 57, 255):	n: 1	mean distance: 168.34,	range: 0.0,	max: 168.34,	min: 168.34
-(234, 159, 48, 255):	n: 1	mean distance: 168.51,	range: 0.0,	max: 168.51,	min: 168.51
-(233, 155, 41, 255):	n: 1	mean distance: 168.69,	range: 0.0,	max: 168.69,	min: 168.69
-(232, 151, 37, 255):	n: 1	mean distance: 169.67,	range: 0.0,	max: 169.67,	min: 169.67
-(233, 154, 41, 255):	n: 1	mean distance: 169.5,	range: 0.0,	max: 169.5,	min: 169.5
-(233, 158, 49, 255):	n: 1	mean distance: 169.33,	range: 0.0,	max: 169.33,	min: 169.33
-(234, 163, 59, 255):	n: 1	mean distance: 169.17,	range: 0.0,	max: 169.17,	min: 169.17
-(236, 172, 74, 255):	n: 1	mean distance: 168.86,	range: 0.0,	max: 168.86,	min: 168.86
-(237, 176, 82, 255):	n: 1	mean distance: 168.58,	range: 0.0,	max: 168.58,	min: 168.58
-(236, 172, 76, 255):	n: 1	mean distance: 168.72,	range: 0.0,	max: 168.72,	min: 168.72
-(235, 168, 68, 255):	n: 1	mean distance: 168.86,	range: 0.0,	max: 168.86,	min: 168.86
-(235, 164, 60, 255):	n: 1	mean distance: 169.01,	range: 0.0,	max: 169.01,	min: 169.01
-(233, 160, 53, 255):	n: 1	mean distance: 169.17,	range: 0.0,	max: 169.17,	min: 169.17
-(233, 155, 44, 255):	n: 1	mean distance: 169.33,	range: 0.0,	max: 169.33,	min: 169.33
-(232, 154, 42, 255):	n: 1	mean distance: 170.16,	range: 0.0,	max: 170.16,	min: 170.16
-(234, 158, 51, 255):	n: 1	mean distance: 170.0,	range: 0.0,	max: 170.0,	min: 170.0
-(235, 163, 60, 255):	n: 3	mean distance: 170.71,	range: 1.99,	max: 171.84,	min: 169.85
-(235, 168, 69, 255):	n: 1	mean distance: 169.71,	range: 0.0,	max: 169.71,	min: 169.71
-(236, 171, 74, 255):	n: 1	mean distance: 169.57,	range: 0.0,	max: 169.57,	min: 169.57
-(237, 174, 80, 255):	n: 1	mean distance: 169.43,	range: 0.0,	max: 169.43,	min: 169.43
-(237, 175, 81, 255):	n: 2	mean distance: 170.03,	range: 1.44,	max: 170.75,	min: 169.31
-(236, 172, 75, 255):	n: 1	mean distance: 169.43,	range: 0.0,	max: 169.43,	min: 169.43
-(236, 169, 69, 255):	n: 1	mean distance: 169.57,	range: 0.0,	max: 169.57,	min: 169.57
-(235, 164, 62, 255):	n: 3	mean distance: 171.54,	range: 2.78,	max: 172.49,	min: 169.71
-(234, 160, 52, 255):	n: 1	mean distance: 169.85,	range: 0.0,	max: 169.85,	min: 169.85
-(232, 149, 35, 255):	n: 20	mean distance: 172.65,	range: 1.83,	max: 173.65,	min: 171.82
-(233, 154, 42, 255):	n: 1	mean distance: 170.84,	range: 0.0,	max: 170.84,	min: 170.84
-(233, 159, 51, 255):	n: 1	mean distance: 170.7,	range: 0.0,	max: 170.7,	min: 170.7
-(235, 163, 59, 255):	n: 1	mean distance: 170.56,	range: 0.0,	max: 170.56,	min: 170.56
-(235, 166, 65, 255):	n: 1	mean distance: 170.43,	range: 0.0,	max: 170.43,	min: 170.43
-(236, 169, 71, 255):	n: 1	mean distance: 170.3,	range: 0.0,	max: 170.3,	min: 170.3
-(237, 172, 76, 255):	n: 3	mean distance: 171.31,	range: 2.01,	max: 172.19,	min: 170.18
-(238, 177, 86, 255):	n: 3	mean distance: 170.83,	range: 1.5,	max: 171.35,	min: 169.85
-(237, 175, 82, 255):	n: 3	mean distance: 170.9,	range: 2.12,	max: 172.07,	min: 169.96
-(237, 172, 77, 255):	n: 1	mean distance: 170.06,	range: 0.0,	max: 170.06,	min: 170.06
-(234, 160, 53, 255):	n: 1	mean distance: 170.56,	range: 0.0,	max: 170.56,	min: 170.56
-(232, 152, 39, 255):	n: 2	mean distance: 171.5,	range: 1.33,	max: 172.17,	min: 170.84
-(231, 149, 35, 255):	n: 1	mean distance: 172.63,	range: 0.0,	max: 172.63,	min: 172.63
-(233, 153, 41, 255):	n: 3	mean distance: 172.18,	range: 1.29,	max: 172.84,	min: 171.55
-(233, 156, 46, 255):	n: 1	mean distance: 171.42,	range: 0.0,	max: 171.42,	min: 171.42
-(234, 161, 54, 255):	n: 1	mean distance: 171.29,	range: 0.0,	max: 171.29,	min: 171.29
-(235, 165, 61, 255):	n: 2	mean distance: 171.12,	range: 0.11,	max: 171.17,	min: 171.06
-(235, 167, 67, 255):	n: 1	mean distance: 171.06,	range: 0.0,	max: 171.06,	min: 171.06
-(236, 170, 71, 255):	n: 2	mean distance: 171.26,	range: 0.62,	max: 171.57,	min: 170.95
-(237, 173, 76, 255):	n: 1	mean distance: 170.85,	range: 0.0,	max: 170.85,	min: 170.85
-(238, 178, 86, 255):	n: 1	mean distance: 170.58,	range: 0.0,	max: 170.58,	min: 170.58
-(236, 173, 78, 255):	n: 1	mean distance: 170.75,	range: 0.0,	max: 170.75,	min: 170.75
-(235, 168, 67, 255):	n: 1	mean distance: 170.95,	range: 0.0,	max: 170.95,	min: 170.95
-(234, 162, 56, 255):	n: 1	mean distance: 171.17,	range: 0.0,	max: 171.17,	min: 171.17
-(233, 158, 50, 255):	n: 1	mean distance: 171.29,	range: 0.0,	max: 171.29,	min: 171.29
-(233, 154, 43, 255):	n: 1	mean distance: 171.42,	range: 0.0,	max: 171.42,	min: 171.42
-(232, 152, 38, 255):	n: 1	mean distance: 171.55,	range: 0.0,	max: 171.55,	min: 171.55
-(231, 148, 35, 255):	n: 6	mean distance: 173.92,	range: 1.29,	max: 174.41,	min: 173.12
-(232, 148, 35, 255):	n: 5	mean distance: 173.53,	range: 0.77,	max: 173.74,	min: 172.97
-(232, 150, 37, 255):	n: 3	mean distance: 172.5,	range: 0.65,	max: 172.94,	min: 172.28
-(233, 157, 48, 255):	n: 1	mean distance: 172.05,	range: 0.0,	max: 172.05,	min: 172.05
-(234, 160, 54, 255):	n: 1	mean distance: 171.94,	range: 0.0,	max: 171.94,	min: 171.94
-(237, 173, 80, 255):	n: 1	mean distance: 171.49,	range: 0.0,	max: 171.49,	min: 171.49
-(237, 176, 83, 255):	n: 1	mean distance: 171.42,	range: 0.0,	max: 171.42,	min: 171.42
-(238, 178, 88, 255):	n: 1	mean distance: 171.29,	range: 0.0,	max: 171.29,	min: 171.29
-(238, 178, 89, 255):	n: 1	mean distance: 171.24,	range: 0.0,	max: 171.24,	min: 171.24
-(238, 176, 83, 255):	n: 1	mean distance: 171.35,	range: 0.0,	max: 171.35,	min: 171.35
-(237, 174, 79, 255):	n: 3	mean distance: 171.89,	range: 0.72,	max: 172.14,	min: 171.42
-(237, 172, 75, 255):	n: 1	mean distance: 171.49,	range: 0.0,	max: 171.49,	min: 171.49
-(235, 164, 61, 255):	n: 1	mean distance: 171.75,	range: 0.0,	max: 171.75,	min: 171.75
-(235, 161, 55, 255):	n: 1	mean distance: 171.84,	range: 0.0,	max: 171.84,	min: 171.84
-(234, 158, 50, 255):	n: 1	mean distance: 171.94,	range: 0.0,	max: 171.94,	min: 171.94
-(233, 155, 45, 255):	n: 1	mean distance: 172.05,	range: 0.0,	max: 172.05,	min: 172.05
-(233, 155, 47, 255):	n: 1	mean distance: 172.74,	range: 0.0,	max: 172.74,	min: 172.74
-(234, 158, 52, 255):	n: 1	mean distance: 172.65,	range: 0.0,	max: 172.65,	min: 172.65
-(234, 161, 57, 255):	n: 1	mean distance: 172.57,	range: 0.0,	max: 172.57,	min: 172.57
-(235, 166, 66, 255):	n: 1	mean distance: 172.42,	range: 0.0,	max: 172.42,	min: 172.42
-(236, 169, 70, 255):	n: 2	mean distance: 172.32,	range: 0.06,	max: 172.35,	min: 172.29
-(236, 170, 73, 255):	n: 2	mean distance: 172.26,	range: 0.06,	max: 172.29,	min: 172.24
-(237, 171, 75, 255):	n: 1	mean distance: 172.24,	range: 0.0,	max: 172.24,	min: 172.24
-(237, 173, 77, 255):	n: 1	mean distance: 172.19,	range: 0.0,	max: 172.19,	min: 172.19
-(237, 174, 82, 255):	n: 1	mean distance: 172.1,	range: 0.0,	max: 172.1,	min: 172.1
-(238, 175, 83, 255):	n: 2	mean distance: 172.06,	range: 0.03,	max: 172.07,	min: 172.05
-(238, 176, 84, 255):	n: 2	mean distance: 172.04,	range: 0.02,	max: 172.05,	min: 172.03
-(238, 176, 85, 255):	n: 5	mean distance: 172.01,	range: 0.02,	max: 172.03,	min: 172.0
-(238, 177, 85, 255):	n: 1	mean distance: 172.0,	range: 0.0,	max: 172.0,	min: 172.0
-(237, 173, 78, 255):	n: 1	mean distance: 172.14,	range: 0.0,	max: 172.14,	min: 172.14
-(236, 167, 66, 255):	n: 1	mean distance: 172.35,	range: 0.0,	max: 172.35,	min: 172.35
-(235, 161, 58, 255):	n: 2	mean distance: 172.84,	range: 0.69,	max: 173.18,	min: 172.49
-(234, 159, 53, 255):	n: 1	mean distance: 172.57,	range: 0.0,	max: 172.57,	min: 172.57
-(233, 156, 47, 255):	n: 1	mean distance: 172.65,	range: 0.0,	max: 172.65,	min: 172.65
-(233, 153, 43, 255):	n: 2	mean distance: 173.08,	range: 0.67,	max: 173.42,	min: 172.74
-(233, 151, 39, 255):	n: 1	mean distance: 172.84,	range: 0.0,	max: 172.84,	min: 172.84
-(232, 149, 36, 255):	n: 2	mean distance: 173.29,	range: 0.71,	max: 173.65,	min: 172.94
-(232, 151, 39, 255):	n: 1	mean distance: 173.57,	range: 0.0,	max: 173.57,	min: 173.57
-(233, 152, 42, 255):	n: 1	mean distance: 173.49,	range: 0.0,	max: 173.49,	min: 173.49
-(233, 154, 45, 255):	n: 1	mean distance: 173.42,	range: 0.0,	max: 173.42,	min: 173.42
-(234, 156, 48, 255):	n: 1	mean distance: 173.35,	range: 0.0,	max: 173.35,	min: 173.35
-(234, 158, 53, 255):	n: 1	mean distance: 173.29,	range: 0.0,	max: 173.29,	min: 173.29
-(235, 160, 57, 255):	n: 1	mean distance: 173.23,	range: 0.0,	max: 173.23,	min: 173.23
-(235, 162, 60, 255):	n: 2	mean distance: 173.16,	range: 0.04,	max: 173.18,	min: 173.14
-(235, 163, 62, 255):	n: 2	mean distance: 173.12,	range: 0.04,	max: 173.14,	min: 173.1
-(235, 164, 65, 255):	n: 1	mean distance: 173.1,	range: 0.0,	max: 173.1,	min: 173.1
-(236, 166, 67, 255):	n: 4	mean distance: 173.05,	range: 0.05,	max: 173.07,	min: 173.03
-(236, 166, 68, 255):	n: 5	mean distance: 173.01,	range: 0.02,	max: 173.03,	min: 173.0
-(236, 167, 68, 255):	n: 1	mean distance: 173.0,	range: 0.0,	max: 173.0,	min: 173.0
-(235, 165, 65, 255):	n: 1	mean distance: 173.07,	range: 0.0,	max: 173.07,	min: 173.07
-(234, 159, 55, 255):	n: 1	mean distance: 173.23,	range: 0.0,	max: 173.23,	min: 173.23
-(234, 157, 51, 255):	n: 1	mean distance: 173.29,	range: 0.0,	max: 173.29,	min: 173.29
-(234, 155, 46, 255):	n: 1	mean distance: 173.35,	range: 0.0,	max: 173.35,	min: 173.35
-(233, 151, 40, 255):	n: 1	mean distance: 173.49,	range: 0.0,	max: 173.49,	min: 173.49
-(232, 150, 38, 255):	n: 1	mean distance: 173.57,	range: 0.0,	max: 173.57,	min: 173.57
-(231, 147, 35, 255):	n: 2	mean distance: 174.52,	range: 0.08,	max: 174.56,	min: 174.48
-(231, 148, 36, 255):	n: 1	mean distance: 174.35,	range: 0.0,	max: 174.35,	min: 174.35
-(231, 149, 36, 255):	n: 2	mean distance: 174.29,	range: 0.0,	max: 174.29,	min: 174.29
-(231, 149, 37, 255):	n: 2	mean distance: 174.23,	range: 0.0,	max: 174.23,	min: 174.23
-(231, 150, 39, 255):	n: 2	mean distance: 174.16,	range: 0.04,	max: 174.18,	min: 174.14
-(232, 150, 39, 255):	n: 1	mean distance: 174.14,	range: 0.0,	max: 174.14,	min: 174.14
-(232, 151, 42, 255):	n: 1	mean distance: 174.1,	range: 0.0,	max: 174.1,	min: 174.1
-(233, 153, 44, 255):	n: 2	mean distance: 174.06,	range: 0.03,	max: 174.07,	min: 174.05
-(233, 153, 45, 255):	n: 1	mean distance: 174.05,	range: 0.0,	max: 174.05,	min: 174.05
-(233, 154, 46, 255):	n: 7	mean distance: 174.01,	range: 0.03,	max: 174.03,	min: 174.0
-(233, 152, 43, 255):	n: 1	mean distance: 174.07,	range: 0.0,	max: 174.07,	min: 174.07
-(232, 151, 41, 255):	n: 1	mean distance: 174.1,	range: 0.0,	max: 174.1,	min: 174.1
-(231, 150, 38, 255):	n: 1	mean distance: 174.18,	range: 0.0,	max: 174.18,	min: 174.18
+(247, 224, 69, 255)	25	9.21	9.23	6.0	15.23
+(247, 225, 68, 255)	37	12.24	14.19	7.0	21.19
+(247, 225, 67, 255)	45	14.52	17.3	8.0	25.3
+(247, 223, 67, 255)	171	18.4	25.79	9.0	34.79
+(247, 223, 66, 255)	67	21.61	25.0	12.0	37.0
+(247, 223, 65, 255)	148	24.05	29.38	13.0	42.38
+(247, 223, 64, 255)	211	29.27	33.1	15.0	48.1
+(247, 223, 63, 255)	59	35.97	26.25	24.08	50.33
+(247, 223, 62, 255)	106	39.67	26.27	27.59	53.85
+(247, 222, 62, 255)	98	43.66	23.81	32.65	56.46
+(247, 221, 61, 255)	48	46.76	22.46	36.24	58.69
+(247, 221, 60, 255)	93	49.13	22.91	38.42	61.33
+(247, 221, 59, 255)	91	52.52	22.87	42.01	64.88
+(246, 220, 58, 255)	84	64.29	11.46	56.08	67.54
+(246, 221, 58, 255)	296	57.1	19.68	44.82	64.5
+(246, 219, 58, 255)	50	68.2	3.55	66.29	69.84
+(246, 218, 58, 255)	36	70.93	3.38	69.34	72.72
+(246, 217, 58, 255)	17	73.33	1.96	72.47	74.43
+(246, 217, 57, 255)	52	71.93	6.69	68.01	74.71
+(246, 216, 56, 255)	93	74.78	7.17	70.72	77.9
+(246, 217, 56, 255)	25	72.03	6.7	68.59	75.29
+(246, 215, 56, 255)	46	78.69	3.35	77.1	80.45
+(246, 218, 57, 255)	87	68.71	6.05	65.8	71.85
+(246, 219, 57, 255)	43	65.25	5.94	63.13	69.07
+(246, 220, 57, 255)	21	61.89	3.86	59.55	63.41
+(246, 214, 56, 255)	29	81.33	3.12	79.88	83.01
+(247, 213, 56, 255)	15	83.74	2.86	82.38	85.23
+(247, 212, 56, 255)	5	86.24	1.69	85.44	87.13
+(246, 216, 57, 255)	12	72.16	2.47	70.94	73.41
+(247, 211, 55, 255)	73	87.01	6.27	84.17	90.44
+(247, 212, 55, 255)	86	84.38	6.69	81.32	88.01
+(247, 213, 55, 255)	38	83.74	4.01	81.69	85.7
+(246, 214, 55, 255)	103	78.49	7.0	75.66	82.66
+(246, 215, 55, 255)	60	75.05	3.47	73.54	77.01
+(246, 218, 56, 255)	2	68.26	0.73	67.9	68.62
+(246, 216, 55, 255)	9	73.34	1.04	72.84	73.88
+(247, 210, 55, 255)	54	89.5	5.8	87.11	92.91
+(246, 213, 55, 255)	67	80.28	3.49	78.52	82.01
+(247, 209, 55, 255)	43	92.2	5.71	89.5	95.21
+(247, 208, 55, 255)	21	94.55	3.94	92.46	96.4
+(247, 208, 54, 255)	20	94.72	5.81	92.2	98.01
+(247, 207, 54, 255)	5	96.27	2.96	95.27	98.23
+(247, 206, 54, 255)	3	97.29	2.77	96.05	98.81
+(247, 206, 53, 255)	8	98.78	3.38	96.83	100.21
+(247, 207, 53, 255)	5	97.06	1.75	96.05	97.8
+(247, 209, 54, 255)	15	90.99	3.12	89.2	92.31
+(247, 210, 54, 255)	15	88.25	3.03	87.0	90.03
+(247, 211, 54, 255)	15	85.48	2.9	84.15	87.05
+(247, 212, 54, 255)	18	82.56	3.43	80.72	84.15
+(246, 213, 54, 255)	9	80.23	2.04	79.31	81.34
+(246, 214, 54, 255)	1	78.64	0.0	78.64	78.64
+(247, 205, 53, 255)	1	100.8	0.0	100.8	100.8
+(246, 205, 53, 255)	69	98.93	7.99	94.81	102.8
+(246, 207, 53, 255)	49	93.7	6.24	91.21	97.45
+(246, 207, 54, 255)	27	94.92	2.3	93.61	95.9
+(246, 208, 54, 255)	110	92.41	6.89	88.24	95.13
+(246, 209, 54, 255)	85	89.87	5.41	86.68	92.1
+(246, 210, 54, 255)	50	87.7	4.4	85.43	89.83
+(246, 211, 54, 255)	46	85.18	3.49	83.49	86.98
+(246, 212, 54, 255)	22	82.5	3.71	80.16	83.87
+(246, 206, 53, 255)	52	95.94	4.63	93.6	98.23
+(246, 206, 54, 255)	11	95.63	1.69	94.85	96.54
+(246, 204, 53, 255)	45	101.57	3.68	99.72	103.41
+(246, 203, 53, 255)	20	103.89	2.77	102.65	105.42
+(246, 202, 52, 255)	30	103.3	4.21	101.83	106.04
+(246, 201, 52, 255)	6	106.7	2.31	105.76	108.07
+(246, 202, 53, 255)	1	105.12	0.0	105.12	105.12
+(246, 203, 52, 255)	72	101.35	5.92	98.81	104.74
+(245, 200, 51, 255)	114	105.78	6.31	102.4	108.71
+(245, 201, 51, 255)	67	103.66	6.42	101.51	107.94
+(245, 202, 52, 255)	22	104.58	2.41	103.24	105.65
+(245, 202, 51, 255)	9	102.77	4.96	100.69	105.65
+(245, 200, 52, 255)	29	109.38	2.99	108.21	111.2
+(245, 201, 52, 255)	45	106.58	4.41	103.97	108.37
+(246, 204, 52, 255)	109	99.13	6.33	96.26	102.59
+(246, 205, 52, 255)	51	97.28	5.54	94.87	100.41
+(246, 206, 52, 255)	23	95.97	2.78	94.81	97.59
+(246, 207, 52, 255)	2	95.56	0.06	95.52	95.59
+(245, 199, 52, 255)	8	111.87	1.57	111.13	112.7
+(246, 208, 53, 255)	8	90.48	1.81	89.4	91.21
+(244, 198, 52, 255)	1	113.36	0.0	113.36	113.36
+(244, 197, 51, 255)	70	112.16	6.1	110.0	116.1
+(244, 198, 51, 255)	14	110.78	4.26	109.02	113.28
+(245, 199, 51, 255)	127	108.48	8.91	104.31	113.22
+(245, 198, 51, 255)	36	110.98	3.67	108.81	112.49
+(244, 196, 51, 255)	36	113.96	4.62	112.16	116.78
+(244, 195, 50, 255)	80	113.74	5.81	111.65	117.46
+(244, 195, 51, 255)	4	115.8	0.74	115.26	116.0
+(244, 194, 50, 255)	36	116.37	4.49	113.65	118.14
+(246, 202, 51, 255)	15	102.23	2.15	101.26	103.41
+(246, 203, 51, 255)	33	100.24	3.27	98.74	102.0
+(246, 204, 51, 255)	7	98.15	1.39	97.35	98.74
+(244, 193, 50, 255)	1	118.83	0.0	118.83	118.83
+(243, 192, 49, 255)	27	118.19	4.67	116.25	120.92
+(243, 193, 49, 255)	16	117.5	1.87	116.39	118.26
+(243, 193, 50, 255)	13	117.47	1.52	116.67	118.19
+(244, 196, 50, 255)	82	111.56	4.72	109.62	114.34
+(244, 191, 49, 255)	2	121.27	0.71	120.92	121.62
+(244, 191, 48, 255)	31	121.53	6.4	116.76	123.17
+(243, 192, 48, 255)	61	119.04	4.32	116.85	121.17
+(243, 193, 48, 255)	6	117.95	1.0	117.44	118.44
+(244, 193, 49, 255)	57	115.78	3.05	114.55	117.59
+(243, 190, 48, 255)	6	123.18	1.3	122.49	123.79
+(244, 194, 49, 255)	54	115.0	4.08	113.21	117.29
+(244, 195, 49, 255)	22	114.21	2.53	112.89	115.42
+(245, 197, 50, 255)	17	109.63	1.45	109.0	110.45
+(245, 198, 50, 255)	46	108.06	2.76	106.53	109.29
+(245, 199, 50, 255)	20	105.7	2.75	104.1	106.85
+(243, 189, 48, 255)	31	123.61	3.2	122.2	125.4
+(244, 197, 50, 255)	4	109.72	0.86	109.27	110.14
+(243, 188, 47, 255)	38	123.99	3.94	122.12	126.06
+(243, 187, 47, 255)	66	124.24	4.82	122.59	127.4
+(244, 190, 48, 255)	47	121.6	3.58	119.85	123.43
+(243, 191, 48, 255)	64	119.1	3.64	117.24	120.88
+(244, 192, 49, 255)	1	117.2	0.0	117.2	117.2
+(242, 186, 47, 255)	15	127.97	1.87	127.02	128.89
+(243, 186, 47, 255)	17	126.5	3.24	124.42	127.66
+(243, 188, 48, 255)	21	124.15	2.88	122.54	125.42
+(244, 189, 48, 255)	6	122.43	2.48	120.75	123.23
+(242, 185, 47, 255)	5	129.32	0.75	128.97	129.73
+(243, 187, 48, 255)	2	124.59	2.3	123.44	125.73
+(242, 184, 47, 255)	4	130.46	1.3	129.83	131.14
+(242, 183, 46, 255)	51	130.23	3.58	128.7	132.28
+(242, 184, 46, 255)	52	129.37	3.61	127.63	131.24
+(242, 185, 46, 255)	60	127.75	5.18	125.24	130.42
+(243, 186, 46, 255)	53	125.61	4.04	124.02	128.06
+(243, 187, 46, 255)	17	125.15	2.17	124.04	126.21
+(244, 190, 47, 255)	34	121.3	2.75	119.89	122.64
+(243, 191, 47, 255)	30	118.78	3.19	117.18	120.37
+(244, 192, 48, 255)	7	117.0	1.36	116.3	117.66
+(244, 193, 48, 255)	15	115.79	2.09	114.53	116.62
+(243, 192, 47, 255)	1	117.66	0.0	117.66	117.66
+(243, 189, 47, 255)	10	122.65	1.11	122.11	123.22
+(242, 186, 46, 255)	19	127.67	4.07	124.78	128.84
+(241, 182, 45, 255)	33	131.47	3.71	129.71	133.42
+(241, 181, 45, 255)	47	131.82	2.96	130.59	133.54
+(244, 189, 47, 255)	46	121.01	3.4	119.47	122.87
+(243, 190, 47, 255)	30	118.8	2.57	117.65	120.22
+(241, 180, 45, 255)	28	133.3	3.23	132.02	135.25
+(243, 185, 46, 255)	39	126.05	1.95	125.2	127.14
+(241, 183, 45, 255)	20	129.75	3.02	128.38	131.4
+(240, 180, 45, 255)	2	134.19	3.37	132.5	135.87
+(244, 188, 47, 255)	8	122.4	0.71	122.09	122.8
+(240, 179, 45, 255)	12	135.58	1.8	134.85	136.65
+(241, 179, 45, 255)	27	134.27	2.29	133.14	135.43
+(240, 178, 45, 255)	10	135.74	4.02	133.42	137.44
+(242, 182, 46, 255)	7	131.13	1.11	130.63	131.75
+(240, 177, 45, 255)	10	137.17	1.6	136.4	138.0
+(240, 176, 44, 255)	4	138.41	0.38	138.22	138.6
+(239, 175, 44, 255)	12	138.45	1.14	138.06	139.2
+(243, 189, 52, 255)	1	123.0	0.0	123.0	123.0
+(239, 175, 43, 255)	30	138.5	3.01	137.08	140.09
+(240, 175, 43, 255)	6	139.15	0.82	138.7	139.52
+(240, 176, 43, 255)	5	138.38	0.93	137.88	138.81
+(240, 177, 44, 255)	34	136.84	2.93	135.52	138.45
+(240, 178, 44, 255)	78	134.69	3.48	133.27	136.75
+(241, 179, 44, 255)	22	134.31	2.66	133.26	135.92
+(241, 180, 44, 255)	10	132.86	1.46	132.23	133.69
+(241, 181, 44, 255)	12	131.9	1.38	131.23	132.61
+(242, 182, 45, 255)	10	130.91	1.3	130.25	131.55
+(242, 183, 45, 255)	14	129.83	1.51	129.0	130.51
+(242, 184, 45, 255)	21	128.49	2.31	127.46	129.77
+(242, 185, 45, 255)	26	126.7	2.35	125.67	128.02
+(242, 189, 51, 255)	1	123.91	0.0	123.91	123.91
+(242, 187, 47, 255)	1	124.34	0.0	124.34	124.34
+(242, 186, 45, 255)	2	125.0	0.44	124.78	125.22
+(240, 179, 44, 255)	32	133.81	3.09	132.82	135.92
+(239, 175, 42, 255)	5	140.71	1.03	140.21	141.24
+(242, 187, 50, 255)	3	125.72	1.81	124.81	126.63
+(241, 182, 44, 255)	1	130.86	0.0	130.86	130.86
+(239, 174, 42, 255)	21	140.01	3.17	138.65	141.82
+(240, 180, 44, 255)	17	132.4	1.15	131.95	133.09
+(240, 181, 44, 255)	5	131.87	0.57	131.53	132.1
+(241, 184, 45, 255)	7	128.67	1.34	127.91	129.25
+(241, 185, 45, 255)	2	127.69	0.43	127.48	127.91
+(239, 176, 43, 255)	5	137.7	1.99	136.97	138.96
+(239, 173, 42, 255)	8	140.43	3.95	138.92	142.87
+(239, 174, 43, 255)	31	139.04	1.77	138.29	140.06
+(239, 176, 44, 255)	51	137.33	1.85	136.34	138.2
+(239, 177, 44, 255)	28	136.33	1.63	135.69	137.32
+(239, 178, 44, 255)	9	135.41	1.03	134.97	136.0
+(242, 186, 50, 255)	1	127.53	0.0	127.53	127.53
+(241, 184, 46, 255)	1	127.95	0.0	127.95	127.95
+(242, 185, 50, 255)	2	128.9	0.91	128.44	129.36
+(241, 183, 46, 255)	2	129.31	0.91	128.86	129.77
+(237, 172, 42, 255)	10	143.41	0.66	143.03	143.69
+(238, 173, 42, 255)	28	141.78	2.36	140.77	143.13
+(238, 174, 42, 255)	39	140.51	1.91	139.54	141.45
+(238, 174, 43, 255)	13	139.63	1.27	139.09	140.36
+(237, 171, 42, 255)	10	144.01	0.67	143.74	144.4
+(238, 172, 42, 255)	21	142.66	1.76	141.66	143.42
+(242, 183, 51, 255)	2	130.73	0.91	130.27	131.18
+(241, 181, 46, 255)	2	131.13	0.91	130.68	131.59
+(237, 170, 41, 255)	47	144.45	3.23	143.27	146.49
+(237, 170, 42, 255)	5	144.65	0.99	144.06	145.06
+(241, 183, 51, 255)	1	132.1	0.0	132.1	132.1
+(240, 180, 47, 255)	3	134.33	1.83	133.42	135.25
+(241, 181, 50, 255)	1	133.02	0.0	133.02	133.02
+(237, 169, 41, 255)	28	144.93	3.02	144.0	147.03
+(241, 180, 50, 255)	1	133.93	0.0	133.93	133.93
+(241, 180, 49, 255)	1	134.85	0.0	134.85	134.85
+(236, 168, 40, 255)	4	147.19	1.18	146.69	147.87
+(237, 169, 40, 255)	57	145.55	2.8	144.01	146.81
+(237, 170, 40, 255)	6	145.18	1.52	144.25	145.77
+(237, 171, 41, 255)	5	143.45	0.65	143.11	143.76
+(238, 172, 41, 255)	48	141.74	2.74	140.53	143.27
+(238, 173, 41, 255)	22	140.69	2.58	139.71	142.3
+(238, 174, 41, 255)	5	140.34	0.91	139.98	140.89
+(239, 177, 43, 255)	4	136.57	0.81	136.17	136.97
+(240, 179, 46, 255)	1	136.17	0.0	136.17	136.17
+(240, 179, 48, 255)	1	135.77	0.0	135.77	135.77
+(239, 174, 41, 255)	1	139.53	0.0	139.53	139.53
+(237, 172, 41, 255)	3	143.27	0.98	142.78	143.76
+(236, 167, 40, 255)	58	147.94	1.99	146.77	148.76
+(237, 168, 40, 255)	66	146.88	2.57	145.62	148.19
+(238, 171, 41, 255)	27	142.86	1.36	142.23	143.59
+(239, 173, 41, 255)	7	139.74	0.72	139.32	140.04
+(239, 177, 46, 255)	1	137.08	0.0	137.08	137.08
+(240, 181, 55, 255)	2	136.77	0.92	136.31	137.23
+(240, 177, 47, 255)	1	136.69	0.0	136.69	136.69
+(236, 166, 40, 255)	46	149.09	2.06	148.22	150.28
+(239, 175, 45, 255)	1	138.0	0.0	138.0	138.0
+(240, 176, 47, 255)	1	137.62	0.0	137.62	137.62
+(236, 165, 40, 255)	76	150.23	2.35	149.22	151.57
+(239, 174, 44, 255)	2	139.19	0.54	138.92	139.46
+(240, 179, 54, 255)	1	138.16	0.0	138.16	138.16
+(240, 175, 47, 255)	1	138.54	0.0	138.54	138.54
+(240, 177, 51, 255)	1	139.46	0.0	139.46	139.46
+(240, 178, 53, 255)	1	139.09	0.0	139.09	139.09
+(235, 165, 39, 255)	26	151.06	1.45	150.27	151.72
+(238, 170, 41, 255)	6	143.54	0.66	143.27	143.92
+(239, 177, 50, 255)	1	140.39	0.0	140.39	140.39
+(240, 178, 52, 255)	1	140.01	0.0	140.01	140.01
+(238, 174, 44, 255)	1	140.39	0.0	140.39	140.39
+(239, 175, 48, 255)	2	141.78	0.93	141.32	142.24
+(239, 176, 50, 255)	2	141.41	0.93	140.94	141.87
+(238, 173, 43, 255)	1	141.32	0.0	141.32	141.32
+(235, 164, 39, 255)	61	152.4	2.23	151.21	153.44
+(239, 180, 59, 255)	1	141.51	0.0	141.51	141.51
+(235, 163, 39, 255)	34	153.15	1.97	152.07	154.04
+(239, 173, 46, 255)	1	143.17	0.0	143.17	143.17
+(239, 179, 58, 255)	1	142.44	0.0	142.44	142.44
+(239, 175, 49, 255)	1	142.8	0.0	142.8	142.8
+(238, 171, 42, 255)	1	143.17	0.0	143.17	143.17
+(235, 162, 39, 255)	25	153.78	1.43	152.95	154.38
+(238, 171, 44, 255)	1	144.1	0.0	144.1	144.1
+(239, 176, 54, 255)	1	143.74	0.0	143.74	143.74
+(239, 177, 56, 255)	1	143.38	0.0	143.38	143.38
+(238, 173, 47, 255)	1	143.74	0.0	143.74	143.74
+(234, 162, 39, 255)	10	153.89	0.96	153.39	154.35
+(238, 175, 52, 255)	1	144.67	0.0	144.67	144.67
+(238, 176, 54, 255)	1	144.31	0.0	144.31	144.31
+(237, 172, 45, 255)	1	144.67	0.0	144.67	144.67
+(237, 167, 40, 255)	3	148.47	0.52	148.25	148.76
+(238, 173, 50, 255)	1	145.6	0.0	145.6	145.6
+(238, 174, 52, 255)	1	145.25	0.0	145.25	145.25
+(237, 170, 43, 255)	1	145.6	0.0	145.6	145.6
+(234, 161, 39, 255)	68	155.36	2.61	153.94	156.54
+(237, 170, 46, 255)	1	146.54	0.0	146.54	146.54
+(239, 176, 59, 255)	1	145.84	0.0	145.84	145.84
+(238, 172, 49, 255)	1	146.18	0.0	146.18	146.18
+(237, 168, 41, 255)	3	147.47	1.87	146.54	148.41
+(234, 161, 38, 255)	14	156.0	0.76	155.63	156.39
+(237, 169, 43, 255)	1	147.47	0.0	147.47	147.47
+(238, 174, 54, 255)	1	147.12	0.0	147.12	147.12
+(239, 175, 56, 255)	1	146.78	0.0	146.78	146.78
+(237, 171, 47, 255)	1	147.12	0.0	147.12	147.12
+(236, 164, 40, 255)	10	151.57	0.76	151.16	151.92
+(238, 173, 52, 255)	1	148.06	0.0	148.06	148.06
+(239, 178, 63, 255)	1	147.38	0.0	147.38	147.38
+(239, 175, 54, 255)	1	147.72	0.0	147.72	147.72
+(237, 169, 45, 255)	1	148.06	0.0	148.06	148.06
+(234, 160, 38, 255)	34	157.15	2.07	156.08	158.15
+(236, 170, 48, 255)	1	149.0	0.0	149.0	149.0
+(238, 176, 60, 255)	1	148.33	0.0	148.33	148.33
+(237, 172, 50, 255)	1	148.66	0.0	148.66	148.66
+(236, 167, 42, 255)	1	149.0	0.0	149.0	149.0
+(233, 159, 38, 255)	32	158.42	2.35	156.98	159.33
+(236, 168, 45, 255)	1	149.94	0.0	149.94	149.94
+(238, 174, 56, 255)	1	149.6	0.0	149.6	149.6
+(238, 174, 57, 255)	1	149.27	0.0	149.27	149.27
+(237, 169, 47, 255)	1	149.6	0.0	149.6	149.6
+(236, 166, 41, 255)	1	149.94	0.0	149.94	149.94
+(234, 159, 38, 255)	27	157.89	1.74	157.01	158.76
+(235, 161, 39, 255)	15	154.86	1.27	154.31	155.59
+(236, 166, 42, 255)	1	150.88	0.0	150.88	150.88
+(238, 171, 52, 255)	1	150.55	0.0	150.55	150.55
+(237, 172, 54, 255)	1	150.22	0.0	150.22	150.22
+(237, 167, 44, 255)	1	150.55	0.0	150.55	150.55
+(233, 158, 38, 255)	13	158.86	1.46	157.92	159.38
+(237, 168, 48, 255)	1	151.49	0.0	151.49	151.49
+(238, 173, 59, 255)	1	151.16	0.0	151.16	151.16
+(238, 175, 61, 255)	1	150.84	0.0	150.84	150.84
+(237, 169, 50, 255)	1	151.16	0.0	151.16	151.16
+(236, 165, 42, 255)	2	151.96	0.94	151.49	152.43
+(237, 171, 54, 255)	2	152.74	1.27	152.11	153.38
+(237, 171, 56, 255)	1	151.79	0.0	151.79	151.79
+(237, 166, 46, 255)	1	152.11	0.0	152.11	152.11
+(235, 164, 40, 255)	1	152.43	0.0	152.43	152.43
+(236, 168, 47, 255)	1	153.06	0.0	153.06	153.06
+(238, 173, 60, 255)	1	152.43	0.0	152.43	152.43
+(236, 169, 50, 255)	1	152.74	0.0	152.74	152.74
+(235, 165, 41, 255)	1	153.06	0.0	153.06	153.06
+(234, 157, 38, 255)	26	160.91	1.79	159.82	161.61
+(234, 158, 38, 255)	56	160.01	2.11	159.01	161.12
+(234, 160, 39, 255)	12	156.86	1.48	156.37	157.85
+(235, 164, 42, 255)	1	154.0	0.0	154.0	154.0
+(236, 170, 54, 255)	1	153.69	0.0	153.69	153.69
+(237, 176, 65, 255)	1	153.08	0.0	153.08	153.08
+(235, 167, 45, 255)	1	153.69	0.0	153.69	153.69
+(233, 157, 38, 255)	10	161.34	0.87	160.73	161.6
+(235, 162, 40, 255)	1	154.95	0.0	154.95	154.95
+(236, 166, 48, 255)	1	154.64	0.0	154.64	154.64
+(237, 173, 60, 255)	1	154.03	0.0	154.03	154.03
+(236, 167, 49, 255)	1	154.33	0.0	154.33	154.33
+(235, 163, 41, 255)	1	154.64	0.0	154.64	154.64
+(235, 163, 43, 255)	2	156.72	2.26	155.59	157.85
+(236, 168, 54, 255)	1	155.28	0.0	155.28	155.28
+(237, 175, 65, 255)	1	154.69	0.0	154.69	154.69
+(237, 169, 55, 255)	1	154.98	0.0	154.98	154.98
+(235, 164, 44, 255)	1	155.28	0.0	155.28	155.28
+(233, 156, 37, 255)	17	162.21	1.4	161.64	163.05
+(235, 165, 47, 255)	1	156.24	0.0	156.24	156.24
+(236, 171, 59, 255)	1	155.94	0.0	155.94	155.94
+(237, 171, 59, 255)	1	155.65	0.0	155.65	155.65
+(235, 166, 49, 255)	1	155.94	0.0	155.94	155.94
+(234, 161, 40, 255)	1	156.24	0.0	156.24	156.24
+(233, 155, 37, 255)	18	162.78	2.03	161.93	163.95
+(234, 161, 41, 255)	1	157.19	0.0	157.19	157.19
+(235, 167, 52, 255)	1	156.89	0.0	156.89	156.89
+(237, 173, 65, 255)	1	156.32	0.0	156.32	156.32
+(235, 167, 53, 255)	1	156.6	0.0	156.6	156.6
+(234, 162, 44, 255)	1	156.89	0.0	156.89	156.89
+(233, 155, 36, 255)	44	163.47	2.22	162.25	164.47
+(233, 156, 38, 255)	6	162.01	1.83	161.4	163.23
+(236, 169, 57, 255)	2	157.42	0.28	157.28	157.56
+(238, 175, 69, 255)	1	157.0	0.0	157.0	157.0
+(235, 164, 46, 255)	1	157.56	0.0	157.56	157.56
+(232, 155, 36, 255)	3	164.05	1.36	163.41	164.77
+(234, 158, 39, 255)	1	158.81	0.0	158.81	158.81
+(235, 164, 48, 255)	1	158.52	0.0	158.52	158.52
+(237, 171, 63, 255)	1	158.24	0.0	158.24	158.24
+(237, 177, 73, 255)	1	157.7	0.0	157.7	157.7
+(236, 172, 63, 255)	1	157.97	0.0	157.97	157.97
+(235, 165, 50, 255)	1	158.24	0.0	158.24	158.24
+(234, 160, 41, 255)	2	159.0	0.96	158.52	159.48
+(236, 166, 54, 255)	1	159.2	0.0	159.2	159.2
+(237, 173, 67, 255)	1	158.66	0.0	158.66	158.66
+(236, 168, 56, 255)	1	158.93	0.0	158.93	158.93
+(235, 161, 44, 255)	1	159.2	0.0	159.2	159.2
+(232, 154, 36, 255)	26	165.37	2.26	164.14	166.4
+(234, 156, 38, 255)	3	161.94	0.27	161.82	162.09
+(235, 161, 45, 255)	1	160.16	0.0	160.16	160.16
+(236, 168, 58, 255)	1	159.89	0.0	159.89	159.89
+(238, 174, 70, 255)	1	159.36	0.0	159.36	159.36
+(236, 169, 59, 255)	2	160.11	0.96	159.62	160.59
+(235, 163, 48, 255)	1	159.89	0.0	159.89	159.89
+(234, 159, 40, 255)	1	160.16	0.0	160.16	160.16
+(234, 156, 37, 255)	4	162.27	1.1	161.68	162.78
+(235, 162, 46, 255)	1	160.85	0.0	160.85	160.85
+(237, 173, 70, 255)	1	160.08	0.0	160.08	160.08
+(236, 168, 60, 255)	1	160.33	0.0	160.33	160.33
+(235, 164, 49, 255)	1	160.59	0.0	160.59	160.59
+(234, 159, 41, 255)	2	161.2	0.7	160.85	161.55
+(232, 153, 36, 255)	33	166.22	2.06	165.08	167.15
+(234, 157, 39, 255)	2	162.17	0.7	161.82	162.52
+(235, 162, 48, 255)	1	161.55	0.0	161.55	161.55
+(237, 169, 60, 255)	1	161.3	0.0	161.3	161.3
+(237, 174, 71, 255)	1	160.8	0.0	160.8	160.8
+(236, 169, 61, 255)	1	161.05	0.0	161.05	161.05
+(236, 164, 51, 255)	2	161.66	0.72	161.3	162.02
+(233, 154, 36, 255)	18	164.86	1.39	164.28	165.68
+(235, 162, 49, 255)	1	162.27	0.0	162.27	162.27
+(237, 168, 61, 255)	1	162.02	0.0	162.02	162.02
+(238, 174, 71, 255)	1	161.53	0.0	161.53	161.53
+(236, 169, 62, 255)	3	162.59	1.48	161.77	163.25
+(235, 158, 42, 255)	1	162.27	0.0	162.27	162.27
+(234, 157, 40, 255)	1	163.23	0.0	163.23	163.23
+(235, 162, 50, 255)	1	162.98	0.0	162.98	162.98
+(237, 169, 62, 255)	1	162.51	0.0	162.51	162.51
+(235, 164, 52, 255)	2	163.11	0.74	162.74	163.48
+(234, 158, 43, 255)	1	162.98	0.0	162.98	162.98
+(232, 152, 36, 255)	31	167.78	2.15	166.9	169.06
+(233, 157, 40, 255)	1	163.95	0.0	163.95	163.95
+(234, 162, 51, 255)	1	163.71	0.0	163.71	163.71
+(236, 168, 62, 255)	1	163.48	0.0	163.48	163.48
+(237, 173, 72, 255)	1	163.02	0.0	163.02	163.02
+(233, 158, 42, 255)	1	163.71	0.0	163.71	163.71
+(232, 151, 36, 255)	26	169.09	4.35	167.33	171.69
+(233, 155, 39, 255)	1	164.68	0.0	164.68	164.68
+(235, 160, 48, 255)	1	164.45	0.0	164.45	164.45
+(236, 167, 61, 255)	2	164.11	0.22	164.0	164.22
+(237, 172, 70, 255)	1	163.78	0.0	163.78	163.78
+(235, 162, 51, 255)	1	164.22	0.0	164.22	164.22
+(234, 157, 41, 255)	1	164.45	0.0	164.45	164.45
+(232, 151, 35, 255)	23	169.66	3.14	168.0	171.14
+(233, 155, 38, 255)	1	165.42	0.0	165.42	165.42
+(234, 159, 47, 255)	1	165.2	0.0	165.2	165.2
+(235, 165, 58, 255)	1	164.98	0.0	164.98	164.98
+(236, 170, 69, 255)	2	165.04	0.57	164.76	165.33
+(237, 172, 71, 255)	1	164.55	0.0	164.55	164.55
+(235, 166, 60, 255)	1	164.76	0.0	164.76	164.76
+(234, 161, 50, 255)	1	164.98	0.0	164.98	164.98
+(233, 156, 41, 255)	1	165.2	0.0	165.2	165.2
+(233, 154, 37, 255)	1	165.42	0.0	165.42	165.42
+(232, 154, 37, 255)	1	166.17	0.0	166.17	166.17
+(234, 159, 45, 255)	1	165.95	0.0	165.95	165.95
+(236, 165, 56, 255)	1	165.74	0.0	165.74	165.74
+(236, 170, 68, 255)	1	165.53	0.0	165.53	165.53
+(238, 175, 77, 255)	1	165.13	0.0	165.13	165.13
+(235, 165, 59, 255)	1	165.53	0.0	165.53	165.53
+(234, 160, 48, 255)	1	165.74	0.0	165.74	165.74
+(233, 156, 40, 255)	1	165.95	0.0	165.95	165.95
+(232, 153, 37, 255)	1	166.93	0.0	166.93	166.93
+(233, 157, 43, 255)	1	166.72	0.0	166.72	166.72
+(235, 163, 56, 255)	1	166.51	0.0	166.51	166.51
+(235, 169, 66, 255)	1	166.31	0.0	166.31	166.31
+(237, 173, 73, 255)	1	166.11	0.0	166.11	166.11
+(237, 174, 75, 255)	1	165.92	0.0	165.92	165.92
+(236, 169, 66, 255)	1	166.11	0.0	166.11	166.11
+(234, 165, 58, 255)	1	166.31	0.0	166.31	166.31
+(233, 159, 47, 255)	1	166.51	0.0	166.51	166.51
+(233, 154, 38, 255)	1	166.72	0.0	166.72	166.72
+(232, 150, 35, 255)	28	170.94	2.43	169.54	171.98
+(232, 154, 41, 255)	1	167.49	0.0	167.49	167.49
+(233, 160, 51, 255)	1	167.29	0.0	167.29	167.29
+(235, 167, 62, 255)	1	167.09	0.0	167.09	167.09
+(236, 171, 71, 255)	1	166.9	0.0	166.9	166.9
+(237, 175, 79, 255)	1	166.54	0.0	166.54	166.54
+(236, 172, 72, 255)	1	166.72	0.0	166.72	166.72
+(236, 168, 63, 255)	1	166.9	0.0	166.9	166.9
+(234, 162, 55, 255)	2	167.49	0.79	167.09	167.89
+(232, 157, 45, 255)	1	167.29	0.0	167.29	167.29
+(232, 153, 38, 255)	3	168.42	2.01	167.49	169.5
+(233, 156, 45, 255)	3	169.59	2.62	168.07	170.7
+(235, 166, 64, 255)	1	167.71	0.0	167.71	167.71
+(236, 171, 72, 255)	1	167.53	0.0	167.53	167.53
+(236, 172, 73, 255)	1	167.36	0.0	167.36	167.36
+(236, 168, 65, 255)	1	167.53	0.0	167.53	167.53
+(234, 163, 56, 255)	1	167.71	0.0	167.71	167.71
+(233, 158, 48, 255)	1	167.89	0.0	167.89	167.89
+(232, 154, 40, 255)	1	168.07	0.0	168.07	168.07
+(232, 152, 37, 255)	2	168.57	0.6	168.27	168.87
+(232, 153, 39, 255)	2	169.51	1.29	168.87	170.16
+(233, 157, 47, 255)	1	168.69	0.0	168.69	168.69
+(235, 162, 56, 255)	1	168.51	0.0	168.51	168.51
+(235, 167, 65, 255)	1	168.34	0.0	168.34	168.34
+(236, 170, 72, 255)	4	170.22	3.48	168.18	171.66
+(237, 175, 80, 255)	1	167.87	0.0	167.87	167.87
+(237, 171, 73, 255)	1	168.02	0.0	168.02	168.02
+(235, 167, 66, 255)	5	170.18	3.57	168.18	171.75
+(235, 163, 57, 255)	1	168.34	0.0	168.34	168.34
+(234, 159, 48, 255)	1	168.51	0.0	168.51	168.51
+(233, 155, 41, 255)	1	168.69	0.0	168.69	168.69
+(232, 151, 37, 255)	1	169.67	0.0	169.67	169.67
+(233, 154, 41, 255)	1	169.5	0.0	169.5	169.5
+(233, 158, 49, 255)	1	169.33	0.0	169.33	169.33
+(234, 163, 59, 255)	1	169.17	0.0	169.17	169.17
+(236, 172, 74, 255)	1	168.86	0.0	168.86	168.86
+(237, 176, 82, 255)	1	168.58	0.0	168.58	168.58
+(236, 172, 76, 255)	1	168.72	0.0	168.72	168.72
+(235, 168, 68, 255)	1	168.86	0.0	168.86	168.86
+(235, 164, 60, 255)	1	169.01	0.0	169.01	169.01
+(233, 160, 53, 255)	1	169.17	0.0	169.17	169.17
+(233, 155, 44, 255)	1	169.33	0.0	169.33	169.33
+(232, 154, 42, 255)	1	170.16	0.0	170.16	170.16
+(234, 158, 51, 255)	1	170.0	0.0	170.0	170.0
+(235, 163, 60, 255)	3	170.71	1.99	169.85	171.84
+(235, 168, 69, 255)	1	169.71	0.0	169.71	169.71
+(236, 171, 74, 255)	1	169.57	0.0	169.57	169.57
+(237, 174, 80, 255)	1	169.43	0.0	169.43	169.43
+(237, 175, 81, 255)	2	170.03	1.44	169.31	170.75
+(236, 172, 75, 255)	1	169.43	0.0	169.43	169.43
+(236, 169, 69, 255)	1	169.57	0.0	169.57	169.57
+(235, 164, 62, 255)	3	171.54	2.78	169.71	172.49
+(234, 160, 52, 255)	1	169.85	0.0	169.85	169.85
+(232, 149, 35, 255)	20	172.65	1.83	171.82	173.65
+(233, 154, 42, 255)	1	170.84	0.0	170.84	170.84
+(233, 159, 51, 255)	1	170.7	0.0	170.7	170.7
+(235, 163, 59, 255)	1	170.56	0.0	170.56	170.56
+(235, 166, 65, 255)	1	170.43	0.0	170.43	170.43
+(236, 169, 71, 255)	1	170.3	0.0	170.3	170.3
+(237, 172, 76, 255)	3	171.31	2.01	170.18	172.19
+(238, 177, 86, 255)	3	170.83	1.5	169.85	171.35
+(237, 175, 82, 255)	3	170.9	2.12	169.96	172.07
+(237, 172, 77, 255)	1	170.06	0.0	170.06	170.06
+(234, 160, 53, 255)	1	170.56	0.0	170.56	170.56
+(232, 152, 39, 255)	2	171.5	1.33	170.84	172.17
+(231, 149, 35, 255)	1	172.63	0.0	172.63	172.63
+(233, 153, 41, 255)	3	172.18	1.29	171.55	172.84
+(233, 156, 46, 255)	1	171.42	0.0	171.42	171.42
+(234, 161, 54, 255)	1	171.29	0.0	171.29	171.29
+(235, 165, 61, 255)	2	171.12	0.11	171.06	171.17
+(235, 167, 67, 255)	1	171.06	0.0	171.06	171.06
+(236, 170, 71, 255)	2	171.26	0.62	170.95	171.57
+(237, 173, 76, 255)	1	170.85	0.0	170.85	170.85
+(238, 178, 86, 255)	1	170.58	0.0	170.58	170.58
+(236, 173, 78, 255)	1	170.75	0.0	170.75	170.75
+(235, 168, 67, 255)	1	170.95	0.0	170.95	170.95
+(234, 162, 56, 255)	1	171.17	0.0	171.17	171.17
+(233, 158, 50, 255)	1	171.29	0.0	171.29	171.29
+(233, 154, 43, 255)	1	171.42	0.0	171.42	171.42
+(232, 152, 38, 255)	1	171.55	0.0	171.55	171.55
+(231, 148, 35, 255)	6	173.92	1.29	173.12	174.41
+(232, 148, 35, 255)	5	173.53	0.77	172.97	173.74
+(232, 150, 37, 255)	3	172.5	0.65	172.28	172.94
+(233, 157, 48, 255)	1	172.05	0.0	172.05	172.05
+(234, 160, 54, 255)	1	171.94	0.0	171.94	171.94
+(237, 173, 80, 255)	1	171.49	0.0	171.49	171.49
+(237, 176, 83, 255)	1	171.42	0.0	171.42	171.42
+(238, 178, 88, 255)	1	171.29	0.0	171.29	171.29
+(238, 178, 89, 255)	1	171.24	0.0	171.24	171.24
+(238, 176, 83, 255)	1	171.35	0.0	171.35	171.35
+(237, 174, 79, 255)	3	171.89	0.72	171.42	172.14
+(237, 172, 75, 255)	1	171.49	0.0	171.49	171.49
+(235, 164, 61, 255)	1	171.75	0.0	171.75	171.75
+(235, 161, 55, 255)	1	171.84	0.0	171.84	171.84
+(234, 158, 50, 255)	1	171.94	0.0	171.94	171.94
+(233, 155, 45, 255)	1	172.05	0.0	172.05	172.05
+(233, 155, 47, 255)	1	172.74	0.0	172.74	172.74
+(234, 158, 52, 255)	1	172.65	0.0	172.65	172.65
+(234, 161, 57, 255)	1	172.57	0.0	172.57	172.57
+(235, 166, 66, 255)	1	172.42	0.0	172.42	172.42
+(236, 169, 70, 255)	2	172.32	0.06	172.29	172.35
+(236, 170, 73, 255)	2	172.26	0.06	172.24	172.29
+(237, 171, 75, 255)	1	172.24	0.0	172.24	172.24
+(237, 173, 77, 255)	1	172.19	0.0	172.19	172.19
+(237, 174, 82, 255)	1	172.1	0.0	172.1	172.1
+(238, 175, 83, 255)	2	172.06	0.03	172.05	172.07
+(238, 176, 84, 255)	2	172.04	0.02	172.03	172.05
+(238, 176, 85, 255)	5	172.01	0.02	172.0	172.03
+(238, 177, 85, 255)	1	172.0	0.0	172.0	172.0
+(237, 173, 78, 255)	1	172.14	0.0	172.14	172.14
+(236, 167, 66, 255)	1	172.35	0.0	172.35	172.35
+(235, 161, 58, 255)	2	172.84	0.69	172.49	173.18
+(234, 159, 53, 255)	1	172.57	0.0	172.57	172.57
+(233, 156, 47, 255)	1	172.65	0.0	172.65	172.65
+(233, 153, 43, 255)	2	173.08	0.67	172.74	173.42
+(233, 151, 39, 255)	1	172.84	0.0	172.84	172.84
+(232, 149, 36, 255)	2	173.29	0.71	172.94	173.65
+(232, 151, 39, 255)	1	173.57	0.0	173.57	173.57
+(233, 152, 42, 255)	1	173.49	0.0	173.49	173.49
+(233, 154, 45, 255)	1	173.42	0.0	173.42	173.42
+(234, 156, 48, 255)	1	173.35	0.0	173.35	173.35
+(234, 158, 53, 255)	1	173.29	0.0	173.29	173.29
+(235, 160, 57, 255)	1	173.23	0.0	173.23	173.23
+(235, 162, 60, 255)	2	173.16	0.04	173.14	173.18
+(235, 163, 62, 255)	2	173.12	0.04	173.1	173.14
+(235, 164, 65, 255)	1	173.1	0.0	173.1	173.1
+(236, 166, 67, 255)	4	173.05	0.05	173.03	173.07
+(236, 166, 68, 255)	5	173.01	0.02	173.0	173.03
+(236, 167, 68, 255)	1	173.0	0.0	173.0	173.0
+(235, 165, 65, 255)	1	173.07	0.0	173.07	173.07
+(234, 159, 55, 255)	1	173.23	0.0	173.23	173.23
+(234, 157, 51, 255)	1	173.29	0.0	173.29	173.29
+(234, 155, 46, 255)	1	173.35	0.0	173.35	173.35
+(233, 151, 40, 255)	1	173.49	0.0	173.49	173.49
+(232, 150, 38, 255)	1	173.57	0.0	173.57	173.57
+(231, 147, 35, 255)	2	174.52	0.08	174.48	174.56
+(231, 148, 36, 255)	1	174.35	0.0	174.35	174.35
+(231, 149, 36, 255)	2	174.29	0.0	174.29	174.29
+(231, 149, 37, 255)	2	174.23	0.0	174.23	174.23
+(231, 150, 39, 255)	2	174.16	0.04	174.14	174.18
+(232, 150, 39, 255)	1	174.14	0.0	174.14	174.14
+(232, 151, 42, 255)	1	174.1	0.0	174.1	174.1
+(233, 153, 44, 255)	2	174.06	0.03	174.05	174.07
+(233, 153, 45, 255)	1	174.05	0.0	174.05	174.05
+(233, 154, 46, 255)	7	174.01	0.03	174.0	174.03
+(233, 152, 43, 255)	1	174.07	0.0	174.07	174.07
+(232, 151, 41, 255)	1	174.1	0.0	174.1	174.1
+(231, 150, 38, 255)	1	174.18	0.0	174.18	174.18

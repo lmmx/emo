@@ -86,6 +86,35 @@ def pad_border(poly, pad=0.05, external=True):
     padded = ((poly - c) * (1 + pad)) + c
     return padded
 
+def v_ordered_grad(centre, sample):
+    """
+    Take a linear gradient by sampling values vertically via the
+    centre point. This can create an ordered set for a gradient to
+    subsequently be discerned from (e.g. for a radial gradient).
+    """
+    seen_px = []
+    # for r, row in enumerate(sample):
+    for row in sample:
+        if not np.any(row):
+            # Ignore rows not in sample (i.e. all RGBA=[0,0,0,0])
+            continue
+        for offset in range(0, len(row) // 2):
+            # Pick the pixel nearest to centre in the row
+            centred_px = row[centre[1] - offset]
+            if np.any(centred_px):
+                break
+            if offset == 0:
+                next
+            # Otherwise take the offset to the right
+            centred_px = row[centre[1] + offset]
+            if np.any(centred_px):
+                break
+        # centred_px must be a non-empty pixel at this point
+        assert np.any(centred_px)
+        if tuple(centred_px) not in seen_px:
+            seen_px.append(tuple(centred_px))
+    return seen_px
+
 def radial_gradient(centre, sample):
     """
     Estimate linear RGB gradient using distance from the
@@ -93,6 +122,8 @@ def radial_gradient(centre, sample):
     which can then be used to fill a region with `grad_fill`.
     N.B. will ignore blank pixels (RGBA values of [0,0,0,0]).
     """
+    # Get an ordered, non-degenerate list of gradient RGBA values
+    ordered = v_ordered_grad(centre, sample) # (vertically)
     # Calculate all distances from centre point in the sample
     dists = {}
     # [np.linalg.norm(px - centre, ord=2) for px in sample]
@@ -103,8 +134,8 @@ def radial_gradient(centre, sample):
                 dist = np.linalg.norm([y,x] - centre, ord=2)
                 if tuple(px) not in dists.keys():
                     dists[tuple(px)] = []
-                dists[tuple(px)].append(dist)
-    return dists
+                dists[tuple(px)].append(((y, x), dist))
+    return ordered, dists
 
 def grad_fill(centre, gradient, coord):
     """
@@ -164,7 +195,7 @@ def contour_mouth(img, visualise=False):
     init = init_mouth()
     # round coords as they will be used to mask image pixels
     snake = np.round(pad_border(active_contour(gaussian(img, 8),
-                init, alpha=0.015, beta=1, gamma=0.001)))
+                init, alpha=0.015, beta=1, gamma=0.001))).astype(int)
     if visualise:
         fig, ax = plt.subplots(figsize=(7, 7))
         ax.imshow(img, cmap=plt.cm.gray)
@@ -181,6 +212,9 @@ def remove_mouth(img, inspect_grad=False):
     # Turn outline of mouth into mask of pixel coordinates
     mouth_bitmask = poly2pxmask(mouth_poly, img.shape[0:2])
     centre = np.divide(img.shape[0:2], 2).astype(int)
+    # Alternative: use top of mouth rather than emoji centroid...
+    ymin = mouth_poly[mouth_poly[:,0] == np.min(mouth_poly[:,0])]
+    mouth_top_centre = ymin[ymin[:,1] == np.min(ymin[:,1])][0]
     # Get area directly around the mouth for gradient sampling
     mouth_init_bitmask = poly2pxmask(init_mouth(), img.shape[0:2])
     # N.B. the following line produces a bool mask cf. a bit mask
@@ -189,12 +223,19 @@ def remove_mouth(img, inspect_grad=False):
     sample[~sample_mask] = [0,0,0,0]
     grad = radial_gradient(centre, sample)
     if inspect_grad:
+        ranges = []
         for k in grad.keys():
-            print(f'{k}\tn: {len(grad[k])}\t\
-                    mean distance: {np.around(np.mean(grad[k]), 2)}\t\
-                    range: {np.around(np.ptp(grad[k]), 2)}\t\
-                    max: {np.around(np.max(grad[k]), 2)}\t\
-                    min: {np.around(np.min(grad[k]), 2)}')
+            ranges.append(np.ptp(grad[k]))
+            print(
+            f'{k}\t{len(grad[k])}\t{np.around(np.mean(grad[k]), 2)}\t'
+            + f'{np.around(np.ptp(grad[k]), 2)}\t'
+            + f'{np.around(np.min(grad[k]), 2)}\t'
+            + f'{np.around(np.max(grad[k]), 2)}')
+        print(f'Mean range: {np.mean(ranges).astype(int)}')
+        print(f'Range range: {np.ptp(ranges).astype(int)}')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
+        print('----------------------------------------------------------')
     return grad
     #mouthless = np.copy(img)
     #for y, r in enumerate(mouth_bitmask.astype(bool)): 
